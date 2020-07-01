@@ -1,0 +1,1 @@
+execute if entity @s[nbt={SelectedItem:{tag:{display:{Lore:['{"text":"発射ァ!!出発進行ー!","bold":true,"italic":false}']}}}}] run function ckenja_human_cannon:main

@@ -1,0 +1,1 @@
+execute as @e[tag=ckenja_sand] at @s run function ckenja_sand:main

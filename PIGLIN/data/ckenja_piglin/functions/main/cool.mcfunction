@@ -1,0 +1,1 @@
+execute if score @s ckenja_timer matches ..0 run function ckenja_piglin:main/wave_start

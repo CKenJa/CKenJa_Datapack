@@ -1,0 +1,2 @@
+execute as @a[nbt={Inventory:[{id:"minecraft:leather_boots",tag:{display:{Name:'{"text":"Slime Boots","color":"green","bold":true,"italic":false}'}}}]}] run function ckenja_slimeboots:main
+execute as @e[type=item,nbt={Item:{id:"minecraft:leather",Count:1b}}] at @s if entity @e[distance=..3,type=minecraft:slime] run function ckenja_slimeboots:craft

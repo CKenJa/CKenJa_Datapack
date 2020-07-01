@@ -1,0 +1,1 @@
+summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:armor_stand",Count:1b,tag:{EntityTag:{NoGravity:true,Tags:["ckenja_sand_initial","ckenja_sand","ckenja_sand_up"]}}}}

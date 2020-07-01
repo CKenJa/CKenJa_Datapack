@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:armor_stand,tag=cbase] run function cken_baseg:place

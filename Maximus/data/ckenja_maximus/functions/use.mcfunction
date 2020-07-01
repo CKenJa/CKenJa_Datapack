@@ -1,0 +1,5 @@
+#その他
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{display:{Lore:['{"text":"Its timbre and fruits enchantment the horse"}']}}}}] run function ckenja_maximus:use/mainhand
+execute if entity @s[nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",Slot:-106b,tag:{display:{Lore:['{"text":"Its timbre and fruits enchantment the horse"}']}}}]}] unless entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{display:{Lore:['{"text":"Its timbre and fruits enchantment the horse"}']}}}}] run function ckenja_maximus:use/offhand
+#作成
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick"},Inventory:[{id:"minecraft:golden_apple",Slot:-106b}]}] unless entity @s[nbt={SelectedItem:{tag:{display:{Lore:['{"text":"Its timbre and fruits enchantment the horse"}']}}}}] run function ckenja_maximus:use/make

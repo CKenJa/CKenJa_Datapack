@@ -1,0 +1,1 @@
+execute if entity @e[tag=ckenja_human_cannon] as @a if score @s ckenja_id = @e[tag=ckenja_human_cannon,limit=1] ckenja_human_can run function ckenja_human_cannon:sync

@@ -1,0 +1,1 @@
+summon minecraft:armor_stand ~ ~-3 ~ {Tags:["ckenja_human_cannon_initial","ckenja_human_cannon"],Invisible:true,ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:"CKenJa"}}]}

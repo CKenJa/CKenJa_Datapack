@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:armor_stand,tag=cbaseg1] run function cken_baseg:temporary

@@ -1,0 +1,9 @@
+#ガストとかフロストになる
+loot spawn ~ ~ ~ loot t_hard:random/stray_change
+execute if entity @e[type=item,sort=nearest,limit=1,nbt={Item:{tag:{T_Hard_Spawn:Ghast}}}] run summon ghast ~ ~5 ~
+execute if entity @e[type=item,sort=nearest,limit=1,nbt={Item:{tag:{T_Hard_Spawn:Frost}}}] run summon stray ~ ~ ~ {Silent:1b,CustomNameVisible:0b,DeathLootTable:"minecraft:empty",Tags:["T_Hard_Frost","UniqueEnemy","T_Hard_Already"],CustomName:"{\"text\":\"Frost\"}",ArmorItems:[{},{id:"minecraft:ice",Count:1b},{id:"minecraft:ice",Count:1b},{id:"minecraft:player_head",Count:1b,tag:{ItemEvent:T_Hard_Frost,SkullOwner:{Id:"14cbabb9-6589-430b-a69b-601972d5dc7f",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWI4NzE1N2U4MGY1YzFiZWI4OTA2MTk0MmNmNGVkMWU0ZDQzYmFjZGEyYzQ1ZjE5M2Y3NTllOThhN2MwYTNlYiJ9fX0="}]}}}}],ArmorDropChances:[0.85F,0.5F,0.8F,1.0F],ActiveEffects:[{Id:14b,Amplifier:0b,Duration:9999999,ShowParticles:0b},{Id:28b,Amplifier:0b,Duration:9999999,ShowParticles:0b}],Attributes:[{Name:generic.attackDamage,Base:6}]}
+execute if entity @e[type=item,sort=nearest,limit=1,nbt={Item:{tag:{T_Hard_Spawn:Elite_Stray}}}] run summon minecraft:stray ~ ~ ~ {Tags:["T_Hard_Already","T_Hard_Ske_Ranged","T_Hard_Shielder"],HandItems:[{id:"minecraft:bow",Count:1b},{id:"minecraft:shield",Count:1b}],ArmorItems:[{id:"minecraft:iron_boots",Count:1b},{id:"minecraft:iron_leggings",Count:1b},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:6387319}}},{id:"minecraft:leather_helmet",Count:1b,tag:{display:{color:6387319}}}]}
+execute if entity @e[sort=nearest,limit=1,type=item,nbt={Item:{tag:{T_Hard_Replace:1b}}}] run tag @s add T_Hard_GoToVoid
+kill @e[sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:barrier",tag:{T_Hard_Random:1b}}}]
+tp @s[tag=T_Hard_GoToVoid] ~ -1 ~
+kill @s[tag=T_Hard_GoToVoid]

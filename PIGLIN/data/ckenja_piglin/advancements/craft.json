@@ -1,0 +1,12 @@
+{
+  "criteria":{
+    "craft":{
+      "trigger":"minecraft:recipe_unlocked","conditions":{
+        "recipe":"ckenja_piglin:craft"
+      }
+    }
+  },
+  "rewards": {
+  "function":"ckenja_piglin:craft"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:barrier",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{T_Hard_Random:1b}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:barrier",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{T_Hard_Spawn:Elite_Skeleton,T_Hard_Random:1b,T_Hard_Replace:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

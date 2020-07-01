@@ -1,0 +1,2 @@
+summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:leather_boots",Count:1b,tag:{display:{Name:'{"text":"Slime Boots","color":"green","bold":true,"italic":false}',color:65280},Unbreakable:1b,Enchantments:[{id:"minecraft:feather_falling",lvl:5}]}}}
+kill @s

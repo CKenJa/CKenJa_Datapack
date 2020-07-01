@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"Re:Double Jump] の導入に成功しました！\nRe:Double Jump] has been installed!\n\nCreated by "},{"text":"Chuzume\n","color":"gold"},{"text":" "}]

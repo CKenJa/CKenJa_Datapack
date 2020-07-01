@@ -1,0 +1,15 @@
+{
+	"pack": {
+		"pack_format": 1,
+		"description": {
+			"text": "Pet",
+			"color": "gold",
+			"extra": [
+				{
+					"text":" Heaven",
+					"color":"white"
+				}
+			]
+		}
+	}
+}

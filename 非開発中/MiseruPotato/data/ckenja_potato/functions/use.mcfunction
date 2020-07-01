@@ -1,0 +1,2 @@
+execute if entity @s[nbt={SelectedItem:{tag:{display:{Lore:['{"text":"火薬と栄養の詰まったジャガイモを発射する最終兵器"}']}}}}] run function ckenja_potato:cannon/mainhand
+#execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{display:{Lore:['{"text":"火薬と栄養の詰まったジャガイモを発射する最終兵器"}']}}}]}] run function ckenja_potato:offhand

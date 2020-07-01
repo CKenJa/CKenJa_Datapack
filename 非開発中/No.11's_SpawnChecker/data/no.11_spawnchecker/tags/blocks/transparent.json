@@ -1,0 +1,189 @@
+{
+    "replace": false,
+    "values": [
+        "#no.11_spawnchecker:non_solids",
+
+        "minecraft:barrier",
+
+        "minecraft:beacon",
+
+        "minecraft:frosted_ice",
+
+        "minecraft:glass",
+        "minecraft:red_stained_glass",
+        "minecraft:blue_stained_glass",
+        "minecraft:cyan_stained_glass",
+        "minecraft:gray_stained_glass",
+        "minecraft:lime_stained_glass",
+        "minecraft:pink_stained_glass",
+        "minecraft:black_stained_glass",
+        "minecraft:brown_stained_glass",
+        "minecraft:green_stained_glass",
+        "minecraft:white_stained_glass",
+        "minecraft:orange_stained_glass",
+        "minecraft:purple_stained_glass",
+        "minecraft:yellow_stained_glass",
+        "minecraft:magenta_stained_glass",
+        "minecraft:light_blue_stained_glass",
+        "minecraft:light_gray_stained_glass",
+
+        "minecraft:glowstone",
+
+        "minecraft:magma_block",
+
+        "minecraft:sea_lantern",
+
+        "#minecraft:shulker_boxes",
+
+        "minecraft:ice",
+
+        "minecraft:jack_o_lantern",
+
+        "#minecraft:leaves",
+
+        "minecraft:tnt",
+
+        "minecraft:anvil",
+        "minecraft:chipped_anvil",
+        "minecraft:damaged_anvil",
+
+        "minecraft:bamboo",
+        "minecraft:bamboo_sapling",
+
+        "#minecraft:beds",
+
+        "minecraft:bell",
+
+        "minecraft:brewing_stand",
+
+        "minecraft:bubble_column",
+
+        "minecraft:cactus",
+
+        "minecraft:cake",
+
+        "minecraft:campfire",
+
+        "#minecraft:carpets",
+
+        "minecraft:cauldron",
+
+        "minecraft:chest",
+
+        "minecraft:chorus_flower",
+
+        "minecraft:chorus_plant",
+
+        "minecraft:cobweb",
+
+        "minecraft:cocoa",
+
+        "minecraft:conduit",
+
+        "minecraft:dragon_egg",
+
+        "minecraft:enchanting_table",
+
+        "minecraft:end_rod",
+
+        "minecraft:ender_chest",
+
+        "minecraft:farmland",
+
+        "#minecraft:fences",
+
+        "#minecraft:flower_pots",
+
+        "#minecraft:walls",
+
+        "minecraft:glass_pane",
+        "minecraft:red_stained_glass_pane",
+        "minecraft:blue_stained_glass_pane",
+        "minecraft:cyan_stained_glass_pane",
+        "minecraft:gray_stained_glass_pane",
+        "minecraft:lime_stained_glass_pane",
+        "minecraft:pink_stained_glass_pane",
+        "minecraft:black_stained_glass_pane",
+        "minecraft:brown_stained_glass_pane",
+        "minecraft:green_stained_glass_pane",
+        "minecraft:white_stained_glass_pane",
+        "minecraft:orange_stained_glass_pane",
+        "minecraft:purple_stained_glass_pane",
+        "minecraft:yellow_stained_glass_pane",
+        "minecraft:magenta_stained_glass_pane",
+        "minecraft:light_blue_stained_glass_pane",
+        "minecraft:light_gray_stained_glass_pane",
+
+        "minecraft:grass_path",
+
+        "minecraft:grindstone",
+
+        "minecraft:skeleton_skull",
+        "minecraft:wither_skeleton_skull",
+        "minecraft:zombie_head",
+        "minecraft:player_head",
+        "minecraft:creeper_head",
+        "minecraft:dragon_head",
+        "minecraft:skeleton_wall_skull",
+        "minecraft:wither_skeleton_wall_skull",
+        "minecraft:zombie_wall_head",
+        "minecraft:player_wall_head",
+        "minecraft:creeper_wall_head",
+        "minecraft:dragon_wall_head",
+
+        "minecraft:honey_block",
+
+        "minecraft:iron_bars",
+
+        "minecraft:ladder",
+
+        "minecraft:lantern",
+
+        "minecraft:lectern",
+
+        "minecraft:lily_pad",
+
+        "minecraft:scaffolding",
+
+        "minecraft:sea_pickle",
+
+        "minecraft:soul_sand",
+
+        "#minecraft:stairs",
+
+        "minecraft:stonecutter",
+
+        "minecraft:sweet_berry_bush",
+
+        "minecraft:turtle_egg",
+
+        "minecraft:daylight_detector",
+
+        "#minecraft:doors",
+
+        "minecraft:oak_fence_gate",
+        "minecraft:birch_fence_gate",
+        "minecraft:acacia_fence_gate",
+        "minecraft:jungle_fence_gate",
+        "minecraft:spruce_fence_gate",
+        "minecraft:dark_oak_fence_gate",
+
+        "minecraft:hopper",
+
+        "minecraft:repeater",
+        
+        "minecraft:comparator",
+
+        "#minecraft:trapdoors",
+
+        "minecraft:trapped_chest",
+
+        "minecraft:lava",
+
+        "minecraft:water",
+
+        "minecraft:end_portal_frame",
+
+        "minecraft:spawner"
+    ]
+}
