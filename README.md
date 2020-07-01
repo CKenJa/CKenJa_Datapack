@@ -1,2 +1,2 @@
-# CKenJa-s_Datapack
+# CKenJa_Datapack
 this is datapack made by me.
