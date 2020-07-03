@@ -1,0 +1,11 @@
+{
+  "replace":"false",
+  "values":[
+    "minecraft:sweet_berry_bush",
+    "minecraft:slime_block",
+    "minecraft:sea_pickle",
+    "minecraft:honey_block",
+    "minecraft:flower_pot",
+    "minecraft:end_rod"
+  ]
+}
