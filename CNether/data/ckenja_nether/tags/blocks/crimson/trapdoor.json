@@ -1,0 +1,8 @@
+{
+  "replace":"false",
+  "values":[
+    "minecraft:acacia_trapdoor",
+    "minecraft:jungle_trapdoor",
+    "minecraft:oak_trapdoor"
+  ]
+}

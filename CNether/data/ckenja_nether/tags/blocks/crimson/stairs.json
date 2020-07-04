@@ -1,0 +1,8 @@
+{
+  "replace":"false",
+  "values":[
+    "minecraft:acacia_stairs",
+    "minecraft:jungle_stairs",
+    "minecraft:oak_stairs"
+  ]
+}

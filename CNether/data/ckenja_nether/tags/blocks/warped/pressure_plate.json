@@ -1,0 +1,8 @@
+{
+  "replace":"false",
+  "values":[
+    "minecraft:spruce_pressure_plate",
+    "minecraft:birch_pressure_plate",
+    "minecraft:dark_oak_pressure_plate"
+  ]
+}

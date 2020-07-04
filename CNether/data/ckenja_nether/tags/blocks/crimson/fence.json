@@ -1,0 +1,8 @@
+{
+  "replace":"false",
+  "values":[
+    "minecraft:acacia_fence",
+    "minecraft:jungle_fence",
+    "minecraft:fence"
+  ]
+}

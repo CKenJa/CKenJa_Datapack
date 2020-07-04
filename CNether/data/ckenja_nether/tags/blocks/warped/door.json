@@ -1,0 +1,8 @@
+{
+  "replace":"false",
+  "values":[
+    "minecraft:spruce_door",
+    "minecraft:birch_door",
+    "minecraft:dark_oak_door"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "replace":"false",
+  "values":[
+    "minecraft:acacia_wood",
+    "minecraft:jungle_wood",
+    "minecraft:wooden_wood"
+  ]
+}
