@@ -1,2 +1,0 @@
-tick 	-> tickpet -> trydie -> die -> leave -> end
-				    -> revive

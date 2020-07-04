@@ -1,1 +1,0 @@
-tellraw @s ["",{"text":"[Photon Disc] の導入に成功しました！\n[Photon Disc] has been installed!\n\nCreated by "},{"text":"Chuzume\n","color":"gold"},{"text":" "}]

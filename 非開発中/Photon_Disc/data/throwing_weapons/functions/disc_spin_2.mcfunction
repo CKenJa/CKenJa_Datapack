@@ -1,4 +1,0 @@
-function throwing_weapons:disc_spin
-function throwing_weapons:disc_spin
-function throwing_weapons:disc_spin
-function throwing_weapons:disc_spin

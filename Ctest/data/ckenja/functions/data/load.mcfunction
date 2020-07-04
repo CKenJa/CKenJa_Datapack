@@ -1,0 +1,1 @@
+scoreboard objectives add ckenja_data dummy

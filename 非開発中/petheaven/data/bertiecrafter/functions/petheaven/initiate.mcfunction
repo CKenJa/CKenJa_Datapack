@@ -1,2 +1,0 @@
-data modify entity @s Attributes[{Name:"generic.maxHealth"}].Modifiers append value {Name:"bcph_maxhealth",Amount:20.0d,Operation:0,UUIDMost:1L,UUIDLeast:1L}
-effect give @s minecraft:instant_health 1 2 true
