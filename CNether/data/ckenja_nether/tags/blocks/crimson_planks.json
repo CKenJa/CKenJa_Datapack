@@ -1,0 +1,8 @@
+{
+  "replace":"false",
+  "values":[
+    "minecraft:acacia_planks",
+    "minecraft:jungle_planks",
+    "minecraft:oak_planks"
+  ]
+}
