@@ -18,3 +18,5 @@ execute unless score #lava ckenja_nether matches -1 if block ~ ~ ~-1 minecraft:w
 
 execute if score #lava ckenja_nether matches 1 run setblock ~ ~ ~ minecraft:lava
 execute unless score #lava ckenja_nether matches 1 run setblock ~ ~ ~ minecraft:air
+
+kill @s
