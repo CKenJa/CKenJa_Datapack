@@ -1,6 +1,6 @@
-execute positioned ~1 ~ ~ if block ~ ~ ~ minecraft:grass_block unless entity @e[distance=..0.5,tag=ckenja_nether_marker] run summon area_effect_cloud ~ ~ ~ {Duration:2147483637,Tags:["ckenja_nether_marker"]}
-execute positioned ~-1 ~ ~ if block ~ ~ ~ minecraft:grass_block unless entity @e[distance=..0.5,tag=ckenja_nether_marker] run summon area_effect_cloud ~ ~ ~ {Duration:2147483637,Tags:["ckenja_nether_marker"]}
-execute positioned ~ ~1 ~ if block ~ ~ ~ minecraft:grass_block unless entity @e[distance=..0.5,tag=ckenja_nether_marker] run summon area_effect_cloud ~ ~ ~ {Duration:2147483637,Tags:["ckenja_nether_marker"]}
-execute positioned ~ ~-1 ~ if block ~ ~ ~ minecraft:grass_block unless entity @e[distance=..0.5,tag=ckenja_nether_marker] run summon area_effect_cloud ~ ~ ~ {Duration:2147483637,Tags:["ckenja_nether_marker"]}
-execute positioned ~ ~ ~1 if block ~ ~ ~ minecraft:grass_block unless entity @e[distance=..0.5,tag=ckenja_nether_marker] run summon area_effect_cloud ~ ~ ~ {Duration:2147483637,Tags:["ckenja_nether_marker"]}
-execute positioned ~ ~ ~-1 if block ~ ~ ~ minecraft:grass_block unless entity @e[distance=..0.5,tag=ckenja_nether_marker] run summon area_effect_cloud ~ ~ ~ {Duration:2147483637,Tags:["ckenja_nether_marker"]}
+execute positioned ~1 ~ ~ if block ~ ~ ~ #ckenja_nether:all unless entity @e[distance=..0.5,tag=ckenja_nether_marker] run summon area_effect_cloud ~ ~ ~ {Duration:2147483637,Tags:["ckenja_nether_marker"]}
+execute positioned ~-1 ~ ~ if block ~ ~ ~ #ckenja_nether:all unless entity @e[distance=..0.5,tag=ckenja_nether_marker] run summon area_effect_cloud ~ ~ ~ {Duration:2147483637,Tags:["ckenja_nether_marker"]}
+execute positioned ~ ~1 ~ if block ~ ~ ~ #ckenja_nether:all unless entity @e[distance=..0.5,tag=ckenja_nether_marker] run summon area_effect_cloud ~ ~ ~ {Duration:2147483637,Tags:["ckenja_nether_marker"]}
+execute positioned ~ ~-1 ~ if block ~ ~ ~ #ckenja_nether:all unless entity @e[distance=..0.5,tag=ckenja_nether_marker] run summon area_effect_cloud ~ ~ ~ {Duration:2147483637,Tags:["ckenja_nether_marker"]}
+execute positioned ~ ~ ~1 if block ~ ~ ~ #ckenja_nether:all unless entity @e[distance=..0.5,tag=ckenja_nether_marker] run summon area_effect_cloud ~ ~ ~ {Duration:2147483637,Tags:["ckenja_nether_marker"]}
+execute positioned ~ ~ ~-1 if block ~ ~ ~ #ckenja_nether:all unless entity @e[distance=..0.5,tag=ckenja_nether_marker] run summon area_effect_cloud ~ ~ ~ {Duration:2147483637,Tags:["ckenja_nether_marker"]}
