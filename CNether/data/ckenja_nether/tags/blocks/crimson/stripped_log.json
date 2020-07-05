@@ -1,0 +1,9 @@
+{
+  "replace":"false",
+  "values":[
+    "minecraft:stripped_acacia_log",
+    "minecraft:stripped_jungle_log",
+    "minecraft:stripped_wooden_log",
+    "minecraft:stripped_dark_oak_log"
+  ]
+}

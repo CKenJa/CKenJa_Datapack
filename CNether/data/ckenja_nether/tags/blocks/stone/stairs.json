@@ -1,0 +1,8 @@
+{
+  "replace":"false",
+  "values":[
+    "minecraft:granite_stairs",
+    "minecraft:diorite_stairs",
+    "minecraft:andesite_stairs"
+  ]
+}

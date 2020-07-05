@@ -3,6 +3,7 @@
   "values":[
     "minecraft:acacia_fence",
     "minecraft:jungle_fence",
-    "minecraft:fence"
+    "minecraft:fence",
+    "minecraft:dark_oak_fence"
   ]
 }

@@ -3,6 +3,7 @@
   "values":[
     "minecraft:acacia_fence_gate",
     "minecraft:jungle_fence_gate",
-    "minecraft:fence_gate"
+    "minecraft:fence_gate",
+    "minecraft:dark_oak_fence_gate"
   ]
 }
