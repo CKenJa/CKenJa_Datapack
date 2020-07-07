@@ -15,6 +15,8 @@ execute if block ~ ~ ~ minecraft:stone_stairs[facing=north,half=bottom] run setb
 execute if block ~ ~ ~ minecraft:cobblestone_stairs[facing=north,half=bottom] run setblock ~ ~ ~ minecraft:blackstone_stairs[facing=north,half=bottom]
 execute if block ~ ~ ~ minecraft:mossy_cobblestone_stairs[facing=north,half=bottom] run setblock ~ ~ ~ minecraft:blackstone_stairs[facing=north,half=bottom]
 execute if block ~ ~ ~ minecraft:stone_brick_stairs[facing=north,half=bottom] run setblock ~ ~ ~ minecraft:polished_blackstone_brick_stairs[facing=north,half=bottom]
+execute if block ~ ~ ~ minecraft:sandstone_stairs[facing=north,half=bottom] run setblock ~ ~ ~ minecraft:blackstone_stairs[facing=north,half=bottom]
+execute if block ~ ~ ~ minecraft:smooth_sandstone_stairs[facing=north,half=bottom] run setblock ~ ~ ~ minecraft:polished_blackstone_stairs[facing=north,half=bottom]
 
 ##下向き南
 execute if block ~ ~ ~ #ckenja_nether:crimson/stairs[facing=south,half=bottom] run setblock ~ ~ ~ minecraft:crimson_stairs[facing=south,half=bottom]
@@ -31,6 +33,8 @@ execute if block ~ ~ ~ minecraft:stone_stairs[facing=south,half=bottom] run setb
 execute if block ~ ~ ~ minecraft:cobblestone_stairs[facing=south,half=bottom] run setblock ~ ~ ~ minecraft:blackstone_stairs[facing=south,half=bottom]
 execute if block ~ ~ ~ minecraft:mossy_cobblestone_stairs[facing=south,half=bottom] run setblock ~ ~ ~ minecraft:blackstone_stairs[facing=south,half=bottom]
 execute if block ~ ~ ~ minecraft:stone_brick_stairs[facing=south,half=bottom] run setblock ~ ~ ~ minecraft:polished_blackstone_brick_stairs[facing=south,half=bottom]
+execute if block ~ ~ ~ minecraft:sandstone_stairs[facing=south,half=bottom] run setblock ~ ~ ~ minecraft:blackstone_stairs[facing=south,half=bottom]
+execute if block ~ ~ ~ minecraft:smooth_sandstone_stairs[facing=south,half=bottom] run setblock ~ ~ ~ minecraft:polished_blackstone_stairs[facing=south,half=bottom]
 
 ##下向き東
 execute if block ~ ~ ~ #ckenja_nether:crimson/stairs[facing=east,half=bottom] run setblock ~ ~ ~ minecraft:crimson_stairs[facing=east,half=bottom]
@@ -47,6 +51,8 @@ execute if block ~ ~ ~ minecraft:stone_stairs[facing=east,half=bottom] run setbl
 execute if block ~ ~ ~ minecraft:cobblestone_stairs[facing=east,half=bottom] run setblock ~ ~ ~ minecraft:blackstone_stairs[facing=east,half=bottom]
 execute if block ~ ~ ~ minecraft:mossy_cobblestone_stairs[facing=east,half=bottom] run setblock ~ ~ ~ minecraft:blackstone_stairs[facing=east,half=bottom]
 execute if block ~ ~ ~ minecraft:stone_brick_stairs[facing=east,half=bottom] run setblock ~ ~ ~ minecraft:polished_blackstone_brick_stairs[facing=east,half=bottom]
+execute if block ~ ~ ~ minecraft:sandstone_stairs[facing=east,half=bottom] run setblock ~ ~ ~ minecraft:blackstone_stairs[facing=east,half=bottom]
+execute if block ~ ~ ~ minecraft:smooth_sandstone_stairs[facing=east,half=bottom] run setblock ~ ~ ~ minecraft:polished_blackstone_stairs[facing=east,half=bottom]
 
 ##下向き西
 execute if block ~ ~ ~ #ckenja_nether:crimson/stairs[facing=west,half=bottom] run setblock ~ ~ ~ minecraft:crimson_stairs[facing=west,half=bottom]
@@ -63,6 +69,8 @@ execute if block ~ ~ ~ minecraft:stone_stairs[facing=west,half=bottom] run setbl
 execute if block ~ ~ ~ minecraft:cobblestone_stairs[facing=west,half=bottom] run setblock ~ ~ ~ minecraft:blackstone_stairs[facing=west,half=bottom]
 execute if block ~ ~ ~ minecraft:mossy_cobblestone_stairs[facing=west,half=bottom] run setblock ~ ~ ~ minecraft:blackstone_stairs[facing=west,half=bottom]
 execute if block ~ ~ ~ minecraft:stone_brick_stairs[facing=west,half=bottom] run setblock ~ ~ ~ minecraft:polished_blackstone_brick_stairs[facing=west,half=bottom]
+execute if block ~ ~ ~ minecraft:sandstone_stairs[facing=west,half=bottom] run setblock ~ ~ ~ minecraft:blackstone_stairs[facing=west,half=bottom]
+execute if block ~ ~ ~ minecraft:smooth_sandstone_stairs[facing=west,half=bottom] run setblock ~ ~ ~ minecraft:polished_blackstone_stairs[facing=west,half=bottom]
 
 ##上向き北
 execute if block ~ ~ ~ #ckenja_nether:crimson/stairs[facing=north,half=top] run setblock ~ ~ ~ minecraft:crimson_stairs[facing=north,half=top]
@@ -79,6 +87,8 @@ execute if block ~ ~ ~ minecraft:stone_stairs[facing=north,half=top] run setbloc
 execute if block ~ ~ ~ minecraft:cobblestone_stairs[facing=north,half=top] run setblock ~ ~ ~ minecraft:blackstone_stairs[facing=north,half=top]
 execute if block ~ ~ ~ minecraft:mossy_cobblestone_stairs[facing=north,half=top] run setblock ~ ~ ~ minecraft:blackstone_stairs[facing=north,half=top]
 execute if block ~ ~ ~ minecraft:stone_brick_stairs[facing=north,half=top] run setblock ~ ~ ~ minecraft:polished_blackstone_brick_stairs[facing=north,half=top]
+execute if block ~ ~ ~ minecraft:sandstone_stairs[facing=north,half=top] run setblock ~ ~ ~ minecraft:blackstone_stairs[facing=north,half=top]
+execute if block ~ ~ ~ minecraft:smooth_sandstone_stairs[facing=north,half=top] run setblock ~ ~ ~ minecraft:polished_blackstone_stairs[facing=north,half=top]
 
 ##上向き南
 execute if block ~ ~ ~ #ckenja_nether:crimson/stairs[facing=south,half=top] run setblock ~ ~ ~ minecraft:crimson_stairs[facing=south,half=top]
@@ -95,6 +105,9 @@ execute if block ~ ~ ~ minecraft:stone_stairs[facing=south,half=top] run setbloc
 execute if block ~ ~ ~ minecraft:cobblestone_stairs[facing=south,half=top] run setblock ~ ~ ~ minecraft:blackstone_stairs[facing=south,half=top]
 execute if block ~ ~ ~ minecraft:mossy_cobblestone_stairs[facing=south,half=top] run setblock ~ ~ ~ minecraft:blackstone_stairs[facing=south,half=top]
 execute if block ~ ~ ~ minecraft:stone_brick_stairs[facing=south,half=top] run setblock ~ ~ ~ minecraft:polished_blackstone_brick_stairs[facing=south,half=top]
+execute if block ~ ~ ~ minecraft:sandstone_stairs[facing=south,half=top] run setblock ~ ~ ~ minecraft:blackstone_stairs[facing=south,half=top]
+execute if block ~ ~ ~ minecraft:smooth_sandstone_stairs[facing=south,half=top] run setblock ~ ~ ~ minecraft:polished_blackstone_stairs[facing=south,half=top]
+
 
 ##上向き東
 execute if block ~ ~ ~ #ckenja_nether:crimson/stairs[facing=east,half=top] run setblock ~ ~ ~ minecraft:crimson_stairs[facing=east,half=top]
@@ -111,6 +124,8 @@ execute if block ~ ~ ~ minecraft:stone_stairs[facing=east,half=top] run setblock
 execute if block ~ ~ ~ minecraft:cobblestone_stairs[facing=east,half=top] run setblock ~ ~ ~ minecraft:blackstone_stairs[facing=east,half=top]
 execute if block ~ ~ ~ minecraft:mossy_cobblestone_stairs[facing=east,half=top] run setblock ~ ~ ~ minecraft:blackstone_stairs[facing=east,half=top]
 execute if block ~ ~ ~ minecraft:stone_brick_stairs[facing=east,half=top] run setblock ~ ~ ~ minecraft:polished_blackstone_brick_stairs[facing=east,half=top]
+execute if block ~ ~ ~ minecraft:sandstone_stairs[facing=east,half=top] run setblock ~ ~ ~ minecraft:blackstone_stairs[facing=east,half=top]
+execute if block ~ ~ ~ minecraft:smooth_sandstone_stairs[facing=east,half=top] run setblock ~ ~ ~ minecraft:polished_blackstone_stairs[facing=east,half=top]
 
 ##上向き西
 execute if block ~ ~ ~ #ckenja_nether:crimson/stairs[facing=west,half=top] run setblock ~ ~ ~ minecraft:crimson_stairs[facing=west,half=top]
@@ -127,6 +142,8 @@ execute if block ~ ~ ~ minecraft:stone_stairs[facing=west,half=top] run setblock
 execute if block ~ ~ ~ minecraft:cobblestone_stairs[facing=west,half=top] run setblock ~ ~ ~ minecraft:blackstone_stairs[facing=west,half=top]
 execute if block ~ ~ ~ minecraft:mossy_cobblestone_stairs[facing=west,half=top] run setblock ~ ~ ~ minecraft:blackstone_stairs[facing=west,half=top]
 execute if block ~ ~ ~ minecraft:stone_brick_stairs[facing=west,half=top] run setblock ~ ~ ~ minecraft:polished_blackstone_brick_stairs[facing=west,half=top]
+execute if block ~ ~ ~ minecraft:sandstone_stairs[facing=west,half=top] run setblock ~ ~ ~ minecraft:blackstone_stairs[facing=west,half=top]
+execute if block ~ ~ ~ minecraft:smooth_sandstone_stairs[facing=west,half=top] run setblock ~ ~ ~ minecraft:polished_blackstone_stairs[facing=west,half=top]
 
 #ハーフブロックまとめ
 
@@ -143,8 +160,11 @@ execute if block ~ ~ ~ #ckenja_nether:stone/slab[type=bottom] run setblock ~ ~ ~
 execute if block ~ ~ ~ minecraft:stone_slab[type=bottom] run setblock ~ ~ ~ minecraft:blackstone_slab[type=bottom]
 execute if block ~ ~ ~ minecraft:cobblestone_slab[type=bottom] run setblock ~ ~ ~ minecraft:blackstone_slab[type=bottom]
 execute if block ~ ~ ~ minecraft:mossy_cobblestone_slab[type=bottom] run setblock ~ ~ ~ minecraft:blackstone_slab[type=bottom]
-execute if block ~ ~ ~ minecraft:stone_brick_slab[type=bottom] run setblock ~ ~ ~ minecraft:polished_blackstone_slab[type=bottom]
+execute if block ~ ~ ~ minecraft:stone_brick_slab[type=bottom] run setblock ~ ~ ~ minecraft:polished_blackstone_brick_slab[type=bottom]
 execute if block ~ ~ ~ minecraft:smooth_stone_slab[type=bottom] run setblock ~ ~ ~ minecraft:polished_blackstone_slab[type=bottom]
+execute if block ~ ~ ~ minecraft:smooth_sandstone_slab[type=bottom] run setblock ~ ~ ~ minecraft:polished_blackstone_slab[type=bottom]
+execute if block ~ ~ ~ minecraft:cut_sandstone_slab[type=bottom] run setblock ~ ~ ~ minecraft:polished_blackstone_brick_slab[type=bottom]
+execute if block ~ ~ ~ minecraft:sandstone_slab[type=bottom] run setblock ~ ~ ~ minecraft:blackstone_slab[type=bottom]
 
 ##上向き
 execute if block ~ ~ ~ #ckenja_nether:crimson/slab[type=top] run setblock ~ ~ ~ minecraft:crimson_slab[type=top]
@@ -159,8 +179,11 @@ execute if block ~ ~ ~ #ckenja_nether:stone/slab[type=top] run setblock ~ ~ ~ mi
 execute if block ~ ~ ~ minecraft:stone_slab[type=top] run setblock ~ ~ ~ minecraft:blackstone_slab[type=top]
 execute if block ~ ~ ~ minecraft:cobblestone_slab[type=top] run setblock ~ ~ ~ minecraft:blackstone_slab[type=top]
 execute if block ~ ~ ~ minecraft:mossy_cobblestone_slab[type=top] run setblock ~ ~ ~ minecraft:blackstone_slab[type=top]
-execute if block ~ ~ ~ minecraft:stone_brick_slab[type=top] run setblock ~ ~ ~ minecraft:polished_blackstone_slab[type=top]
+execute if block ~ ~ ~ minecraft:stone_brick_slab[type=top] run setblock ~ ~ ~ minecraft:polished_blackstone_brick_slab[type=top]
 execute if block ~ ~ ~ minecraft:smooth_stone_slab[type=top] run setblock ~ ~ ~ minecraft:polished_blackstone_slab[type=top]
+execute if block ~ ~ ~ minecraft:smooth_sandstone_slab[type=top] run setblock ~ ~ ~ minecraft:polished_blackstone_slab[type=top]
+execute if block ~ ~ ~ minecraft:cut_sandstone_slab[type=top] run setblock ~ ~ ~ minecraft:polished_blackstone_brick_slab[type=top]
+execute if block ~ ~ ~ minecraft:sandstone_slab[type=top] run setblock ~ ~ ~ minecraft:blackstone_slab[type=top]
 
 ##重ねたやつ
 execute if block ~ ~ ~ #ckenja_nether:crimson/slab[type=double] run setblock ~ ~ ~ minecraft:crimson_slab[type=double]
@@ -175,8 +198,12 @@ execute if block ~ ~ ~ #ckenja_nether:stone/slab[type=double] run setblock ~ ~ ~
 execute if block ~ ~ ~ minecraft:stone_slab[type=double] run setblock ~ ~ ~ minecraft:blackstone_slab[type=double]
 execute if block ~ ~ ~ minecraft:cobblestone_slab[type=double] run setblock ~ ~ ~ minecraft:blackstone_slab[type=double]
 execute if block ~ ~ ~ minecraft:mossy_cobblestone_slab[type=double] run setblock ~ ~ ~ minecraft:blackstone_slab[type=double]
-execute if block ~ ~ ~ minecraft:stone_brick_slab[type=double] run setblock ~ ~ ~ minecraft:polished_blackstone_slab[type=double]
+execute if block ~ ~ ~ minecraft:stone_brick_slab[type=double] run setblock ~ ~ ~ minecraft:polished_blackstone_brick_slab[type=double]
 execute if block ~ ~ ~ minecraft:smooth_stone_slab[type=double] run setblock ~ ~ ~ minecraft:polished_blackstone_slab[type=double]
+execute if block ~ ~ ~ minecraft:smooth_sandstone_slab[type=double] run setblock ~ ~ ~ minecraft:polished_blackstone_slab[type=double]
+execute if block ~ ~ ~ minecraft:cut_sandstone_slab[type=double] run setblock ~ ~ ~ minecraft:polished_blackstone_brick_slab[type=double]
+execute if block ~ ~ ~ minecraft:sandstone_slab[type=double] run setblock ~ ~ ~ minecraft:blackstone_slab[type=double]
+
 
 #ランタン
 execute if block ~ ~ ~ minecraft:lantern[hanging=true] run setblock ~ ~ ~ minecraft:soul_lantern[hanging=true]

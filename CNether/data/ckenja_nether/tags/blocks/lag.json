@@ -44,6 +44,18 @@
     "#ckenja_nether:crimson/fence_gate",
     "#ckenja_nether:warped/fence_gate",
     "#ckenja_nether:crimson/trapdoor",
-    "#ckenja_nether:warped/trapdoor"
+    "#ckenja_nether:warped/trapdoor",
+    "minecraft:sandstone_slab",
+    "minecraft:cut_sandstone_slab",
+    "minecraft:smooth_sandstone_slab",
+    "minecraft:sandstone_stairs",
+    "minecraft:smooth_sandstone_stairs",
+    "minecraft:sandstone_wall",
+    "minecraft:red_sandstone_slab",
+    "minecraft:cut_red_sandstone_slab",
+    "minecraft:smooth_red_sandstone_slab",
+    "minecraft:red_sandstone_stairs",
+    "minecraft:smooth_red_sandstone_stairs",
+    "minecraft:red_sandstone_wall"
   ]
 }

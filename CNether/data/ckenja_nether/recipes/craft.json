@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "#NL",
+      "NRN",
+      "ONT"
+  ],
+  "key": {
+      "#": {
+          "item": "minecraft:leather_helmet"
+      },
+      "N": {
+          "item": "minecraft:nether_wart_block"
+      },
+      "L": {
+          "item": "minecraft:leather_leggings"
+      },
+      "R": {
+          "item": "minecraft:respawn_anchor"
+      },
+      "O": {
+          "item": "minecraft:leather_chestplate"
+      },
+      "T": {
+          "item": "minecraft:leather_boots"
+      }
+  },
+  "result": {
+      "item": "minecraft:respawn_anchor",
+      "count": 1
+  }
+}

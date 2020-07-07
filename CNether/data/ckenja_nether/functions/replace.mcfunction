@@ -76,6 +76,18 @@ execute if block ~ ~ ~ minecraft:cobblestone_wall run setblock ~ ~ ~ minecraft:b
 execute if block ~ ~ ~ minecraft:mossy_cobblestone_wall run setblock ~ ~ ~ minecraft:blackstone_wall
 execute if block ~ ~ ~ minecraft:stone_brick_wall run setblock ~ ~ ~ minecraft:polished_blackstone_brick_wall
 
+#砂岩
+execute if block ~ ~ ~ minecraft:sandstone run setblock ~ ~ ~ minecraft:blackstone
+execute if block ~ ~ ~ minecraft:red_sandstone run setblock ~ ~ ~ minecraft:blackstone
+execute if block ~ ~ ~ minecraft:cut_sandstone run setblock ~ ~ ~ minecraft:polished_blackstone_bricks
+execute if block ~ ~ ~ minecraft:cut_red_sandstone run setblock ~ ~ ~ minecraft:polished_blackstone_bricks
+execute if block ~ ~ ~ minecraft:chiseled_sandstone run setblock ~ ~ ~ minecraft:chiseled_polished_blackstone
+execute if block ~ ~ ~ minecraft:chiseled_red_sandstone run setblock ~ ~ ~ minecraft:chiseled_polished_blackstone
+execute if block ~ ~ ~ minecraft:smooth_sandstone run setblock ~ ~ ~ minecraft:polished_blackstone
+execute if block ~ ~ ~ minecraft:smooth_red_sandstone run setblock ~ ~ ~ minecraft:polished_blackstone
+execute if block ~ ~ ~ minecraft:sandstone_wall run setblock ~ ~ ~ minecraft:blackstone_wall
+execute if block ~ ~ ~ minecraft:red_sandstone_wall run setblock ~ ~ ~ minecraft:blackstone_wall
+
 ##その他
 execute if block ~ ~ ~ minecraft:stone_pressure_plate run setblock ~ ~ ~ minecraft:polished_blackstone_pressure_plate
 execute if block ~ ~ ~ #ckenja_nether:ore run setblock ~ ~ ~ minecraft:nether_gold_ore
