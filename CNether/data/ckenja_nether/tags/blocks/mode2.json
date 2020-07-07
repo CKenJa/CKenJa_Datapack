@@ -1,0 +1,10 @@
+{
+  "replace":"false",
+  "values":[
+    "minecraft:dirt",
+    "minecraft:stone",
+    "#ckenja_nether:ore",
+    "minecraft:diamond_ore",
+    "#ckenja_nether:stone/stone"
+  ]
+}

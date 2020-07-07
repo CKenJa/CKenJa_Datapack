@@ -1,0 +1,7 @@
+execute positioned ~1 ~ ~ unless block ~ ~ ~ minecraft:stone if block ~ ~ ~ #ckenja_nether:all unless entity @e[distance=..0.5,tag=ckenja_nether_marker] run summon area_effect_cloud ~ ~ ~ {Duration:2147483637,Tags:["ckenja_nether_marker"]}
+execute positioned ~-1 ~ ~ unless block ~ ~ ~ minecraft:stone if block ~ ~ ~ #ckenja_nether:all unless entity @e[distance=..0.5,tag=ckenja_nether_marker] run summon area_effect_cloud ~ ~ ~ {Duration:2147483637,Tags:["ckenja_nether_marker"]}
+execute positioned ~ ~1 ~ unless block ~ ~ ~ minecraft:stone if block ~ ~ ~ #ckenja_nether:all unless entity @e[distance=..0.5,tag=ckenja_nether_marker] run summon area_effect_cloud ~ ~ ~ {Duration:2147483637,Tags:["ckenja_nether_marker"]}
+execute positioned ~ ~-1 ~ unless block ~ ~ ~ minecraft:stone if block ~ ~ ~ #ckenja_nether:all unless entity @e[distance=..0.5,tag=ckenja_nether_marker] run summon area_effect_cloud ~ ~ ~ {Duration:2147483637,Tags:["ckenja_nether_marker"]}
+execute positioned ~ ~ ~1 unless block ~ ~ ~ minecraft:stone if block ~ ~ ~ #ckenja_nether:all unless entity @e[distance=..0.5,tag=ckenja_nether_marker] run summon area_effect_cloud ~ ~ ~ {Duration:2147483637,Tags:["ckenja_nether_marker"]}
+execute positioned ~ ~ ~-1 unless block ~ ~ ~ minecraft:stone if block ~ ~ ~ #ckenja_nether:all unless entity @e[distance=..0.5,tag=ckenja_nether_marker] run summon area_effect_cloud ~ ~ ~ {Duration:2147483637,Tags:["ckenja_nether_marker"]}
+execute if score #diagonal ckenja_nether matches 1 run function ckenja_nether:summon/diagonal/mode1
