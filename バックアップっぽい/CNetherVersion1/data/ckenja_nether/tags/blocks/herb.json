@@ -1,0 +1,12 @@
+{
+  "replace":"false",
+  "values":[
+    "#minecraft:small_flowers",
+    "#minecraft:saplings",
+    "minecraft:lilac",
+    "minecraft:peony",
+    "minecraft:rose_bush",
+    "minecraft:sunflower",
+    "minecraft:sweet_berry_bush"
+  ]
+}

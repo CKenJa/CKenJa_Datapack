@@ -1,0 +1,12 @@
+{
+  "criteria":{
+    "craft":{
+      "trigger":"minecraft:recipe_unlocked","conditions":{
+        "recipe":"ckenja_nether:craft"
+      }
+    }
+  },
+  "rewards": {
+    "function":"ckenja_nether:craft"
+  }
+}
