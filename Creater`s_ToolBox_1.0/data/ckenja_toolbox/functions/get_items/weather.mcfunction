@@ -1,0 +1,1 @@
+summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:lingering_potion",Count:1b,tag:{display:{Name:'{"text":"Toggle Weather","color":"aqua","italic":false}',Lore:['{"text":"今から晴れるよ！","color":"white","italic":false}','{"text":"下向いて使うと雨るよ！","color":"white","italic":false}']},HideFlags:32,ItemName:"CKenJa_Weather",CustomPotionColor:33023}}}

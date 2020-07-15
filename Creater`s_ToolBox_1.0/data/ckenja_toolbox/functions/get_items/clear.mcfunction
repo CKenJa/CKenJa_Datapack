@@ -1,0 +1,1 @@
+summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:lingering_potion",Count:1b,tag:{display:{Name:'{"text":"Inventory Clear","color":"light_purple","italic":false}',Lore:['{"text":"インベントリ内のアイテムを消す","color":"white","italic":false}']},HideFlags:32,ItemName:"CKenJa_Clear",CustomPotionColor:16744576}}}

@@ -1,0 +1,1 @@
+summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:lingering_potion",Count:1b,tag:{display:{Name:'{"text":"Install Fence","color":"gold","italic":false}',Lore:['{"text":"周りにフェンスを設置する","color":"white","italic":false}']},HideFlags:32,ItemName:"CKenJa_Fence",CustomPotionColor:12754274}}}
