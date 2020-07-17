@@ -2,7 +2,7 @@
   "replace":"false",
   "values":[
     "#ckenja_nether:mode2",
-    "minecraft:grass_block",
+    "#ckenja:grass_block",
     "minecraft:sand",
     "minecraft:end_stone",
     "minecraft:gravel"

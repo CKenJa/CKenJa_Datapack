@@ -1,0 +1,1 @@
+summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:lingering_potion",Count:1b,tag:{display:{Name:'{"text":"Day-Night","color":"light_purple","italic":false}',Lore:['{"text":"ラナルータ","color":"white","italic":false}']},HideFlags:32,ItemName:"CKenJa_Skip",CustomPotionColor:16776960}}}

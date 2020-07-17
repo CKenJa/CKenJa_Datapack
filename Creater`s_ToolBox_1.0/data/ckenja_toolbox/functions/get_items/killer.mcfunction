@@ -1,0 +1,1 @@
+summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:lingering_potion",Count:1b,tag:{display:{Name:'{"text":"Killer","color":"light_purple","italic":false}',Lore:['{"text":"周りのモブを消す","color":"white","italic":false}']},HideFlags:32,ItemName:"CKenJa_Killer",CustomPotionColor:16711680}}}
