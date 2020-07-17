@@ -1,19 +1,19 @@
 #テンプレ
 #execute if block ~ ~ ~ minecraft: run setblock ~ ~ ~ minecraft:
 #execute if block ~ ~ ~ #ckenja_nether: run setblock ~ ~ ~ minecraft:
-#execute if block ~ ~ ~ #ckenja_nether: if entity @s[predicate=ckenja_nether:crimson] run setblock ~ ~ ~ minecraft:crimson_
-#execute if block ~ ~ ~ #ckenja_nether: if entity @s[predicate=ckenja_nether:warped] run setblock ~ ~ ~ minecraft:warped_
+#execute if block ~ ~ ~ #ckenja_nether: if predicate ckenja_nether:crimson run setblock ~ ~ ~ minecraft:crimson_
+#execute if block ~ ~ ~ #ckenja_nether: if predicate ckenja_nether:warped run setblock ~ ~ ~ minecraft:warped_
 
 #マルチカーソルを使って、建材木材石材の階段ハーフブロック塀(フェンス)の記述を一気に書きたい
 #対象のブロックを4つコピーして書き換えるなり追加するなりすればよい
 
 #下が変わると壊れるブロックを先に置き換える
 execute if block ~ ~1 ~ #ckenja_nether:crop run setblock ~ ~1 ~ minecraft:twisting_vines
-execute if block ~ ~1 ~ #ckenja_nether:stem if entity @s[predicate=ckenja_nether:warped] run setblock ~ ~1 ~ minecraft:twisting_vines
-execute if block ~ ~1 ~ #minecraft:crops if entity @s[predicate=ckenja_nether:crimson] run setblock ~ ~1 ~ minecraft:nether_wart[age=3]
-execute if block ~ ~1 ~ #minecraft:crops if entity @s[predicate=ckenja_nether:warped] run setblock ~ ~1 ~ minecraft:nether_sprouts
-execute if block ~ ~1 ~ #ckenja_nether:grass if entity @s[predicate=ckenja_nether:crimson] run setblock ~ ~1 ~ minecraft:crimson_roots
-execute if block ~ ~1 ~ #ckenja_nether:grass if entity @s[predicate=ckenja_nether:warped] run setblock ~ ~1 ~ minecraft:warped_roots
+execute if block ~ ~1 ~ #ckenja_nether:stem if predicate ckenja_nether:warped run setblock ~ ~1 ~ minecraft:twisting_vines
+execute if block ~ ~1 ~ #minecraft:crops if predicate ckenja_nether:crimson run setblock ~ ~1 ~ minecraft:nether_wart[age=3]
+execute if block ~ ~1 ~ #minecraft:crops if predicate ckenja_nether:warped run setblock ~ ~1 ~ minecraft:nether_sprouts
+execute if block ~ ~1 ~ #ckenja_nether:grass if predicate ckenja_nether:crimson run setblock ~ ~1 ~ minecraft:crimson_roots
+execute if block ~ ~1 ~ #ckenja_nether:grass if predicate ckenja_nether:warped run setblock ~ ~1 ~ minecraft:warped_roots
 
 #水
 #execute unless score #lava ckenja_nether matches -1 if block ~ ~ ~ minecraft:water run summon area_effect_cloud ~ ~ ~ {Duration:2147483637,Tags:["ckenja_nether_water"]}
@@ -27,11 +27,11 @@ execute if block ~ ~ ~ minecraft:vine unless block ~ ~1 ~ minecraft:weeping_vine
 execute if block ~ ~ ~ minecraft:beehive run setblock ~ ~ ~ minecraft:shroomlight destroy
 
 execute if block ~ ~ ~ #ckenja_nether:shroomlight run setblock ~ ~ ~ minecraft:shroomlight
-execute if block ~ ~ ~ minecraft:hay_block if entity @s[predicate=ckenja_nether:crimson] run setblock ~ ~ ~ minecraft:nether_wart_block
-execute if block ~ ~ ~ minecraft:hay_block if entity @s[predicate=ckenja_nether:warped] run setblock ~ ~ ~ minecraft:warped_wart_block
+execute if block ~ ~ ~ minecraft:hay_block if predicate ckenja_nether:crimson run setblock ~ ~ ~ minecraft:nether_wart_block
+execute if block ~ ~ ~ minecraft:hay_block if predicate ckenja_nether:warped run setblock ~ ~ ~ minecraft:warped_wart_block
 
-execute if block ~ ~ ~ #ckenja_nether:grass_block if entity @s[predicate=ckenja_nether:crimson] run setblock ~ ~ ~ minecraft:crimson_nylium
-execute if block ~ ~ ~ #ckenja_nether:grass_block if entity @s[predicate=ckenja_nether:warped] run setblock ~ ~ ~ minecraft:warped_nylium
+execute if block ~ ~ ~ #ckenja_nether:grass_block if predicate ckenja_nether:crimson run setblock ~ ~ ~ minecraft:crimson_nylium
+execute if block ~ ~ ~ #ckenja_nether:grass_block if predicate ckenja_nether:warped run setblock ~ ~ ~ minecraft:warped_nylium
 
 #木材
 execute if block ~ ~ ~ #ckenja_nether:herb run setblock ~ ~ ~ minecraft:crimson_fungus
@@ -94,7 +94,7 @@ execute if block ~ ~ ~ #ckenja_nether:ore run setblock ~ ~ ~ minecraft:nether_go
 execute if block ~ ~ ~ minecraft:diamond_ore run setblock ~ ~ ~ minecraft:ancient_debris
 
 #土系
-execute if block ~ ~ ~ minecraft:farmland if entity @s[predicate=ckenja_nether:warped] run setblock ~ ~ ~ minecraft:soul_soil
+execute if block ~ ~ ~ minecraft:farmland if predicate ckenja_nether:warped run setblock ~ ~ ~ minecraft:soul_soil
 
 execute if block ~ ~ ~ #ckenja_nether:sand run setblock ~ ~ ~ minecraft:soul_sand
 execute if block ~ ~ ~ #ckenja_nether:soil run setblock ~ ~ ~ minecraft:soul_soil
@@ -103,8 +103,8 @@ execute if block ~ ~ ~ #ckenja_nether:soil run setblock ~ ~ ~ minecraft:soul_soi
 execute if block ~ ~ ~ minecraft:netherrack if block ~ ~1 ~ minecraft:fire run setblock ~ ~ ~ minecraft:soul_soil
 execute if block ~ ~ ~ minecraft:fire run setblock ~ ~ ~ minecraft:soul_fire
 
-execute if block ~ ~ ~ #minecraft:flower_pots if entity @s[predicate=ckenja_nether:crimson] run setblock ~ ~ ~ minecraft:potted_crimson_fungus
-execute if block ~ ~ ~ #minecraft:flower_pots if entity @s[predicate=ckenja_nether:warped] run setblock ~ ~ ~ minecraft:potted_warped_fungus
+execute if block ~ ~ ~ #minecraft:flower_pots if predicate ckenja_nether:crimson run setblock ~ ~ ~ minecraft:potted_crimson_fungus
+execute if block ~ ~ ~ #minecraft:flower_pots if predicate ckenja_nether:warped run setblock ~ ~ ~ minecraft:potted_warped_fungus
 
 execute if block ~ ~ ~ minecraft:campfire run setblock ~ ~ ~ minecraft:soul_campfire
 execute if block ~ ~ ~ minecraft:torch run setblock ~ ~ ~ minecraft:soul_torch
