@@ -1,0 +1,12 @@
+{
+    "criteria":{
+      "craft":{
+        "trigger":"minecraft:recipe_unlocked","conditions":{
+          "recipe":"ckenja_warp_dash:fire_lash"
+        }
+      }
+    },
+    "rewards": {
+      "function":"ckenja_warp_dash:recipes/fire_lash"
+    }
+  }

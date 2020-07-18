@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " FB",
+        "FEW",
+        "S W"
+    ],
+    "key": {
+        "F": {
+            "item": "minecraft:flint"
+        },
+        "B": {
+            "item": "minecraft:bone_meal"
+        },
+        "E": {
+            "item": "minecraft:ender_pearl"
+        },
+        "W": {
+            "item": "minecraft:wheat_seeds"
+        },
+        "S": {
+            "item": "minecraft:string"
+        }
+    },
+    "result": {
+        "item": "minecraft:string",
+        "count": 1
+    }
+}

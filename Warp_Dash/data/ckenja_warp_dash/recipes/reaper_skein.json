@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " #I",
+        "SDE",
+        "O I"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:ender_eye"
+        },
+        "I": {
+            "item": "minecraft:iron_block"
+        },
+        "S": {
+            "item": "minecraft:string"
+        },
+        "D": {
+            "item": "minecraft:diamond_hoe"
+        },
+        "E": {
+            "item": "minecraft:end_crystal"
+        },
+        "O": {
+            "item": "minecraft:oak_log"
+        }
+    },
+    "result": {
+        "item": "minecraft:string",
+        "count": 1
+    }
+}

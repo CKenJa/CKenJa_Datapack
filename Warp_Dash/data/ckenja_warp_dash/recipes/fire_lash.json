@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " LW",
+        "FWW",
+        "W W"
+    ],
+    "key": {
+        "L": {
+            "item": "minecraft:lava_bucket"
+        },
+        "W": {
+            "item": "minecraft:wheat"
+        },
+        "F": {
+            "item": "minecraft:flint_and_steel"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

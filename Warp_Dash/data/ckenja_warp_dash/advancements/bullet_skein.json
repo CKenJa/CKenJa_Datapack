@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#i ",
+        "GSF",
+        " FL"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:dispenser"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "G": {
+            "item": "minecraft:gunpowder"
+        },
+        "S": {
+            "item": "minecraft:string"
+        },
+        "F": {
+            "item": "minecraft:feather"
+        },
+        "L": {
+            "item": "minecraft:lever"
+        }
+    },
+    "result": {
+        "item": "minecraft:lever",
+        "count": 1
+    }
+}

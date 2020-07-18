@@ -1,0 +1,12 @@
+{
+    "criteria":{
+      "craft":{
+        "trigger":"minecraft:recipe_unlocked","conditions":{
+          "recipe":"ckenja_warp_dash:pyroxene"
+        }
+      }
+    },
+    "rewards": {
+      "function":"ckenja_warp_dash:recipes/pyroxene"
+    }
+  }

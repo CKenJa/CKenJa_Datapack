@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " VP",
+        "CEY",
+        "O P"
+    ],
+    "key": {
+        "V": {
+            "item": "minecraft:vine"
+        },
+        "P": {
+            "item": "minecraft:purple_stained_glass"
+        },
+        "C": {
+            "item": "minecraft:popped_chorus_fruit"
+        },
+        "E": {
+            "item": "minecraft:ender_eye"
+        },
+        "Y": {
+            "item": "minecraft:purpur_block"
+        },
+        "O": {
+            "item": "minecraft:obsidian"
+        }
+    },
+    "result": {
+        "item": "minecraft:vine",
+        "count": 1
+    }
+}

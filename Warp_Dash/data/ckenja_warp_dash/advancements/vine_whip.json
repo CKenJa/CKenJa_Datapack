@@ -1,0 +1,12 @@
+{
+    "criteria":{
+      "craft":{
+        "trigger":"minecraft:recipe_unlocked","conditions":{
+          "recipe":"ckenja_warp_dash:vine_whip"
+        }
+      }
+    },
+    "rewards": {
+      "function":"ckenja_warp_dash:recipes/vine_whip"
+    }
+  }

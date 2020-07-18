@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " #G",
+        "FED",
+        "O G"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:string"
+        },
+        "G": {
+            "item": "minecraft:gunpowder"
+        },
+        "F": {
+            "item": "minecraft:feather"
+        },
+        "E": {
+            "item": "minecraft:ender_eye"
+        },
+        "D": {
+            "item": "minecraft:dispenser"
+        },
+        "O": {
+            "item": "minecraft:obsidian"
+        }
+    },
+    "result": {
+        "item": "minecraft:string",
+        "count": 1
+    }
+}
