@@ -1,18 +1,18 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " SL",
-        "iED",
+        " GL",
+        "IED",
         "O L"
     ],
     "key": {
-        "S": {
-            "item": "minecraft:string"
+        "G": {
+            "Item": "minecraft:glowstone"
         },
         "L": {
             "item": "minecraft:light_blue_stained_glass"
         },
-        "i": {
+        "I": {
             "item": "minecraft:iron_ingot"
         },
         "E": {
