@@ -1,3 +1,5 @@
 {"values":[
-"ckenja_test:tick"
-]}
+  "ckenja_warp_dash:tick",
+  "ckenja:scores/tick/sneak",
+  "ckenja:scores/tick/use"
+  ]}

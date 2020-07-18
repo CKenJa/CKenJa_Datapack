@@ -1,32 +1,12 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#i ",
-        "GSF",
-        " FL"
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:dispenser"
-        },
-        "i": {
-            "item": "minecraft:iron_ingot"
-        },
-        "G": {
-            "item": "minecraft:gunpowder"
-        },
-        "S": {
-            "item": "minecraft:string"
-        },
-        "F": {
-            "item": "minecraft:feather"
-        },
-        "L": {
-            "item": "minecraft:lever"
+    "criteria":{
+      "craft":{
+        "trigger":"minecraft:recipe_unlocked","conditions":{
+          "recipe":"ckenja_warp_dash:bullet_skein"
         }
+      }
     },
-    "result": {
-        "item": "minecraft:lever",
-        "count": 1
+    "rewards": {
+      "function":"ckenja_warp_dash:recipes/bullet_skein"
     }
-}
+  }

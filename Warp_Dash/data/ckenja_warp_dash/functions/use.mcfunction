@@ -1,0 +1,1 @@
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CKenJa:{Tags:["warp_dash:whip"]}}}},scores={ckenja_use=1..}] run function ckenja_warp_dash:main
