@@ -1,1 +1,1 @@
-execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CKenJa:{Tags:["warp_dash:whip"]}}}},scores={ckenja_use=1..}] run function ckenja_warp_dash:main
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CKenJa:{Tags:["warp_dash:whip"]}}}}] if score @s ckenja_sneak matches ..0 if score @s ckenja_sneaktime matches ..0 run function ckenja_warp_dash:uses/attack

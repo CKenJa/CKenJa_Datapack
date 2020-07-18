@@ -1,0 +1,1 @@
+execute if score @s ckenja_sneaktime matches 1 run function ckenja_warp_dash:sneak/warp_dash

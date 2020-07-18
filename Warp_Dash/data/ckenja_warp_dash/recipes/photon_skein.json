@@ -7,7 +7,7 @@
     ],
     "key": {
         "G": {
-            "Item": "minecraft:glowstone"
+            "item": "minecraft:glowstone"
         },
         "L": {
             "item": "minecraft:light_blue_stained_glass"

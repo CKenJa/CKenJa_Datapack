@@ -1,5 +1,6 @@
 {"values":[
 "ckenja_warp_dash:load",
 "ckenja:scores/load/sneak",
-"ckenja:scores/load/use"
+"ckenja:scores/load/use",
+"ckenja:scores/load/sneaktime"
 ]}
