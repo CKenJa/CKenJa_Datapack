@@ -1,0 +1,1 @@
+execute as @a[tag=!ckenja_id] run function ckenja:id/register

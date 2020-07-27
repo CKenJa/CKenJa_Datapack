@@ -1,0 +1,1 @@
+scoreboard objectives add ckenja_jump minecraft.custom:minecraft.jump

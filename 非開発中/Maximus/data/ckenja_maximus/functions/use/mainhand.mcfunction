@@ -1,5 +1,5 @@
 #強化
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:12016000}},Inventory:[{id:"minecraft:enchanted_golden_apple",Slot:-106b},{id:"minecraft:diamond_horse_armor"},{id:"minecraft:iron_horse_armor"},{id:"minecraft:golden_horse_armor"}]}] unless entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{Unbreakable:1b}}}] run function ckenja_maximus:use/mainhand/upgrade
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:126000}},Inventory:[{id:"minecraft:enchanted_golden_apple",Slot:-106b},{id:"minecraft:diamond_horse_armor"},{id:"minecraft:iron_horse_armor"},{id:"minecraft:golden_horse_armor"}]}] unless entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{Unbreakable:1b}}}] run function ckenja_maximus:use/mainhand/upgrade
 #疾走
 execute if entity @s[nbt={RootVehicle:{Entity:{Tame:1b}}}] run function ckenja_maximus:use/sprint1
 #耐久
