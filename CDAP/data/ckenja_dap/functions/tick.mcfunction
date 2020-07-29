@@ -1,0 +1,1 @@
+execute as @a[nbt={SelectedItem:{tag:{CKenja:{id:"ckenja_dap"}}}}] run function ckenja_dap:player
