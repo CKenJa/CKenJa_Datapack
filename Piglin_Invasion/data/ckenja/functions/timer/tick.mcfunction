@@ -1,0 +1,1 @@
+scoreboard players remove @e[scores={ckenja_timer=1..}] ckenja_timer 1

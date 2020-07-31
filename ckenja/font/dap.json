@@ -1,0 +1,25 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/test.png",
+            "ascent": 24,
+            "height": 48,
+            "chars": ["\uE000"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/test.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE001"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/test.png",
+            "ascent": 162,
+            "height": 192,
+            "chars": ["\uE002"]
+        }
+    ]
+}
