@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"cPod touch","bold":true,"italic":false}'},ckenja:{id:"ckenja_dap"}}}}
