@@ -2,5 +2,6 @@
 "ckenja_dap:tick",
 "scroll_direction_detection:main",
 "ckenja:scores/tick/sneak",
-"ckenja:scores/tick/use"
+"ckenja:scores/tick/use",
+"kirameki:tick"
 ]}

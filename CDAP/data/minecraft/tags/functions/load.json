@@ -1,6 +1,7 @@
 {"values":[
 "ckenja_dap:load",
-"ckenja:scores/tick/sneaktime",
-"ckenja:scores/tick/sneak",
-"ckenja:scores/tick/use"
+"ckenja:scores/load/sneaktime",
+"ckenja:scores/load/sneak",
+"ckenja:scores/load/use",
+"kirameki:load"
 ]}
