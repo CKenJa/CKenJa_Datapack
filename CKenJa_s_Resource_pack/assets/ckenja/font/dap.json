@@ -2,9 +2,9 @@
     "providers": [
         {
             "type": "bitmap",
-            "file": "ckenja:font/ckenja_dap/logo.png",
-            "ascent": 24,
-            "height": 48,
+            "file": "ckenja:font/test.png",
+            "ascent": 66,
+            "height": 96,
             "chars": ["\uEA00"]
         },
         {
@@ -16,17 +16,31 @@
         },
         {
             "type": "bitmap",
-            "file": "ckenja:font/test.png",
+            "file": "ckenja:font/cursor/11.png",
             "ascent": 66,
             "height": 96,
             "chars": ["\uEA02"]
         },
         {
             "type": "bitmap",
-            "file": "ckenja:font/ckenja_dap/load/0.png",
-            "ascent": 24,
-            "height": 48,
-            "chars": ["\uE000"]
+            "file": "ckenja:font/cursor/12.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uEA03"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/music1.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uEA04"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/music2.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uEA05"]
         },
         {
             "type": "bitmap",

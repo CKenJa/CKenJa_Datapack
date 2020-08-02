@@ -1,4 +1,4 @@
-title @a times 0 20 0
+title @a times 0 2000 0
 tag @s add ckenja_dap_using
 tag @s add ckenja_dap_start_screen
 
