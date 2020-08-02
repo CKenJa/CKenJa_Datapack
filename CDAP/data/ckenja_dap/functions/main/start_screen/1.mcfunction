@@ -1,0 +1,17 @@
+execute if score @s ckenja_dap matches 1 run title @s title {"text":"\uE001","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 2 run title @s title {"text":"\uE002","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 3 run title @s title {"text":"\uE003","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 4 run title @s title {"text":"\uE004","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 5 run title @s title {"text":"\uE005","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 6 run title @s title {"text":"\uE006","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 7 run title @s title {"text":"\uE007","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 8 run title @s title {"text":"\uE008","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 9 run title @s title {"text":"\uE009","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 10 run title @s title {"text":"\uE010","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 11 run title @s title {"text":"\uE011","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 12 run title @s title {"text":"\uE012","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 13 run title @s title {"text":"\uE013","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 14 run title @s title {"text":"\uE014","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 15 run title @s title {"text":"\uE015","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 16 run title @s title {"text":"\uE016","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 17 run title @s title {"text":"\uE017","font":"ckenja:dap"}

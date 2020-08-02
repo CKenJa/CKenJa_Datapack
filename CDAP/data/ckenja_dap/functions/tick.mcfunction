@@ -1,2 +1,2 @@
-execute as @a[nbt={SelectedItem:{tag:{ckenja:{id:"ckenja_dap"}}}}] run function ckenja_dap:main
-execute as @a[tag=ckenja_dap_using,nbt=!{SelectedItem:{tag:{ckenja:{id:"ckenja_dap"}}}}] run function ckenja_dap:end
+execute as @a[nbt={Inventory:[{Slot:-106b,tag:{ckenja:{id:"ckenja_dap"}}}]}] run function ckenja_dap:main
+execute as @a[tag=ckenja_dap_using,nbt=!{Inventory:[{Slot:-106b,tag:{ckenja:{id:"ckenja_dap"}}}]}] run function ckenja_dap:end

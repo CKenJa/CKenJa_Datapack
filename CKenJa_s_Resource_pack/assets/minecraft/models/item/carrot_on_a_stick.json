@@ -1,0 +1,10 @@
+{
+  "parent":"item/handheld_rod",
+  "textures":{
+    "layer0":"item/carrot_on_a_stick"
+  },
+  "overrides":[
+    {"predicate":{"custom_model_data":126000},"model":"ckenja/maximus/whistle"},
+    {"predicate":{"custom_model_data":126001},"model":"ckenja/potato/potato_cannon"}
+  ]
+}

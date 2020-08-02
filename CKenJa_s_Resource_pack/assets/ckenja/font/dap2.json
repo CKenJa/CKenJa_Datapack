@@ -1,0 +1,1937 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/logo.png",
+            "ascent": 24,
+            "height": 48,
+            "chars": ["\uEA00"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/start_screen.png",
+            "ascent": 24,
+            "height": 48,
+            "chars": ["\uEA01"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/test.png",
+            "ascent": 24,
+            "height": 48,
+            "chars": ["\uEA02"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/0.png",
+            "ascent": 5,
+            "height": 96,
+            "chars": ["\uE000"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/1.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE001"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/2.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE002"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/3.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE003"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/4.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE004"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/5.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE005"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/6.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE006"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/7.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE007"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/8.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE008"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/9.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE009"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/10.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE010"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/11.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE011"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/12.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE012"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/13.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE013"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/14.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE014"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/15.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE015"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/16.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE016"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/17.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE017"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/18.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE018"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/19.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE019"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/20.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE020"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/21.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE021"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/22.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE022"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/23.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE023"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/24.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE024"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/25.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE025"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/26.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE026"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/27.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE027"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/28.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE028"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/29.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE029"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/30.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE030"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/31.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE031"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/32.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE032"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/33.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE033"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/34.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE034"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/35.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE035"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/36.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE036"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/37.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE037"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/38.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE038"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/39.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE039"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/40.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE040"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/41.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE041"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/42.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE042"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/43.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE043"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/44.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE044"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/45.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE045"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/46.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE046"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/47.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE047"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/48.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE048"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/49.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE049"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/50.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE050"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/51.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE051"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/52.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE052"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/53.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE054"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/55.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE055"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/56.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE056"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/57.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE057"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/58.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE058"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/59.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE059"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/60.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE060"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/61.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE061"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/62.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE062"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/63.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE063"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/64.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE064"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/65.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE065"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/66.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE066"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/67.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE067"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/68.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE068"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/69.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE069"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/70.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE070"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/71.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE071"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/72.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE072"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/73.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE073"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/74.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE074"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/75.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE075"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/76.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE076"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/77.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE077"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/78.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE078"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/79.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE079"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/80.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE080"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/81.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE081"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/82.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE082"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/83.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE083"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/84.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE084"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/85.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE085"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/86.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE086"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/87.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE078"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/88.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE088"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/89.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE089"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/90.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE090"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/91.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE091"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/92.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE092"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/93.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE093"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/94.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE094"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/95.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE095"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/96.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE096"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/97.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE097"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/98.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE098"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/99.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE099"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/100.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE100"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/101.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE101"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/102.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE102"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/103.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE103"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/104.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE105"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/105.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE105"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/106.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE106"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/107.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE107"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/108.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE108"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/109.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE109"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/110.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE110"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/111.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE111"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/112.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE112"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/113.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE113"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/114.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE114"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/115.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE115"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/116.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE116"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/117.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE117"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/118.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE118"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/119.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE119"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/120.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE120"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/121.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE121"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/122.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE122"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/123.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE123"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/124.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE124"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/125.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE125"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/126.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE126"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/127.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE127"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/128.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE128"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/129.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE129"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/130.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE130"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/131.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE131"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/132.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE132"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/133.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE133"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/134.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE134"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/135.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE135"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/136.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE136"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/137.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE137"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/138.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE138"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/139.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE139"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/140.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE140"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/141.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE141"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/142.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE142"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/143.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE143"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/144.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE144"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/145.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE145"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/146.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE146"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/147.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE147"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/148.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE148"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/149.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE149"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/150.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE150"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/151.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE151"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/152.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE152"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/153.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE153"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/154.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE154"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/155.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE155"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/156.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE156"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/157.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE157"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/158.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE158"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/159.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE159"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/160.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE160"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/161.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE161"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/162.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE162"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/163.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE163"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/164.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE164"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/165.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE165"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/166.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE166"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/167.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE167"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/168.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE168"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/169.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE169"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/170.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE170"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/171.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE171"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/172.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE172"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/173.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE173"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/174.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE174"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/175.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE175"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/176.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE176"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/177.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE177"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/178.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE178"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/179.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE179"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/180.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE180"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/181.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE181"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/182.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE182"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/183.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE183"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/184.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE184"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/185.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE185"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/186.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE186"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/187.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE187"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/188.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE188"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/189.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE189"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/19.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE190"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/191.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE191"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/192.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE192"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/193.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE193"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/194.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE194"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/195.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE195"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/196.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE196"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/197.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE197"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/198.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE198"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/199.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE199"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/200.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE200"]
+        },
+        
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/201.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE201"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/202.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE202"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/203.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE203"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/204.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE205"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/205.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE205"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/206.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE206"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/207.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE207"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/208.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE208"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/209.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE209"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/210.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE210"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/211.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE211"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/212.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE212"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/213.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE213"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/214.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE214"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/215.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE215"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/216.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE216"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/217.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE217"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/218.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE218"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/219.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE219"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/220.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE220"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/221.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE221"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/222.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE222"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/223.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE223"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/224.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE224"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/225.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE225"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/226.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE226"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/227.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE227"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/228.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE228"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/229.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE229"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/230.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE230"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/231.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE231"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/232.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE232"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/233.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE233"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/234.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE234"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/235.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE235"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/236.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE236"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/237.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE237"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/238.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE238"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/239.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE239"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/240.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE240"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/241.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE241"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/242.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE242"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/243.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE243"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/244.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE244"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/245.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE245"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/246.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE246"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/247.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE247"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/248.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE248"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/249.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE249"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/250.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE250"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/251.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE251"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/252.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE252"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/253.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE253"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/254.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE254"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/255.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE255"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/256.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE256"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/257.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE257"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/258.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE258"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/259.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE259"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/260.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE260"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/261.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE261"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/262.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE262"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/263.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE263"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/264.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE264"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/265.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE265"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/266.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE266"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/267.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE267"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/268.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE268"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/269.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE269"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/270.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE270"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/271.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE271"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/272.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE272"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ckenja:font/ckenja_dap/load/273.png",
+            "ascent": 66,
+            "height": 96,
+            "chars": ["\uE273"]
+        }
+    ]
+}

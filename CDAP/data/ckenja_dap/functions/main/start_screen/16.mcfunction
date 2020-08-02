@@ -1,0 +1,19 @@
+
+execute if score @s ckenja_dap matches 256 run title @s title {"text":"\uE256","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 257 run title @s title {"text":"\uE257","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 258 run title @s title {"text":"\uE258","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 259 run title @s title {"text":"\uE259","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 260 run title @s title {"text":"\uE260","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 261 run title @s title {"text":"\uE261","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 262 run title @s title {"text":"\uE262","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 263 run title @s title {"text":"\uE263","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 264 run title @s title {"text":"\uE264","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 265 run title @s title {"text":"\uE265","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 266 run title @s title {"text":"\uE266","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 267 run title @s title {"text":"\uE267","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 268 run title @s title {"text":"\uE268","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 269 run title @s title {"text":"\uE269","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 270 run title @s title {"text":"\uE270","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 271 run title @s title {"text":"\uE271","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 272 run title @s title {"text":"\uE272","font":"ckenja:dap"}
+execute if score @s ckenja_dap matches 273 run title @s title {"text":"\uE273","font":"ckenja:dap"}
