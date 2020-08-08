@@ -1,1 +1,0 @@
-team modify ckenja_team seeFriendlyInvisibles true

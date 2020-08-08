@@ -1,1 +1,0 @@
-execute as @e[type=player,tag=!ckenja_teamed,team=!ckenja_team] run team join ckenja_click @a

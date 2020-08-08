@@ -1,0 +1,1 @@
+clear @s light_gray_stained_glass_pane{ckenja:{ckenja:{tags:["ckenja_smart_devices:gui"]}}}
