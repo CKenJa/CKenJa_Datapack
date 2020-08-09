@@ -22,6 +22,7 @@ execute unless block ~ ~ ~ barrel{Items:[{Slot:20b}]} run replaceitem block ~ ~ 
 clear @a light_gray_stained_glass_pane{ADCempty_item:1b}
 kill @e[type=item,nbt={Item:{tag:{ADCempty_item:1b}}}]
 execute if block ~ ~-1 ~ hopper{Items:[{tag:{ADCempty_item:1b}}]} run data remove block ~ ~-1 ~ Items[{tag:{ADCempty_item:1b}}]
+execute positioned ~ ~-1 ~ as @e[type=hopper_minecart,distance=..2,nbt={Items:[{tag:{ADCempty_item:1b}}]}] run data remove entity @s Items[{tag:{ADCempty_item:1b}}]
 
 
 

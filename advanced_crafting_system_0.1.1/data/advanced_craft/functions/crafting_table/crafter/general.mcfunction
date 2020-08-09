@@ -1,6 +1,6 @@
 #カスタムクラフター設置判定
 execute store result score #crafter_count ADCcrafter_id if entity @e[tag=ADCcustom_crafter]
-execute as @e[type=item_frame,nbt={Item:{id:"minecraft:crafting_table",Count:1b}}] at @s if block ~ ~-0.3 ~ crafting_table run tag @s add ADCnew_crafter
+execute as @e[type=item_frame,nbt={Item:{id:"minecraft:crafting_table",Count:1b}},tag=!ADCcustom_crafter] at @s if block ~ ~-0.3 ~ crafting_table run tag @s add ADCnew_crafter
 execute unless entity @e[tag=deledtag] run function advanced_craft:crafting_table/crafter/deltag
 tag @e[tag=ADCnew_crafter,tag=!deledtag] add deledtag
 execute if score #crafter_count ADCcrafter_id matches ..9 as @e[tag=ADCnew_crafter,limit=1] at @s run function advanced_craft:crafting_table/crafter/place

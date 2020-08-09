@@ -1,5 +1,6 @@
-#異物混入してたらドロップ
-execute if block ~ ~ ~ barrel{Items:[{Slot:0b}]} run summon item ~ ~1 ~ {Item:{id:"stone",Count:1b,tag:{CustomModelData:1}},Tags:["repitem"]}
-data modify entity @e[type=item,tag=repitem,limit=1,sort=nearest] Item set from block ~ ~ ~ Items[{Slot:3b}]
+#異物ドロップ
+summon item ~ ~1 ~ {Item:{id:"light_gray_stained_glass_pane",Count:1b,tag:{CustomModelData:12600}},Tags:["ckenja_replace_item"]}
+data modify entity @e[type=item,tag=ckenja_replace_item,limit=1,sort=nearest] Item set from block ~ ~ ~ Items[{Slot:0b}]
+tag @e[tag=ckenja_replace_item] remove ckenja_replace_item
 #置き換え
-replaceitem block ~ ~ ~ container.0 black_stained_glass_pane{display:{Name:'{"text":" "}'},ckenja:{tags:["ckenja_smart_devices:empty"]}} 1
+replaceitem block ~ ~ ~ container.0 black_stained_glass_pane{display:{Name:'{"text":" "}'},ckenja:{tags:["ckenja_smart_devices:gui","ckenja_smart_devices:not_slot"]}} 1
