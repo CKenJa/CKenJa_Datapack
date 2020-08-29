@@ -1,0 +1,1 @@
+data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].player_inventory.data[{Slot:9b}]

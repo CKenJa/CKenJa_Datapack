@@ -12,3 +12,4 @@ execute if score @s inventory_change matches 0 run tag @s remove inventory_chang
 execute if entity @s[tag=inventory_change] run function player_inventory:player_inventory/validate_type/general
 
 #5.アクセサリースロット（inventory9~13）に装備可能アイテムがない場合、空のアイテム（板ガラスとかで良い）で埋めておく。
+execute unless data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].player_inventory.data[{Slot:9b}].Count run replaceitem entity @s inventory.0 light_gray_stained_glass_pane
