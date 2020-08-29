@@ -1,0 +1,1 @@
+execute as @a at @s run function player_inventory:player_inventory/general
