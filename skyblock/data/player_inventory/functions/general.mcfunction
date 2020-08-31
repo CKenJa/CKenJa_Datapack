@@ -9,4 +9,4 @@ execute if score #inventory_change player_inventory matches 0 run tag @s remove 
 #- - 対応しているならアイテムのカスタムタグ内の要求レベルのデータとプレイヤーのレベル（仮のスコアで良い）を比べる。
 #- - プレイヤーのレベルが要求レベルに達していない場合やそもそも装備品でなかった場合、装備アイテムをドロップする。
 #- - - アクセサリースロット（inventory9~13）に装備可能アイテムがない場合、空のアイテム（板ガラスとかで良い）で埋めておく。
-execute if entity @s[tag=inventory_change] at @s run function player_inventory:validate_type/general
+execute if entity @s[tag=inventory_change] at @s run function player_inventory:validate_type
