@@ -1,9 +1,10 @@
-##CkenJa's root Ver0.1 ckj01
+##CkenJa's root Ver0.1.0.1 ckj01
 #CKenJa's modulesから名前変更！機能も大幅に増加し、完全に依存させる形に
 #名前空間はckenjaからckj01に変更。競合はないぞ！しかも更新も考えてあるぜ！
 #
 ###更新履歴
-#2020/09/04 最低限の実装
+#2020/09/04 0.1最低限の実装
+#2020/09/05 0.1.0.1 rootでplayer・entityが実行者位置で実行するように entity_typesにundeadを追加　scoresにusetimeを追加予定
 
 ###root - 実装完了
 #ckj01:rootをminecraft:tickに登録する。

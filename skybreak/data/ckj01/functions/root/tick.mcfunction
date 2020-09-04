@@ -5,6 +5,6 @@ function #ckj01:root/standard
 function #ckj01:root/late
 
 #プレイヤーとエンティティでも似たようなことする
-execute as @e run function ckj01:root/entity
+execute as @e at @s run function ckj01:root/entity
 
 #スコアボードの読み込みはroot/playerで行っている。
