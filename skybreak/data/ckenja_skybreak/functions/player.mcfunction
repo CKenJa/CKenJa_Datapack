@@ -1,0 +1,1 @@
+execute if entity @s[nbt={SelectedItem:{tag:{ckenja:{tag:["ckenja_skybreak_katana"]}}}}] run function ckenja_skybreak:katana/general

@@ -1,0 +1,12 @@
+{
+  "criteria":{
+    "recipe":{
+      "trigger":"minecraft:recipe_unlocked","conditions":{
+        "recipe":"ckenja_skybreak:katana"
+      }
+    }
+  },
+  "rewards": {
+    "function":"ckenja_skybreak:katana/recipe"
+  }
+}
