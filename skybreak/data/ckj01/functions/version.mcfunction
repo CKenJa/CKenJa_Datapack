@@ -4,7 +4,7 @@
 #
 ###更新履歴
 #2020/09/04 0.1最低限の実装
-#2020/09/05 0.1.0.1 rootでplayer・entityが実行者位置で実行するように entity_typesにundeadを追加　scoresにusetimeを追加予定
+#2020/09/05 0.1.0.1 rootでplayer・entityが実行者位置で実行するように entity_typesにundeadを追加　scoresにusetimeを追加　dataモジュールを作成
 
 ###root - 実装完了
 #ckj01:rootをminecraft:tickに登録する。
@@ -25,3 +25,10 @@
 ###id
 #プレイヤーにIDを配る人。ちなみにOh My Datも似たようなものを搭載してるっぽい。
 #id/registerを実行することでその他エンティティにもIDを配れるが、みだらに配るとID枯渇の危険がある...かもね
+
+###data
+#あらかじめデータや値を保存しておくckj01_dataスコアボードに関するモジュール
+####list
+#tmp これは例外で、計算に使うスコアボードその1。
+#loop_counter ループカウンターその1。
+#4

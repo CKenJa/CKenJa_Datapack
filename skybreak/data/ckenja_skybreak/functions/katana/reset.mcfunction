@@ -1,0 +1,2 @@
+replaceitem entity @p weapon.mainhand carrot_on_a_stick{display:{Name:'{"text":"katana","italic":false}'},CustomModelData:126002,ckenja:{tag:["ckenja_skybreak_katana"]}} 1
+scoreboard players reset @s ckj_sb_katana

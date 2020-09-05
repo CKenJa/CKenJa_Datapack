@@ -1,0 +1,1 @@
+scoreboard players set #4 ckj01_data 4
