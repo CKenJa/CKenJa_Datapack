@@ -1,1 +1,1 @@
-scoreboard players set @a ckj01_coas 0
+scoreboard players set @s ckj01_coas 0
