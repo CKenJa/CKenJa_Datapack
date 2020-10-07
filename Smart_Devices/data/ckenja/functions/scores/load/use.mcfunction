@@ -1,1 +1,0 @@
-scoreboard objectives add ckenja_use minecraft.used:minecraft.carrot_on_a_stick

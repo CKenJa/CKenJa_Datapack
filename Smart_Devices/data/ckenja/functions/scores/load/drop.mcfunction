@@ -1,1 +1,0 @@
-scoreboard objectives add ckenja_drop minecraft.broken:minecraft.potato
