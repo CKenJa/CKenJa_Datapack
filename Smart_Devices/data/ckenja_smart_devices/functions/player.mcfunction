@@ -1,1 +1,0 @@
-function ckenja_smart_devices:device/player

@@ -1,3 +1,4 @@
+#ckenja_smart_devices;core/device/device/gui/general as @s[tag=ckenja_smart_devices_gui_3dprinter] at @s
 #空スロットをemptyで埋める
 #execute unless block ~ ~ ~ barrel{Items:[{Slot:1b}]} run replaceitem block ~ ~ ~ container.1 light_gray_stained_glass_pane{display:{Name:'{"text":" "}'},ckenja:{tags:["ckenja_smart_devices:gui","ckenja_smart_devices:empty"]}} 1
 #execute unless block ~ ~ ~ barrel{Items:[{Slot:2b}]} run replaceitem block ~ ~ ~ container.2 light_gray_stained_glass_pane{display:{Name:'{"text":" "}'},ckenja:{tags:["ckenja_smart_devices:gui","ckenja_smart_devices:empty"]}} 1
@@ -15,16 +16,16 @@
 #execute unless block ~ ~ ~ barrel{Items:[{Slot:22b}]} run replaceitem block ~ ~ ~ container.22 light_gray_stained_glass_pane{display:{Name:'{"text":" "}'},ckenja:{tags:["ckenja_smart_devices:gui","ckenja_smart_devices:empty"]}} 1
 #execute unless block ~ ~ ~ barrel{Items:[{Slot:23b}]} run replaceitem block ~ ~ ~ container.23 light_gray_stained_glass_pane{display:{Name:'{"text":" "}'},ckenja:{tags:["ckenja_smart_devices:gui","ckenja_smart_devices:empty"]}} 1
 #異物があったら排出後、not_slotで置き換え
-execute unless block ~ ~ ~ barrel{Items:[{Slot:0b,tag:{ckenja:{tags:["ckenja_smart_devices:not_slot"]}}}]} run function ckenja_smart_devices:core/gui/not_slot/0
-execute unless block ~ ~ ~ barrel{Items:[{Slot:6b,tag:{ckenja:{tags:["ckenja_smart_devices:not_slot"]}}}]} run function ckenja_smart_devices:core/gui/not_slot/6
-execute unless block ~ ~ ~ barrel{Items:[{Slot:7b,tag:{ckenja:{tags:["ckenja_smart_devices:not_slot"]}}}]} run function ckenja_smart_devices:core/gui/not_slot/7
-execute unless block ~ ~ ~ barrel{Items:[{Slot:8b,tag:{ckenja:{tags:["ckenja_smart_devices:not_slot"]}}}]} run function ckenja_smart_devices:core/gui/not_slot/8
-execute unless block ~ ~ ~ barrel{Items:[{Slot:9b,tag:{ckenja:{tags:["ckenja_smart_devices:not_slot"]}}}]} run function ckenja_smart_devices:core/gui/not_slot/9
-execute unless block ~ ~ ~ barrel{Items:[{Slot:16b,tag:{ckenja:{tags:["ckenja_smart_devices:not_slot"]}}}]} run function ckenja_smart_devices:core/gui/not_slot/16
-execute unless block ~ ~ ~ barrel{Items:[{Slot:17b,tag:{ckenja:{tags:["ckenja_smart_devices:not_slot"]}}}]} run function ckenja_smart_devices:core/gui/not_slot/17
-execute unless block ~ ~ ~ barrel{Items:[{Slot:18b,tag:{ckenja:{tags:["ckenja_smart_devices:not_slot"]}}}]} run function ckenja_smart_devices:core/gui/not_slot/18
-execute unless block ~ ~ ~ barrel{Items:[{Slot:24b,tag:{ckenja:{tags:["ckenja_smart_devices:not_slot"]}}}]} run function ckenja_smart_devices:core/gui/not_slot/24
-execute unless block ~ ~ ~ barrel{Items:[{Slot:25b,tag:{ckenja:{tags:["ckenja_smart_devices:not_slot"]}}}]} run function ckenja_smart_devices:core/gui/not_slot/25
-execute unless block ~ ~ ~ barrel{Items:[{Slot:26b,tag:{ckenja:{tags:["ckenja_smart_devices:not_slot"]}}}]} run function ckenja_smart_devices:core/gui/not_slot/26
+execute unless block ~ ~ ~ barrel{Items:[{Slot:0b,tag:{ckenja:{tags:["ckenja_smart_devices:not_slot"]}}}]} run function ckj_smart_devices:core/device/device/gui/not_slot/0
+execute unless block ~ ~ ~ barrel{Items:[{Slot:6b,tag:{ckenja:{tags:["ckenja_smart_devices:not_slot"]}}}]} run function ckj_smart_devices:core/device/device/gui/not_slot/6
+execute unless block ~ ~ ~ barrel{Items:[{Slot:7b,tag:{ckenja:{tags:["ckenja_smart_devices:not_slot"]}}}]} run function ckj_smart_devices:core/device/device/gui/not_slot/7
+execute unless block ~ ~ ~ barrel{Items:[{Slot:8b,tag:{ckenja:{tags:["ckenja_smart_devices:not_slot"]}}}]} run function ckj_smart_devices:core/device/device/gui/not_slot/8
+execute unless block ~ ~ ~ barrel{Items:[{Slot:9b,tag:{ckenja:{tags:["ckenja_smart_devices:not_slot"]}}}]} run function ckj_smart_devices:core/device/device/gui/not_slot/9
+execute unless block ~ ~ ~ barrel{Items:[{Slot:16b,tag:{ckenja:{tags:["ckenja_smart_devices:not_slot"]}}}]} run function ckj_smart_devices:core/device/device/gui/not_slot/16
+execute unless block ~ ~ ~ barrel{Items:[{Slot:17b,tag:{ckenja:{tags:["ckenja_smart_devices:not_slot"]}}}]} run function ckj_smart_devices:core/device/device/gui/not_slot/17
+execute unless block ~ ~ ~ barrel{Items:[{Slot:18b,tag:{ckenja:{tags:["ckenja_smart_devices:not_slot"]}}}]} run function ckj_smart_devices:core/device/device/gui/not_slot/18
+execute unless block ~ ~ ~ barrel{Items:[{Slot:24b,tag:{ckenja:{tags:["ckenja_smart_devices:not_slot"]}}}]} run function ckj_smart_devices:core/device/device/gui/not_slot/24
+execute unless block ~ ~ ~ barrel{Items:[{Slot:25b,tag:{ckenja:{tags:["ckenja_smart_devices:not_slot"]}}}]} run function ckj_smart_devices:core/device/device/gui/not_slot/25
+execute unless block ~ ~ ~ barrel{Items:[{Slot:26b,tag:{ckenja:{tags:["ckenja_smart_devices:not_slot"]}}}]} run function ckj_smart_devices:core/device/device/gui/not_slot/26
 #ボタン
-execute unless block ~ ~ ~ barrel{Items:[{Slot:15b,tag:{ckenja:{tags:["ckenja_smart_devices:not_slot"]}}}]} run function ckenja_smart_devices:core/gui/button/lime15
+execute unless block ~ ~ ~ barrel{Items:[{Slot:15b,tag:{ckenja:{tags:["ckenja_smart_devices:not_slot"]}}}]} run function ckj_smart_devices:core/device/device/gui/button/lime15
