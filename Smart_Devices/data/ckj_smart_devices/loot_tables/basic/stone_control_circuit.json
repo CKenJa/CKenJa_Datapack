@@ -10,11 +10,11 @@
           "functions":[
             {
               "function":"minecraft:set_name",
-              "name":{"translate":"ckenja_smart_devices.stone_control_circuit","italic":false}
+              "name":{"translate":"ckj_smart_devices.stone_control_circuit","italic":false}
             },
             {
               "function":"minecraft:set_nbt",
-              "tag":"{CustomModelData:126000,ckenja:{id:\"ckenja_smart_devices:stone_control_cirucit\"}}"
+              "tag":"{CustomModelData:126000,ckenja:{id:\"ckj_smart_devices:stone_control_cirucit\"}}"
             }
           ]
         }

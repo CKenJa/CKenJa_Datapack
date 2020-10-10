@@ -1,0 +1,1 @@
+execute if entity @e[tag=ckj_smart_devices_button_lime15] run function ckj_smart_devices:device/work/3dprinter/start

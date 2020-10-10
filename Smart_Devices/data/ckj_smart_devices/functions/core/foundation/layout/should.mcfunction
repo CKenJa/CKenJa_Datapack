@@ -1,0 +1,1 @@
+execute if entity @s[tag=ckj_smart_devices_gui_3dprinter] run function ckj_smart_devices:foundation/layout/3dprinter
