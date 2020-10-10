@@ -1,1 +1,1 @@
-execute if entity @s[tag=ckenja_smart_devices_work_3dprinter] run function ckenja_smart_devices:basic/machines/work/3dprinter
+execute if entity @s[tag=ckenja_smart_devices_work_3dprinter] run function ckj_smart_devices:basic/machines/work/3dprinter

@@ -1,1 +1,1 @@
-execute if entity @e[tag=ckenja_smart_devices_button_lime15] run function ckenja_smart_devices:device/work/3dprinter/start
+execute if entity @e[tag=ckenja_smart_devices_button_lime15] run function ckj_smart_devices:device/work/3dprinter/start

@@ -1,1 +1,1 @@
-function #ckenja_smart_devices:basic/craft
+function #ckj_smart_devices:basic/craft
