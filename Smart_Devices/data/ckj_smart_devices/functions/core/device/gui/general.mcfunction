@@ -1,5 +1,5 @@
 #ckj_smart_devices:core/device/general as @s[tag=ckj_smart_devices_gui] at @s
-#GUI構成ごとに別関数、異物を外に排出後、常時置き換え
+#GUI構成ごとに別関数、異物を外に排出後、常時置き換え。ボタン検知のためtickの最初に行う。
 function #ckj_smart_devices:core/layout
 #ホッパー使うなカス
 execute if block ~ ~-1 ~ hopper{Items:[{tag:{ckenja:{tags:["ckj_smart_devices:gui"]}}}]} run data remove block ~ ~-1 ~ Items[{tag:{ckenja:{tags:["ckj_smart_devices:gui"]}}}]
