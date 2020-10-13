@@ -1,0 +1,12 @@
+{
+    "criteria":{
+      "detect_craft":{
+        "trigger":"minecraft:recipe_unlocked","conditions":{
+          "recipe":"ckenja_smart_devices:foundation/wooden_circuit_board"
+        }
+      }
+    },
+    "rewards": {
+      "function":"ckenja_smart_devices:foundation/recipe/wooden_circuit_board"
+    }
+  }

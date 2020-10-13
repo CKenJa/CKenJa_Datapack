@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "R#R",
+        "WWW"
+    ],
+    "key": {
+        "R": {
+            "item": "minecraft:redstone_torch"
+        },
+        "#": {
+            "item": "minecraft:redstone"
+        },
+        "W": {
+            "item": "minecraft:oak_slab"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

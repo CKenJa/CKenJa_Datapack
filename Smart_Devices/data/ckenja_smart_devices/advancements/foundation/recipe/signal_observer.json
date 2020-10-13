@@ -1,0 +1,12 @@
+{
+    "criteria":{
+      "detect_craft":{
+        "trigger":"minecraft:recipe_unlocked","conditions":{
+          "recipe":"ckenja_smart_devices:foundation/signal_observer"
+        }
+      }
+    },
+    "rewards": {
+      "function":"ckenja_smart_devices:foundation/recipe/signal_observer"
+    }
+  }
