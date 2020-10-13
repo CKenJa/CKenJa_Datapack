@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Domotics",
+        "description": "furniture & technology datapack",
+        "icon": {
+            "item": "minecraft:redstone"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:ckenja",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
