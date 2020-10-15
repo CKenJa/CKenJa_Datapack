@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ barrel{Items:[{Slot:1b,id:"minecraft:barrel"}]} run loot replace block ~ ~ ~ container.16 loot ckenja_domotics:basic/stone_control_circuit

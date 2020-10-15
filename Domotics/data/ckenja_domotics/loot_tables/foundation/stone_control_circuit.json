@@ -1,0 +1,24 @@
+{
+  "type":"minecraft:entity",
+  "pools":[
+    {
+      "rolls":1,
+      "entries":[
+        {
+          "type":"minecraft:item",
+          "name":"minecraft:paper",
+          "functions":[
+            {
+              "function":"minecraft:set_name",
+              "name":{"translate":"ckenja_domotics.stone_control_circuit","italic":false}
+            },
+            {
+              "function":"minecraft:set_nbt",
+              "tag":"{CustomModelData:126000,ckenja:{id:\"ckenja_domotics:stone_control_cirucit\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

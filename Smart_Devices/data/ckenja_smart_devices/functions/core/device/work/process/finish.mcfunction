@@ -1,2 +1,0 @@
-tag @s add ckenja_smart_devices_work_finish
-tag @s remove ckenja_smart_devices_work_processing

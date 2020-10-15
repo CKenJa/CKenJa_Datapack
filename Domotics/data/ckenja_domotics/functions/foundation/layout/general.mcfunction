@@ -1,0 +1,1 @@
+execute if entity @s[tag=ckenja_domotics_gui_3dprinter] run function ckenja_domotics:foundation/layout/3dprinter

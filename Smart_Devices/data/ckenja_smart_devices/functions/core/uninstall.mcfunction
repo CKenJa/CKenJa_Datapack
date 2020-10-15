@@ -1,4 +1,0 @@
-scoreboard objectives remove ckjsd_had_bit
-scoreboard objectives remove ckjsd_req_bit
-scoreboard objectives remove ckjsd_lim_bit
-kill @e[tag=ckenja_smart_devices_device]

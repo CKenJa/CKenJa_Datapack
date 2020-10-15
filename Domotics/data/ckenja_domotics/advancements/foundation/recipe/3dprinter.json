@@ -1,0 +1,12 @@
+{
+    "criteria":{
+      "detect_craft":{
+        "trigger":"minecraft:recipe_unlocked","conditions":{
+          "recipe":"ckenja_domotics:foundation/3dprinter"
+        }
+      }
+    },
+    "rewards": {
+      "function":"ckenja_domotics:foundation/recipe/3dprinter"
+    }
+  }
