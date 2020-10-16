@@ -1,0 +1,1 @@
+execute if entity @s[tag=!ckenja_named] run function ckenja_named:general
