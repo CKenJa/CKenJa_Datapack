@@ -1,4 +1,3 @@
-#ckenja_domotics;core/device/gui/general as @s[tag=ckenja_domotics_gui_3dprinter] at @s
 #空スロットをemptyで埋める
 #execute unless block ~ ~ ~ barrel{Items:[{Slot:1b}]} run replaceitem block ~ ~ ~ container.1 light_gray_stained_glass_pane{display:{Name:'{"text":" "}'},ckenja:{tags:["ckenja_domotics:gui","ckenja_domotics:empty"]}} 1
 #execute unless block ~ ~ ~ barrel{Items:[{Slot:2b}]} run replaceitem block ~ ~ ~ container.2 light_gray_stained_glass_pane{display:{Name:'{"text":" "}'},ckenja:{tags:["ckenja_domotics:gui","ckenja_domotics:empty"]}} 1
