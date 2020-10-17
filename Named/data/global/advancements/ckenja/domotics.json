@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Named Mobs Datapack",
+        "description": "Made by CKenJa",
+        "icon": {
+            "item": "minecraft:name_tag"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:ckenja",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

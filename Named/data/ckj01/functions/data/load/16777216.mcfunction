@@ -1,1 +1,0 @@
-scoreboard players set #16777216 ckj01_data 16777216
