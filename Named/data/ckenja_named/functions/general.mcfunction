@@ -30,4 +30,6 @@ scoreboard players operation #random ckj01_data /= #ckenja_named_denominator ckj
 #execute if score #random ckj01_data matches ..63 run function ckenja_named:enhanced/_63
 #execute if score #random ckj01_data matches 64.. run function ckenja_named:enhanced/64_
 #反映
-data modify entity @s CustomName set from storage ckenja_named CustomName
+data modify entity @s CustomName set from storage ckenja_named: CustomName
+tag @s add ckenja_named
+say hekl
