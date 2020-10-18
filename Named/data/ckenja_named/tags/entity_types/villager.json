@@ -1,0 +1,14 @@
+{
+	"required":false,
+	"values": [
+        "minecraft:villager",
+        "minecraft:illusioner",
+        "minecraft:vindicator",
+        "minecraft:witch",
+        "minecraft:pillager",
+        "minecraft:evoker",
+        "minecraft:ravager",
+        "minecraft:zombie_villager",
+        "minecraft:wandering_trader"
+	]
+} 

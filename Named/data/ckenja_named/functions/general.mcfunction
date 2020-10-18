@@ -1,4 +1,4 @@
-data remove storage ckenja_named: CustomName.[{}]
+data remove storage ckenja_named: CustomName
 #名前
 execute store result score #random ckj01_data run data get entity @s UUID[0] 1
 scoreboard players add #random ckj01_data 1

@@ -1,0 +1,26 @@
+{
+	"required":false,
+	"values": [
+        "minecraft:cat",
+        "minecraft:chicken",
+        "minecraft:cow",
+        "minecraft:donkey",
+        "minecraft:fox",
+        "minecraft:horse",
+        "minecraft:mooshroom",
+        "minecraft:mule",
+        "minecraft:pig",
+        "minecraft:polar_bear",
+        "minecraft:rabbit",
+        "minecraft:rabbit",
+        "minecraft:sheep",
+        "minecraft:skeleton_horse",
+        "minecraft:snow_golem",
+        "minecraft:turtle",
+        "minecraft:iron_golem",
+        "minecraft:wolf",
+        "minecraft:panda",
+        "minecraft:llama",
+        "minecraft:bee"
+	]
+} 

@@ -1,1 +1,1 @@
-execute if entity @s[tag=!ckenja_named] run function ckenja_named:general
+execute if entity @s[tag=!ckenja_named,tag=!global.ignore.gui,tag=!global.ignore] run function ckenja_named:should
