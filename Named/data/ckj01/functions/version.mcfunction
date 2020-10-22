@@ -33,8 +33,5 @@
 #loop_counter ループカウンターその1。
 #数字 数字がそのまま。マイナスは
 
-#####working memory
-##wmで始まるダミープレイヤーは数字の一時記録に使う。他のfunctionから呼び出したりはできないししないでくれ
-
 #####random
 #参考 : https://minecraftcommands.github.io/commanders-handbook/random-number-generation-with-uuids
