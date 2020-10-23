@@ -1,1 +1,1 @@
-execute if score @s ckj01_coas matches 1 run function ckenja_ghost:player/wand
+execute if score @s ckj01_coas matches 1 run function ckenja_ghost:wand/general
