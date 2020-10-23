@@ -13,5 +13,8 @@
         "trigger": {
             "trigger": "minecraft:tick"
         }
+    },
+    "rewards": {
+        "function": "ckenja_named:settings/book"
     }
 }
