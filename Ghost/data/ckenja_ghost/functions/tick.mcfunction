@@ -1,0 +1,1 @@
+execute if score #full_moon ckj01_data matches 1 run function ckenja_ghost:ghost/spawn

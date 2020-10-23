@@ -1,6 +1,8 @@
 {
   "values":[
     "ckj01:data/load/dimension",
-    "ckj01:data/load/4"
+    "ckj01:data/load/8",
+    "ckj01:data/load/24000",
+    "ckj01:data/load/180400"
     ]
 }

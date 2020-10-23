@@ -1,0 +1,13 @@
+
+{
+  "criteria":{
+    "ckenja":{
+      "trigger":"minecraft:recipe_unlocked","conditions":{
+        "recipe":"ckenja_ghost:green"
+      }
+    }
+  },
+  "rewards": {
+    "function":"ckenja_ghost:recipe/green"
+  }
+}

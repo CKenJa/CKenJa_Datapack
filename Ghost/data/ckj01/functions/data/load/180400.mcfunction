@@ -1,0 +1,1 @@
+scoreboard players set #180400 ckj01_data 180400
