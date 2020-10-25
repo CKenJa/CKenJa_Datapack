@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "HPC",
+        "PSP",
+        "CPH"
+    ],
+    "key": {
+        "H": {
+            "item": "minecraft:honeycomb"
+        },
+        "P": {
+            "item": "minecraft:paper"
+        },
+        "C": {
+            "item": "minecraft:carved_pumpkin"
+        },
+        "S": {
+            "item": "minecraft:sugar"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}
