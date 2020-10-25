@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SPE",
+        "P#P",
+        "EPS"
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:soul_lantern"
+        },
+        "P": {
+            "item": "minecraft:paper"
+        },
+        "E": {
+            "item": "minecraft:emerald_block"
+        },
+        "#": {
+            "item": "minecraft:sugar"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}
