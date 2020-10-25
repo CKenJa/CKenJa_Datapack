@@ -1,0 +1,2 @@
+execute store success score #tmp ckj01_data run execute if data entity @s Item.tag.ckenja{id:"ckenja_ghost:summon_candy"} if block ~ ~ ~ minecraft:soul_fire run function ckenja_ghost:candy/summon
+execute unless score #tmp ckj01_data matches 1 run function ckenja_ghost:candy/treat

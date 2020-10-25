@@ -1,0 +1,1 @@
+execute if entity @s[tag=ckenja_ghost_polgui_initial] run function ckenja_ghost:polgui/setup
