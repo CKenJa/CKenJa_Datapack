@@ -5,4 +5,4 @@ execute rotated as @e[type=#ckenja_ghost:target,tag=ckenja_ghost_enemy,limit=1,s
 #攻撃&ノックバック
 execute if entity @e[type=#ckenja_ghost:target,tag=ckenja_ghost_enemy,limit=1,sort=nearest,distance=..1] run function ckenja_ghost:ghost/knockback
 #敵居ないから帰る
-execute unless entity @e[type=#ckenja_ghost:target,tag=ckenja_ghost_enemy,limit=1,sort=nearest,distance=..16] run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].ckenja{tag:["ckenja_ghost:follow"]}
+execute unless entity @e[type=#ckenja_ghost:target,tag=ckenja_ghost_enemy,limit=1,sort=nearest,distance=..16] run say nya-
