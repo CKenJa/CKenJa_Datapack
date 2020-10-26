@@ -1,0 +1,1 @@
+scoreboard players set #1000 ckj01_data 1000
