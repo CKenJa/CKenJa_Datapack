@@ -1,1 +1,1 @@
-tag add @s ckenja_ghost_target
+tag @s add ckenja_ghost_enemy

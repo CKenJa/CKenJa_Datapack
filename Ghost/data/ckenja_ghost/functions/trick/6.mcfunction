@@ -1,0 +1,1 @@
+playsound entity.creeper.primed master @s ~ ~ ~ 4 1
