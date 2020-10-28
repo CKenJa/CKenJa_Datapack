@@ -1,0 +1,2 @@
+summon llama ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,HurtTime:5,AgeLocked:1b,Tame:1b,Strength:5,ChestedHorse:1b,ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2147483647,ShowParticles:0b}]}
+#durationの最大値を調べる、durationの定期更新をscheduleで組む。
