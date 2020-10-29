@@ -1,5 +1,9 @@
 #ポルターガイスト
-execute as @e[tag=ckenja_ghost_polgei,distance=..8,sort=nearest,limit=1] if data entity @s ArmorItem.tag.ckenja{id:"ckenja_ghost:detect_candy"} run function ckenja_ghost:player/polgei
+#
+execute if data entity @s Inventory[{tag:{ckenja:{Tags:["ckenja_ghost:click_polgei"]}}}] run function ckenja_ghost:player/polgei
+
 #ゴースト(キャンディー)
+execute if data entity @s Inventory[{tag:{ckenja:{Tags:["ckenja_ghost:click_candy"]}}}] run function ckenja_ghost:player/candy
 
 #ゴースト(シレイのツエ)
+execute if data entity @s Inventory[{tag:{ckenja:{Tags:["ckenja_ghost:click_wand"]}}}] run function ckenja_ghost:player/wand

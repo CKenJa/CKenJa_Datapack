@@ -3,6 +3,7 @@ execute if entity @s[tag=ckenja_ghost_follow] run function ckenja_ghost:ghost/fo
 
 #攻撃モード
 execute if entity @s[tag=ckenja_ghost_attack] unless score @s ckenja_ghost2 matches 1.. run function ckenja_ghost:ghost/attack
+execute if entity @s[tag=ckenja_ghost_attack] run scoreboard players remove @s ckenja_ghost2 1
 
 #待機モード
 execute if entity @s[tag=ckenja_ghost_stand] run function ckenja_ghost:ghost/stand
