@@ -1,2 +1,3 @@
-effect give @s wither 1 1 true
-summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:emerald",Count:1b}}
+execute store success score #tmp ckj01_data run tp @s ^ ^ ^0.4 facing entity @e[type=minecraft:villager,limit=1]
+execute if score #tmp ckj01_data matches 1 as @e[type=minecraft:villager,limit=1,distance=..1] run function ckenja_ghost:ability/surprise2
+execute if score #tmp ckj01_data matches 0 run function ckenja_ghost:ability/remove

@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CPA",
+        "PSP",
+        "APC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:chorus_fruit"
+        },
+        "P": {
+            "item": "minecraft:paper"
+        },
+        "A": {
+            "item": "minecraft:apple"
+        },
+        "S": {
+            "item": "minecraft:sugar"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}
