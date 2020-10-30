@@ -1,0 +1,12 @@
+{
+  "criteria":{
+    "ckenja":{
+      "trigger":"minecraft:recipe_unlocked","conditions":{
+        "recipe":"ckenja_ghost:wand"
+      }
+    }
+  },
+  "rewards": {
+    "function":"ckenja_ghost:recipe/wand"
+  }
+}

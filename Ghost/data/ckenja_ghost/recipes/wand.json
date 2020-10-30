@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      " GC",
+      " BG",
+      "B  "
+  ],
+  "key": {
+      "G": {
+          "item": "minecraft:ghast_tear"
+      },
+      "C": {
+          "item": "minecraft:coal"
+      },
+      "B": {
+          "item": "minecraft:bone"
+      }
+  },
+  "result": {
+      "item": "minecraft:knowledge_book",
+      "count": 1
+  }
+}
