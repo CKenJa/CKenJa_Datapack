@@ -5,3 +5,5 @@ execute if entity @s[tag=ckenja_ghost_ghost] run function ckenja_ghost:wand/ghos
 #攻撃対象か
 execute unless entity @s[type=armor_stand,tag=ckenja_ghost_ghost] at @s as @e[type=#ckenja_ghost:enemy,distance=..4,tag=!global.ignore.kill,tag=!global.ignore.gui,tag=!global.ignore] run function ckenja_ghost:wand/enemy
 tag @s remove ckenja_ghost_target
+
+scoreboard players set #tmp4 ckj01_data 1

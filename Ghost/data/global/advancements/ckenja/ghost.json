@@ -3,7 +3,8 @@
         "title": "Ghost Datapack",
         "description": "Made by CKenJa",
         "icon": {
-            "item": "minecraft:name_tag"
+            "item": "minecraft:pumpkin",
+            "nbt": "{CustomModelData:126005}"
         },
         "announce_to_chat": false,
         "show_toast": false
