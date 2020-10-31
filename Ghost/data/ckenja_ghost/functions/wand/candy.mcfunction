@@ -1,0 +1,1 @@
+clear @s pumpkin_pie{tag:{ckenja:{Tags:["ckenja_ghost:candy"]}}} 1

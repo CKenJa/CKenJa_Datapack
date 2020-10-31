@@ -1,0 +1,2 @@
+execute store success score #tmp6 ckj01_data run execute unless entity @s[tag=ckenja_ghost_stand] run function ckenja_ghost:wand/ghost/tag
+execute if score #tmp6 ckj01_data matches 0 run execute if entity @s[tag=ckenja_ghost_stand] run function ckenja_ghost:wand/ghost/follow

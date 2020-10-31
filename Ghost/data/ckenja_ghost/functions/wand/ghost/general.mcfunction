@@ -1,0 +1,2 @@
+execute unless score #tmp5 ckj01_data matches 1 if entity @s[tag=!ckenja_ghost_young,tag=!ckenja_ghost_ability] run function ckenja_ghost:wand/ghost/ability
+execute if score #tmp5 ckj01_data matches 1 run function ckenja_ghost:wand/ghost/stand

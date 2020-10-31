@@ -13,3 +13,11 @@ execute if entity @s[tag=ckenja_ghost_ability] run function ckenja_ghost:ability
 
 #水に弱いの
 execute if block ~ ~1 ~ water run function ckenja_ghost:ghost/death
+
+#わーいキャンディーだー
+execute store success score #tmp ckj01_data run execute as @e[distance=..2,nbt={Item:{tag:{ckenja:{Tags:["ckenja_ghost:candy"]}}}}] run function ckenja_ghost:ghost/candy
+execute if score #tmp ckj01_data matches 1 run function ckenja_ghost:ghost/treat
+
+#お菓子をくれなきゃいたずら以下略
+scoreboard players add @s ckenja_ghost3 1
+execute if score @s ckenja_ghost3 > #240000 ckj01_data if predicate ckj01:random/0.00006103515 run function ckenja_ghost:trick/general
