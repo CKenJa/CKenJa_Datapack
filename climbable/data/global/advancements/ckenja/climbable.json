@@ -1,0 +1,17 @@
+{
+  "display": {
+      "title": "climable",
+      "description": "Convenient Datapacks",
+      "icon": {
+          "item": "minecraft:ladder"
+      },
+      "announce_to_chat": false,
+      "show_toast": false
+  },
+  "parent": "global:ckenja/utilities",
+  "criteria": {
+      "trigger": {
+          "trigger": "minecraft:tick"
+      }
+  }
+}

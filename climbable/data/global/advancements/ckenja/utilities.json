@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Utilities",
+        "description": "Convenient Datapacks",
+        "icon": {
+            "item": "minecraft:crafting_table"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:ckenja",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
