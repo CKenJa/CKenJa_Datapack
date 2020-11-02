@@ -1,9 +1,9 @@
 {
   "display": {
-      "title": "Climbable",
-      "description": "More climbable blocks.",
+      "title": "Bit Bucket",
+      "description": "Store a infinity of one item.",
       "icon": {
-          "item": "minecraft:ladder"
+          "item": "minecraft:bucket"
       },
       "announce_to_chat": false,
       "show_toast": false
