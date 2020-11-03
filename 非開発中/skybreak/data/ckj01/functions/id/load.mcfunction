@@ -1,1 +1,0 @@
-scoreboard objectives add ckj01_id dummy

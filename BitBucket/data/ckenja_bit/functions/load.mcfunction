@@ -1,0 +1,2 @@
+scoreboard objectives add ckenja_bit trigger
+scoreboard objectives add ckenja_bit_ic dummy

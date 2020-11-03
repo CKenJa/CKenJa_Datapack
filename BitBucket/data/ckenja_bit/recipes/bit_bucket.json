@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#L#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:chest"
+        },
+        "L": {
+            "item": "minecraft:lava_bucket"
+        }
+    },
+    "result": {
+        "item": "minecraft:bucket",
+        "count": 1
+    }
+}
