@@ -1,5 +1,6 @@
 {
     "values": [
-        "ckenja_null:load"
+        "ckenja_null:load",
+        "ckj01:data/load"
     ]
 }
