@@ -1,0 +1,10 @@
+{
+    "criteria":{
+      "ckenja":{
+        "trigger":"minecraft:inventory_changed"
+      }
+    },
+    "rewards": {
+      "function":"ckenja_bit:inventory_changed"
+    }
+  }

@@ -1,0 +1,1 @@
+scoreboard players set @s ckenja_bit_ic 1

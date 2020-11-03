@@ -1,0 +1,2 @@
+scoreboard objectives remove ckenja_bit
+scoreboard objectives remove ckenja_bit_ic
