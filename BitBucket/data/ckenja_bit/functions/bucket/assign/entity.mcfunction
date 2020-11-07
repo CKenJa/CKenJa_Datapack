@@ -1,5 +1,5 @@
 #データが一致してるか?
-data modify storage ckenja_bit: Stack[0] set from storage ckenja_bit: Tmp
+data modify storage ckenja_bit: Tmp set from storage ckenja_bit: Inventory[0]
 ##エンティティデータをコピー
 data modify storage ckenja_bit: Item set from entity @s Item
 ##tag.ckenja_bitを消す
