@@ -6,7 +6,7 @@ data modify storage ckenja_bit: Tmp set from storage ckenja_bit: Inventory
 execute store result score #tmp3 ckj01_data run data get storage ckenja_bit: Tmp
 ##異なる要素数
 execute store result score #tmp4 ckj01_data run data modify storage ckenja_bit: Tmp[] merge from storage ckenja_bit: Tmp[0]
-##要素の数 - 異なる要素の数 = ..1 なら同種が複数ある。
+##要素の数 - 異なる要素の数 = ..1 なら同じ要素が複数ある。
 scoreboard players operation #tmp3 ckj01_data -= #tmp4 ckj01_data
 execute if score #tmp3 ckj01_data matches ..1 run function ckenja_bit:bucket/integrate/general
 
@@ -17,5 +17,5 @@ execute if score #tmp3 ckj01_data < #64 ckj01_data run function ckenja_bit:bucke
 #制作スロットに入ったバケツは分解する。
 
 
-#周囲に投げたバケツがあった場合は通常アイテムに変換する。
+#周囲に同種のバケツentityがあった場合は通常アイテムに変換する。
 execute as @e[type=item,tag=!ckenja_bit,tag=!global.ignore,tag=!global.ignore.kill,distance=..2,nbt={Item:{tag:{ckenja:{ckenja_bit:{}}}}}] run function ckenja_bit:bucket/drop/general

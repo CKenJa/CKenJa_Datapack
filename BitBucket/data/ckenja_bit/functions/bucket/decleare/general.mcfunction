@@ -4,8 +4,10 @@
 
 #SelectedItem処理
 execute store result score #tmp2 ckj01_data run data get entity @s SelectedItemSlot
+#UUIDをつける
+summon area_effect_cloud ~ ~ ~ {Duration:0,Tags:["ckenja_bit"]}
 #idとcount代入して
-#二分探索めんどくさーい。うつくしくなーい
+##二分探索めんどくさーい。うつくしくなーい
 execute if score #tmp2 ckj01_data matches 0 run function ckenja_bit:bucket/decleare/0
 execute if score #tmp2 ckj01_data matches 1 run function ckenja_bit:bucket/decleare/1
 execute if score #tmp2 ckj01_data matches 2 run function ckenja_bit:bucket/decleare/2
