@@ -1,1 +1,1 @@
-execute anchored feet as @e[distance=..2,tag=!ckenja_bit,tag=!global.ignore,tag=!global.ignore.kill] run function ckenja_bit:bucket/assign/entity
+execute anchored feet as @e[distance=..2,tag=!ckenja_bit,tag=!global.ignore,tag=!global.ignore.kill] unless data entity @s Item.tag.ckenja_bit run function ckenja_bit:bucket/assign/entity
