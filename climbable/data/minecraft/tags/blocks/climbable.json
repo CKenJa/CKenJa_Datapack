@@ -106,7 +106,6 @@
     "minecraft:jungle_fence_gate",
     "minecraft:acacia_fence_gate",
     "minecraft:dark_oak_fence_gate",
-    "minecraft:crimson_fence_gate",
-    "minecraft:void_air"
+    "minecraft:crimson_fence_gate"
   ]
 }
