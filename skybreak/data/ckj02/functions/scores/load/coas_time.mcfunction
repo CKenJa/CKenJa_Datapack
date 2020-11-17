@@ -1,0 +1,1 @@
+scoreboard objectives add ckj02_coas_time minecraft.used:minecraft.carrot_on_a_stick

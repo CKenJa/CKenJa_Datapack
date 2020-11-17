@@ -1,0 +1,1 @@
+execute unless score @s ckj02_coas matches 1.. run scoreboard players set @s ckj02_coas_time 0
