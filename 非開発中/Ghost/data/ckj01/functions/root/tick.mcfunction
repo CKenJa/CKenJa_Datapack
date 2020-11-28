@@ -5,8 +5,8 @@ function #ckj01:root/before_entity/standard
 function #ckj01:root/before_entity/late
 
 #プレイヤーとエンティティでも似たようなことする
-execute as @a run function ckj01:root/player
-execute as @e[type=!player] run function ckj01:root/entity
+execute as @a at @s run function ckj01:root/player
+execute as @e[type=!player] at @s run function ckj01:root/entity
 
 #スコアボードの読み込みはroot/playerで行っている。
 
