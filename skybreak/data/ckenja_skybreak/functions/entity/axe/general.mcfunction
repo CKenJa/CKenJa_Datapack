@@ -1,0 +1,1 @@
+scoreboard players set @s ckenja_sb_test 20

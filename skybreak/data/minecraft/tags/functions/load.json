@@ -1,5 +1,7 @@
 {
     "values": [
-        "ckenja.skybreak:load"
+        "ckenja_skybreak:load",
+        "ckj02:data/load",
+        "ckj02:scores/load/coas"
     ]
 }
