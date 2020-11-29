@@ -38,33 +38,38 @@ execute if score @s ckenja_diluc matches 20 run data merge entity @s {Pose:{Righ
 
 
 #パーティクルが飛ぶ。剣を燃やすのはムリゲーじゃね?
-execute if score @s ckenja_diluc matches 41 run data merge entity @s {Pose:{RightArm:[265f,0f,90f],Rotation:[0f]}}
-execute if score @s ckenja_diluc matches 42 run data merge entity @s {Pose:{RightArm:[260f,0f,90f],Rotation:[5f]}}
-execute if score @s ckenja_diluc matches 43 run data merge entity @s {Pose:{RightArm:[255f,0f,90f],Rotation:[10f]}}
-execute if score @s ckenja_diluc matches 44 run data merge entity @s {Pose:{RightArm:[250f,0f,90f],Rotation:[15f]}}
-execute if score @s ckenja_diluc matches 45 run data merge entity @s {Pose:{RightArm:[245f,0f,90f],Rotation:[25f]}}
-execute if score @s ckenja_diluc matches 46 run data merge entity @s {Pose:{RightArm:[240f,0f,90f],Rotation:[30f]}}
-execute if score @s ckenja_diluc matches 47 run data merge entity @s {Pose:{RightArm:[235f,0f,90f],Rotation:[35f]}}
-execute if score @s ckenja_diluc matches 48 run data merge entity @s {Pose:{RightArm:[230f,0f,90f],Rotation:[40f]}}
-execute if score @s ckenja_diluc matches 49 run data merge entity @s {Pose:{RightArm:[225f,0f,90f],Rotation:[45f]}}
-execute if score @s ckenja_diluc matches 50 run data merge entity @s {Rotation:[60f]}}
-execute if score @s ckenja_diluc matches 50 run data merge entity @s {Rotation:[75f]}}
-execute if score @s ckenja_diluc matches 50 run data merge entity @s {Rotation:[90f]}}
-execute if score @s ckenja_diluc matches 50 run data merge entity @s {Rotation:[105f]}}
-execute if score @s ckenja_diluc matches 50 run data merge entity @s {Rotation:[120f]}}
-execute if score @s ckenja_diluc matches 50 run data merge entity @s {Rotation:[135f]}}
-execute if score @s ckenja_diluc matches 50 run data merge entity @s {Rotation:[150f]}}
-execute if score @s ckenja_diluc matches 50 run data merge entity @s {Rotation:[165f]}}
-execute if score @s ckenja_diluc matches 50 run data merge entity @s {Rotation:[180f]}}
-execute if score @s ckenja_diluc matches 50 run data merge entity @s {Rotation:[195f]}}
-execute if score @s ckenja_diluc matches 50 run data merge entity @s {Rotation:[210f]}}
-execute if score @s ckenja_diluc matches 50 run data merge entity @s {Rotation:[225f]}}
-execute if score @s ckenja_diluc matches 50 run data merge entity @s {Rotation:[240f]}}
-execute if score @s ckenja_diluc matches 50 run data merge entity @s {Rotation:[255f]}}
-execute if score @s ckenja_diluc matches 50 run data merge entity @s {Rotation:[270f]}}
-execute if score @s ckenja_diluc matches 50 run data merge entity @s {Rotation:[285f]}}
-execute if score @s ckenja_diluc matches 50 run data merge entity @s {Rotation:[300f]}}
-execute if score @s ckenja_diluc matches 50 run data merge entity @s {Rotation:[315f]}}
-execute if score @s ckenja_diluc matches 50 run data merge entity @s {Rotation:[330f]}}
-execute if score @s ckenja_diluc matches 50 run data merge entity @s {Rotation:[345f]}}
-execute if score @s ckenja_diluc matches 50 run data merge entity @s {Rotation:[360f]}}
+execute if score @s ckenja_diluc matches 41 run data merge entity @s {Rotation:[0f,0f],Pose:{RightArm:[265f,0f,90f]}}
+execute if score @s ckenja_diluc matches 42 run data merge entity @s {Rotation:[5f,0f],Pose:{RightArm:[260f,0f,90f]}}
+execute if score @s ckenja_diluc matches 43 run data merge entity @s {Rotation:[10f,0f],Pose:{RightArm:[255f,0f,90f]}}
+execute if score @s ckenja_diluc matches 44 run data merge entity @s {Rotation:[15f,0f],Pose:{RightArm:[250f,0f,90f]}}
+execute if score @s ckenja_diluc matches 45 run data merge entity @s {Rotation:[25f,0f],Pose:{RightArm:[245f,0f,90f]}}
+execute if score @s ckenja_diluc matches 46 run data merge entity @s {Rotation:[30f,0f],Pose:{RightArm:[240f,0f,90f]}}
+execute if score @s ckenja_diluc matches 47 run data merge entity @s {Rotation:[35f,0f],Pose:{RightArm:[235f,0f,90f]}}
+execute if score @s ckenja_diluc matches 48 run data merge entity @s {Rotation:[40f,0f],Pose:{RightArm:[230f,0f,90f]}}
+execute if score @s ckenja_diluc matches 49 run data merge entity @s {Rotation:[45f,0f],Pose:{RightArm:[225f,0f,90f]}}
+execute if score @s ckenja_diluc matches 50 run data merge entity @s {Rotation:[60f,0f]}
+execute if score @s ckenja_diluc matches 51 run data merge entity @s {Rotation:[75f,0f]}
+execute if score @s ckenja_diluc matches 52 run data merge entity @s {Rotation:[90f,0f]}
+execute if score @s ckenja_diluc matches 53 run data merge entity @s {Rotation:[105f,0f]}
+execute if score @s ckenja_diluc matches 54 run data merge entity @s {Rotation:[120f,0f]}
+execute if score @s ckenja_diluc matches 55 run data merge entity @s {Rotation:[135f,0f]}
+execute if score @s ckenja_diluc matches 56 run data merge entity @s {Rotation:[150f,0f]}
+execute if score @s ckenja_diluc matches 57 run data merge entity @s {Rotation:[165f,0f]}
+execute if score @s ckenja_diluc matches 58 run data merge entity @s {Rotation:[180f,0f]}
+execute if score @s ckenja_diluc matches 59 run data merge entity @s {Rotation:[195f,0f]}
+execute if score @s ckenja_diluc matches 60 run data merge entity @s {Rotation:[210f,0f]}
+execute if score @s ckenja_diluc matches 61 run data merge entity @s {Rotation:[225f,0f]}
+execute if score @s ckenja_diluc matches 62 run data merge entity @s {Rotation:[240f,0f]}
+execute if score @s ckenja_diluc matches 63 run data merge entity @s {Rotation:[255f,0f]}
+execute if score @s ckenja_diluc matches 64 run data merge entity @s {Rotation:[270f,0f]}
+execute if score @s ckenja_diluc matches 65 run data merge entity @s {Rotation:[285f,0f]}
+execute if score @s ckenja_diluc matches 66 run data merge entity @s {Rotation:[300f,0f]}
+execute if score @s ckenja_diluc matches 67 run data merge entity @s {Rotation:[315f,0f]}
+execute if score @s ckenja_diluc matches 68 run data merge entity @s {Rotation:[330f,0f]}
+execute if score @s ckenja_diluc matches 69 run data merge entity @s {Rotation:[345f,0f]}
+execute if score @s ckenja_diluc matches 70 run data merge entity @s {Rotation:[360f,0f]}
+
+
+execute if score @s ckenja_diluc matches 40..70 run teleport @s ~ ~ ~0.1
+
+scoreboard players add @s ckenja_diluc 1
