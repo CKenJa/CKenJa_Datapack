@@ -1,0 +1,1 @@
+data modify entity @s Pose set from storage ckenja_anime: entity_data.Pose
