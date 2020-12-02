@@ -1,1 +1,0 @@
-scoreboard players set @s ckenja_anime 0
