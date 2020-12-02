@@ -1,2 +1,2 @@
-execute store result score #tmp1 ckj02_data run data get storage ckenja_anime: Tmp[0].Time
-execute unless score @s ckenja_anime <= #tmp1 ckj02_data run function ckenja_anime:common/rotate
+execute store result score $tmp1 ckj02_data run data get storage ckenja_anime: Tmp[0].time
+execute unless score @s ckenja_anime <= $tmp1 ckj02_data unless data storage ckenja_anime: Tmp[0].end run function ckenja_anime:common/rotate
