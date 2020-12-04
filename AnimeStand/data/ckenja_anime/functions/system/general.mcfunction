@@ -1,4 +1,5 @@
 data modify storage ckenja_anime: EntityData set from entity @s
+scoreboard players operation $tmp2 ckj02_data = @s ckenja_anime
 
 #RotationX
 execute if data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].ckenja_anime.RotationX[{end:1b}] run function ckenja_anime:rotationx/general
