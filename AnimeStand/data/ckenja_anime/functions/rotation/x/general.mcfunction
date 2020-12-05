@@ -2,8 +2,7 @@ data modify storage ckenja_anime: Tmp set from storage oh_my_dat: _[-4][-4][-4][
 #直後の予定データを探す
 function ckenja_anime:common/seek
 #deactiveやendでないなら処理する。
-execute unless data storage ckenja_anime: Tmp[0].deactive unless data storage ckenja_anime: Tmp[0].end run function ckenja_anime:rotationx/processing
-
+execute unless data storage ckenja_anime: Tmp[0].deactive unless data storage ckenja_anime: Tmp[0].end run function ckenja_anime:rotation/x/processing
 
 #うるせぇソートとかめんどくせぇ！
 #timeデータだけのリストを作る
