@@ -1,5 +1,5 @@
 #値取得
-execute store result score $tmp3 ckj02_data run data get storage ckenja_anime: Tmp[0].value 100
+execute store result score $tmp3 ckj02_data run data get storage ckenja_anime: Tmp.Compound.value 100
 execute store result score $tmp4 ckj02_data run data get storage ckenja_anime: EntityData.Rotation[0] 100
 
 #計算
