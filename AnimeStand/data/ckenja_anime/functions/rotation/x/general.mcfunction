@@ -1,4 +1,4 @@
-data modify storage ckenja_anime: Tmp.List set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].ckenja_anime.RotationX
+data modify storage ckenja_anime: Tmp.List set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].ckenja_anime.Rotation.X
 #直後の予定データを探す
 function ckenja_anime:common/seek
 #deactiveやendでないなら処理する。
