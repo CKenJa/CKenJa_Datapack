@@ -9,10 +9,10 @@ execute if entity @s[tag=!ckenja_pot_comp] run function ckenja_pot:entity/item/g
 #受付終了を検知したら、スープを作る配布して止まる。
 execute if entity @s[tag=ckenja_pot_comp] run function ckenja_pot:entity/comp/general
 
-#アマスタの頭にボウルを装備させて、落ちるエフェクトで充填して、渡す。
 
 
 #周りのプレイヤーを盲目に
-effect give @a[distance=..4] blindness 1
+effect give @a[distance=..4] blindness 5
 
 #常時怪しい感じのエフェクトをくるくる回すportalとwitch
+particle witch ~ ~1 ~ 0.25 0.25 0.25 1 1 normal

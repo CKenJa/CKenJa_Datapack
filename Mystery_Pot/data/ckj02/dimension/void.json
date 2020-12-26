@@ -1,0 +1,19 @@
+{
+    "type": "ckj02:void",
+    "generator": {
+        "seed": 0,
+        "type": "minecraft:flat",
+        "settings": {
+            "structures": {
+                "structures": {}
+            },
+            "layers": [
+                {
+                    "height": 1,
+                    "block": "minecraft:air"
+                }
+            ],
+        "biome": "minecraft:the_void"
+        }
+    }
+}

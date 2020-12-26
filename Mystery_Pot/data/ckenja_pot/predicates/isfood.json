@@ -4,7 +4,7 @@
     "predicate": {
       "equipment": {
         "mainhand": {
-          "tag": "ckenja_pot:all_food"
+          "tag": "ckenja_pot:isfood"
         }
       }
     }
