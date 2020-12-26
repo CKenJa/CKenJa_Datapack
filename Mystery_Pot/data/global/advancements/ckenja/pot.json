@@ -1,9 +1,9 @@
 {
     "display": {
-        "title": "Named Mobs Datapack",
-        "description": "Made by CKenJa",
+        "title": "Alchmystery Pot Datapack",
+        "description": "Is this Alchemy?",
         "icon": {
-            "item": "minecraft:name_tag"
+            "item": "minecraft:dried_kelp"
         },
         "announce_to_chat": false,
         "show_toast": false
@@ -13,8 +13,5 @@
         "trigger": {
             "trigger": "minecraft:tick"
         }
-    },
-    "rewards": {
-        "function": "ckenja_named:settings/book"
     }
 }
