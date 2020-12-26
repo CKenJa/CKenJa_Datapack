@@ -1,2 +1,2 @@
-execute if entity @s[type=item] if data entity @s Item{id:"minecraft:water_bucket"} if block ~ ~-0.5 ~ minecraft:cauldron if block ~ ~-1.5 ~ minecraft:soul_campfire run function ckenja_pot:entity/start
+execute if entity @s[type=item] if data entity @s Item{id:"minecraft:black_dye"} align xyz if block ~ ~-1 ~ minecraft:cauldron[level=3] if block ~ ~-1 ~ minecraft:soul_campfire run function ckenja_pot:entity/start
 execute if entity @s[type=armor_stand,tag=ckenja_pot_entity] run function ckenja_pot:entity/general

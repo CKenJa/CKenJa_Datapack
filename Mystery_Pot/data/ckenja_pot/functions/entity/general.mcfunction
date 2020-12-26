@@ -1,10 +1,18 @@
+#Ohy My Dat!
+function oh_my_dat:please
+
 execute if entity @s[tag=ckenja_pot_initial] run function ckenja_pot:entity/init
-#受付中ならアイテムを受け取る
-#(ブーツのckenja_pos.nameasリストの中にアイテム名translateJSONを)
-#(エフェクトをckenja_pos.Item.tag.Effectsの中に入れる)
-#周りの人のUUIDをckenja_pos.UUIDsの中に入れる
+
+#受付中ならアマスタ君のクリック検知アイテムを受け取る
+execute if entity @s[tag=!ckenja_pot_comp] run function ckenja_pot:entity/item
 
 #受付終了を検知したら、スープを作る配布して止まる。
-execute if entity @s[tag=ckenja_pot_comp]
+execute if entity @s[tag=ckenja_pot_comp] run function ckenja_pot:entity/comp/general
 
 #アマスタの頭にボウルを装備させて、落ちるエフェクトで充填して、渡す。
+
+
+#周りのプレイヤーを盲目に
+effect give @a[distance=..4] blindness 1
+
+#常時怪しい感じのエフェクトをくるくる回すportalとwitch
