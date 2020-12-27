@@ -6,10 +6,10 @@ execute if entity @s[tag=!ckenja_pot_tekitou] run function ckenja_pot:entity/com
 #1の時 : 頭スロットをボウルに
 execute if score @s ckenja_pot matches 1 run replaceitem entity @s armor.head bowl 1
 #注入エフェクト
-#/particle item chorus_plant ~ ~3 ~ 0.125 0.125 0.125 0 16 normal
+#/particle falling_obsidian_tear ~ ~3 ~ 0.125 0.125 0.125 0 32 normal
 
 #10の時：注入開始
-execute if score @s ckenja_pot matches 10 run particle falling_obsidian_tear ~ ~3 ~ 0.125 0.125 0.125 0 32 normal
+execute if score @s ckenja_pot matches 10 run particle item chorus_plant ~ ~3 ~ 0.125 0.125 0.125 0 16 normal
 
 #30の時：頭スロットを不思議スープに
 execute if score @s ckenja_pot matches 30 run replaceitem entity @s armor.head suspicious_stew 1

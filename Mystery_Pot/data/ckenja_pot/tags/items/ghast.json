@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:ghast_tear",
+        "turtle_helmet",
+        "turtle_egg",
+        "scute",
+        "golden_apple",
+        "enchanted_golden_apple",
+        "book",
+        "enchanted_book"
+    ]
+  }

@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:wither_skeleton_skull",
+        "wither_rose",
+        "nether_star",
+        "nether_sprouts",
+        "beacon",
+        "diamond"
+    ]
+  }

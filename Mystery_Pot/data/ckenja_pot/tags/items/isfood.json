@@ -2,6 +2,25 @@
     "replace": false,
     "values": [
         "#ckenja_pot:dried_kelp",
-        "#ckenja:kelp"
+        "#ckenja_pot:kelp",
+        "#ckenja_pot:lily_of_the_valley",
+        "#ckenja_pot:suagr",
+        "#ckenja_pot:unluckey",
+        "#ckenja_pot:chorus",
+        "#ckenja_pot:powder",
+        "#ckenja_pot:flower",
+        "#ckenja_pot:cacao",
+        "#ckenja_pot:melon",
+        "#ckenja_pot:raw",
+        "#ckenja_pot:magma",
+        "#ckenja_pot:meat",
+        "#ckenja_pot:egg",
+        "#ckenja_pot:luckey",
+        "#ckenja_pot:apple",
+        "#ckenja_pot:bread",
+        "#ckenja_pot:wither",
+        "#ckenja_pot:blaze",
+        "#ckenja_pot:ghast",
+        "#ckenja_pot:pumpkin"
     ]
   }

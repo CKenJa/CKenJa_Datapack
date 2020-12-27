@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:dandelion",
+        "minecraft:cornflower",
+        "minecraft:cocoa_beans",
+        "cookie",
+        "honey_bottle",
+        "honey_block"
+    ]
+  }

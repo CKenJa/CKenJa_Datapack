@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:cod",
+        "salmon",
+        "golden_carrot",
+        "bone",
+        "bone_block"
+    ]
+  }

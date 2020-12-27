@@ -5,7 +5,7 @@ execute unless predicate ckenja_pot:isfood run function ckenja_pot:entity/drop/h
 execute in ckj02:void run function ckenja_pot:entity/item/translate
 
 #エフェクトをckenja_pos.Effectsの中に入れる。後でAECに代入して使う。
-execute if predicate ckenja_pot:kelp run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].ckenja_pot.Item.Effects append value {Id:13,Amplifier:0b,Duration:12000,ShowParticles:0b}
+function #ckenja_pot:ingredients
 
 #乾燥昆布で強制終了
 execute if predicate ckenja_pot:dried_kelp run tag @s add ckenja_pot_comp

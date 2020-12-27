@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:pufferfish",
+        "minecraft:rabbit_stew",
+        "carrot",
+        "carrot_on_a_stick"
+    ]
+  }

@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:pumpkin",
+        "red_mushroom",
+        "mushroom_stem",
+        "mushroom_stew",
+        "brown_mushroom",
+        "brown_mushroom_block",
+        "red_mushroom_block"
+    ]
+  }

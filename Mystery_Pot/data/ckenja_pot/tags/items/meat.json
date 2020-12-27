@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:allium",
+        "cooked_mutton",
+        "cooked_beef",
+        "cooked_porkchop",
+        "#minecraft:wool"
+    ]
+  }
