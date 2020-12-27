@@ -22,5 +22,5 @@ execute if predicate ckenja_pot:pumpkin run function ckenja_pot:ingredients/pump
 
 #execute if predicate ckenja_pot:! run function ckenja_pot:ingredients/!
 
-data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].ckenja_pot.Item.tag.ckenja_pot.Effects append from storage ckenja_pot: Effects
+data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].ckenja_pot.Item.tag.ckenja_pot.Effects set from storage ckenja_pot: Effects
 data remove storage ckenja_pot: Effects

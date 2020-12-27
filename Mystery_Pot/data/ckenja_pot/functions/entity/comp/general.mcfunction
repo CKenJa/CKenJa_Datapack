@@ -9,10 +9,10 @@ execute if score @s ckenja_pot matches 1 run replaceitem entity @s armor.head bo
 #/particle falling_obsidian_tear ~ ~3 ~ 0.125 0.125 0.125 0 32 normal
 
 #10の時：注入開始
-execute if score @s ckenja_pot matches 10 run particle item chorus_plant ~ ~3 ~ 0.005 0.005 0.005 0 16 normal
+execute if score @s ckenja_pot matches 14 run particle item suspicious_stew ~ ~3 ~ 0.005 0.005 0.005 0 16 normal
 
 #30の時：頭スロットを不思議スープに
-execute if score @s ckenja_pot matches 30 run replaceitem entity @s armor.head suspicious_stew 1
+execute if score @s ckenja_pot matches 20 run replaceitem entity @s armor.head suspicious_stew 1
 
 #40の時：ドロップ、スコアリセット、終了ならkill
 execute if score @s ckenja_pot matches 40 run function ckenja_pot:entity/comp/40

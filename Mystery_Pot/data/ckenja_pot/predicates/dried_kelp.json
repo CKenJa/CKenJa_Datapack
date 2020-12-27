@@ -4,7 +4,7 @@
     "predicate": {
       "equipment": {
         "mainhand": {
-          "tag": "ckenja:dried_kelp"
+          "tag": "ckenja_pot:dried_kelp"
         }
       }
     }
