@@ -1,1 +1,0 @@
-replaceitem entity @s armor.head bowl 1

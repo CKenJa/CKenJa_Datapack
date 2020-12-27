@@ -10,7 +10,7 @@
             "predicate": {
               "equipment": {
                 "mainhand": {
-                  "nbt": "{ctc:{id:\"dark_pot\",from:\"ckenja_pot:\"}}"
+                  "nbt": "{ctc:{id:\"alchemystery_pot\",from:\"ckenja_pot:\"}}"
                 }
               }
             }

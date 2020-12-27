@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "minecraft:dried_kelp"
+        "#ckenja_pot:dried_kelp",
+        "#ckenja:kelp"
     ]
   }

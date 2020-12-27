@@ -6,3 +6,5 @@ execute if score @s ckenja_pot < #minimum ckenja_pot run scoreboard players oper
 #アンカー
 #data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].ckenja_pot.players prepend value [I;0,0,0,0,0]
 tag @s remove ckenja_pot_initial
+#アイテムの設定
+data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].ckenja_pot.Item set value {id:"minecraft:suspicious_stew",count:1b,tag:{ctc:{id:"alchemystery_pot",from:"ckenja_pot:"}}}
