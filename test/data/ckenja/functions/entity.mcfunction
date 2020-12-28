@@ -1,1 +1,0 @@
-execute if entity @s[tag=test] run function ckenja:test
