@@ -1,0 +1,12 @@
+{
+  "criteria":{
+    "craft":{
+      "trigger":"minecraft:recipe_unlocked","conditions":{
+        "recipe":"ckenja_piglinvation:craft/nexus"
+      }
+    }
+  },
+  "rewards": {
+  "function":"ckenja_piglinvation:craft/nexus"
+  }
+}
