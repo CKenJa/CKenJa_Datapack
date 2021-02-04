@@ -1,0 +1,1 @@
+execute if entity @e[tag=ckenja_cut8_cube_totu] run function ckenja_cut8:entity/cube/totu
