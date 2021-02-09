@@ -1,1 +1,0 @@
-execute unless predicate ckj02:sneak run scoreboard players set @s ckj02_sneak 0

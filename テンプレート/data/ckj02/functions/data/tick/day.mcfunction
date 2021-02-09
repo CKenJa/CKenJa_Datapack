@@ -1,1 +1,0 @@
-execute store result score #day ckj02_data run time query day
