@@ -1,0 +1,1 @@
+scoreboard objectives add ckj_piglinvation dummy

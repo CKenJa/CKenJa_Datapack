@@ -1,1 +1,0 @@
-scoreboard players set success regex 0

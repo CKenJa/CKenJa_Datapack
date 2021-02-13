@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Piglinvation",
+        "description": "They are not Piglin Brute, but they are brutes.",
+        "icon": {
+            "item": "minecraft:golden_axe"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:ckenja",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

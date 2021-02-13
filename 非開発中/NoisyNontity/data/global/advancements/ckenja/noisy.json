@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Noisy Nontity",
+        "description": "They are noisy, but there is only one entity.",
+        "icon": {
+            "item": "minecraft:note_block"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:ckenja",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

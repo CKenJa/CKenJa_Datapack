@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "画像/cube",
+		"particle": "画像/cube"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [4, 12, 8, 16], "texture": "#0"},
+				"east": {"uv": [0, 4, 2, 8], "texture": "#0"},
+				"south": {"uv": [12, 4, 16, 8], "texture": "#0"},
+				"west": {"uv": [10, 4, 12, 8], "texture": "#0"},
+				"up": {"uv": [4, 0, 8, 2], "texture": "#0"},
+				"down": {"uv": [4, 10, 8, 12], "texture": "#0"}
+			}
+		}
+	],
+	"display": {}
+}

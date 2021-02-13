@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "item": "minecraft:lingering_potion",
+            "nbt": "ctc:{id:\\\"ckenja_ruin\\\",from:\\\"ckenja_ruin:\\\",traits:{item:1b}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+        "function": "ckenja_ruin:consume"
+    }
+}
