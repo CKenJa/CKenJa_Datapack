@@ -1,5 +1,6 @@
 #近くにポイントが存在しない：スタートポインタの召喚
-execute if score #tmp_start ckj03_data matches 0 if score #tmp_end ckj03_data matches 0 run function ckenja_ruin:consume/set_start
+#ただし稼働中の場合は動かさない。
+execute if score #tmp_start ckj03_data matches 0 if score #tmp_end ckj03_data matches 0 unless entity @e[tag=ckenja_ruin_ruiner,distance=..128] run function ckenja_ruin:consume/set_start
 
 #近くにスタートポインタが存在：エンドポインタの召喚
 execute if score #tmp_start ckj03_data matches 1 if score #tmp_end ckj03_data matches 0 run function ckenja_ruin:consume/set_end

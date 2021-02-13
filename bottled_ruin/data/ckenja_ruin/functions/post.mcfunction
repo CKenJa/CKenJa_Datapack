@@ -1,0 +1,1 @@
+execute if data storage ckenja_ruin: yet[0] run function ckenja_ruin:post/general
