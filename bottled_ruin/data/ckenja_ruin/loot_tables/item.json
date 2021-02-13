@@ -10,7 +10,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "display:{Name:'{\"text\":\"Bottled Ruin\",\"color\":\"dark_purple\"}'},CustomPotionColor:4456575,ctc:{id:\"ckenja_ruin\",from:\"ckenja_ruin:\",traits:{item:1b}}"
+                "tag": "{display:{Name:'{\"text\":\"Bottled Ruin\",\"color\":\"dark_purple\"}'},CustomPotionColor:4456575,ctc:{id:\"ckenja_ruin\",from:\"ckenja_ruin:\",traits:{item:1b}}}"
               }
             ]
           }

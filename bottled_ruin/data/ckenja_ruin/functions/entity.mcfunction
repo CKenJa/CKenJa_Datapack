@@ -1,0 +1,1 @@
+execute if entity @s[type=potion] if data entity @s Item.tag.ctc{id:"ckenja_ruin"} run function ckenja_ruin:potion
