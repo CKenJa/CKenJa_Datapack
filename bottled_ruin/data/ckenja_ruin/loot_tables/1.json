@@ -1,0 +1,73 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:warped_slab"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:crimson_slab"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:warped_stairs"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:crimson_stairs"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:jungle_stairs"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:birch_stairs"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:spruce_stairs"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:brick_stairs"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:oak_stairs"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 20,
+            "name": "minecraft:mossy_cobblestone"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 20,
+            "name": "minecraft:cracked_stone_bricks"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 20,
+            "name": "minecraft:stone_bricks"
+          }
+        ]
+      }
+    ]
+  }
