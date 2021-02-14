@@ -11,3 +11,5 @@ data modify storage ckenja_ruin: entitydata.Pos set from entity @s Pos
 execute store result score #start_x ckenja_ruin run data get storage ckenja_ruin: entitydata.Pos[0]
 execute store result score #start_y ckenja_ruin run data get storage ckenja_ruin: entitydata.Pos[1]
 execute store result score #start_z ckenja_ruin run data get storage ckenja_ruin: entitydata.Pos[2]
+
+kill @s

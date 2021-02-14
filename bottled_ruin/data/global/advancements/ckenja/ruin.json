@@ -4,7 +4,7 @@
         "description": "瓶詰の破滅とか中二病かよ",
         "icon": {
             "item": "minecraft:lingering_potion",
-            "nbt": "CustomPotionColor:4456575"
+            "nbt": "{CustomPotionColor:4456575}"
         },
         "announce_to_chat": false,
         "show_toast": false

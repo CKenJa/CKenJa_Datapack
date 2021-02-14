@@ -15,3 +15,5 @@ execute store result score #end_z ckenja_ruin run data get storage ckenja_ruin: 
 execute if score #start_x ckenja_ruin > #end_x ckenja_ruin run scoreboard players operation #start_x ckenja_ruin >< #end_x ckenja_ruin
 execute if score #start_y ckenja_ruin > #end_y ckenja_ruin run scoreboard players operation #start_y ckenja_ruin >< #end_y ckenja_ruin
 execute if score #start_z ckenja_ruin > #end_z ckenja_ruin run scoreboard players operation #start_z ckenja_ruin >< #end_z ckenja_ruin
+
+kill @s
