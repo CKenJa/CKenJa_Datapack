@@ -1,2 +1,2 @@
 execute if entity @s[type=potion] if data entity @s Item.tag.ctc{id:"ckenja_ruin"} run function ckenja_ruin:potion
-execute if entity @s[type=area_effect_cloud,tag=ckenja_ruin_ruiner] unless data storage ckenja_ruin: yet[0] run kill @s
+execute if entity @s[type=area_effect_cloud,tag=ckenja_ruin_ruiner] unless data storage ckenja_ruin: yet[0] run function ckenja_ruin:entity/reset

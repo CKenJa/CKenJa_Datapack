@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:carrot"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ckenja:advancements/consume"
+  }
+}

@@ -1,14 +1,14 @@
 data modify entity @s Pos set from storage ckenja_ruin: yet[0]
 #変換
+#function ckenja_ruin:post/replace
 setblock ~ ~ ~ stone
-
 
 #伝播
 #y方向以外へは、start_yと現在の座標が一致した場合のみ
 #範囲外出ないことを確認しろー
-execute store result score #entity_x ckenja_ruin run data get storage ckenja_ruin: yet[0][0]
-execute store result score #entity_y ckenja_ruin run data get storage ckenja_ruin: yet[0][1]
-execute store result score #entity_z ckenja_ruin run data get storage ckenja_ruin: yet[0][2]
+execute store result score #entity_x ckenja_ruin run data get storage ckenja_ruin: yet[0].[0]
+execute store result score #entity_y ckenja_ruin run data get storage ckenja_ruin: yet[0].[1]
+execute store result score #entity_z ckenja_ruin run data get storage ckenja_ruin: yet[0].[2]
 #y
 scoreboard players add #entity_y ckenja_ruin 1
 execute if score #entity_y ckenja_ruin <= #end_y ckenja_ruin run function ckenja_ruin:post/y
