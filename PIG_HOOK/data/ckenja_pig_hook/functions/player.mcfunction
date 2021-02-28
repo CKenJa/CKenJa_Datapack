@@ -1,21 +1,16 @@
-#アイテムを持ってる&クリック
-##ブタに乗っていない-->召喚(古いのが要る場合はそいつをキル)
-##ブタに乗っている
-###フックがない-->射出
-###フックがある-->収納
-execute if data storage ckj03: fetch_entitydata{SelectedItem:{tag:{ctc:{id:"pig_hook",from:"ckenja:pig_hook"}}}} unless data storage ckj03: fetch_entitydata{Inventory:[{Slot:-106b,tag:{ctc:{id:"pig_hook",from:"ckenja:pig_hook"}}}]} if score @s ckj03_coas matches 1 run function ckenja_pig_hook:click/general
-
-#アイテム入れ替えた
-##フックがある-->ジェット巻き取り
-##フックがない(浮遊利用)
-###空中-->1回きりの二段ジャンプ(フロート的な)
-###地面-->ジャンプ
-execute store result score #tmp_swap ckj03_data run execute unless data storage ckj03: fetch_entitydata{SelectedItem:{tag:{ctc:{id:"pig_hook",from:"ckenja:pig_hook"}}}} if data storage ckj03: fetch_entitydata{Inventory:[{Slot:-106b,tag:{ctc:{id:"pig_hook",from:"ckenja:pig_hook"}}}]} run function ckenja_pig_hook:swap/general
+#ブタに乗っていない&アイテム検知&クリック検知:召喚
+#execute unless data storage ckj03: fetch_entitydata{RootVehicle: {Entity: {Tags: ["ckenja_pig_hook_pig"]}}} if data storage ckj03: fetch_entitydata{SelectedItem:{tag:{ctc:{id:"pig_hook",from:"ckenja:pig_hook"}}}} unless data storage ckj03: fetch_entitydata{Inventory:[{Slot:-106b,tag:{ctc:{id:"pig_hook",from:"ckenja:pig_hook"}}}]} if score @s ckj03_coas matches 1 run function ckenja_pig_hook:summon
 
 #ブタに乗っている
-##フックがある
-###Motion計算(代入はエンティティ側で行う)
-###アイテム持ってる&ジェット噴射なう-->視線制御
-##初めてブタに乗ったらブタにタグをつける(降りたときに殺すよう)
-execute if data storage ckj03: fetch_entitydata{RootVehicle: {Entity: {Tags: ["ckenja_pig_hook_pig"]}}} run function ckenja_pig_hook:ride/general
-#unless data storage ckj03: fetch_entitydata{RootVehicle: {Entity: {Tags: ["ckenja_pig_hook_pig_ride"]}}}
+##初めてならブタにタグを(降りたときのキル用)
+##フックありexist_hook
+###アイテム検知/have
+####クリック検知:収納behavior/unhook
+####視線ジェット計算operation/boost
+###アイテム持ってない:視線なしジェット計算
+###入れ替え検知:巻き取りbehavior/boost
+###Motion計算operation/boost
+##フックなしnone_hook
+###アイテム検知&クリック検知:射出behavior/shot
+###入れ替え検知:ジャンプbehavior/jump
+#execute if data storage ckj03: fetch_entitydata{RootVehicle: {Entity: {Tags: ["ckenja_pig_hook_pig"]}}} run function ckenja_pig_hook:player/main
