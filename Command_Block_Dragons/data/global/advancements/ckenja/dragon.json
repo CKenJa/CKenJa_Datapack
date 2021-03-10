@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Command Block Dragons",
+        "description": "Lets Summon Dragon.",
+        "icon": {
+            "item": "minecraft:dragon_head"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:ckenja",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
