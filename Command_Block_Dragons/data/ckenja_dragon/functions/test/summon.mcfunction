@@ -1,0 +1,1 @@
+#summon armor_stand ~ ~ ~ {NoGravity:1b,Tags:["test_child"],Pose:{Head:[45f,0f,0f]},Rotation:[0F,45F],ArmorItems:[{},{},{},{id:"minecraft:brick_stairs",Count:1b}]}
