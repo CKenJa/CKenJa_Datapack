@@ -1,0 +1,1 @@
+summon llama ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Leashed:1b,PersistenceRequired:1b,NoAI:1b,CanPickUpLoot:0b,Tame:1b,Strength:0,ChestedHorse:1b,Tags:["ckenja_dragon_llama"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2147483647,ShowParticles:0b}]}
