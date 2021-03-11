@@ -1,0 +1,2 @@
+#NoAIはいらないかも
+summon skeleton_horse ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,NoAI:1b,Tame:1b,Tags:["ckenja_dragon_horse"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2147483647,ShowParticles:0b}],SaddleItem:{id:"minecraft:saddle",Count:1b}}
