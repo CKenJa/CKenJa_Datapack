@@ -3,3 +3,4 @@
 #0.175-1.625
 #0.1875-1.6 内側若干下
 #式(1.975-[1.6])/2
+execute if entity @s[tag=test] at @e[tag=ckenja_dragon_llama] run tp ^ ^ ^1
