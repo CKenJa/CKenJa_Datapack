@@ -1,0 +1,1 @@
+execute rotated ~ ~22.5 positioned ^1.98 ^0.125 ^1.32 run function ckenja_dragon:entity/tp/face_zombie
