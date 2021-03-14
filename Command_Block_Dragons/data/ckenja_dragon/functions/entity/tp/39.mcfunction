@@ -1,1 +1,1 @@
-execute positioned ^ ^0.43 ^-2 run function ckenja_dragon:entity/tp/cart
+execute positioned ^ ^0.43 ^-2 run function ckenja_dragon:entity/tp/face_zombie
