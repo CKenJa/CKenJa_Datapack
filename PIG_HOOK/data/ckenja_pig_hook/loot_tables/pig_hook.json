@@ -9,7 +9,6 @@
             "functions": [
               {
                 "function": "minecraft:set_name",
-                "entity": "this",
                 "name": "pig_hook"
               },
               {

@@ -1,2 +1,5 @@
-execute if data storage ckj03: fetch_entitydata{SelectedItem:{tag:{ctc:{id:"pig_hook",from:"ckenja:pig_hook"}}}} unless data storage ckj03: fetch_entitydata{Inventory:[{Slot:-106b,tag:{ctc:{id:"pig_hook",from:"ckenja:pig_hook"}}}]} if score @s ckj03_coas matches 1.. run function ckenja_pig_hook:behavior/shot
-execute unless data storage ckj03: fetch_entitydata{SelectedItem:{tag:{ctc:{id:"pig_hook",from:"ckenja:pig_hook"}}}} if data storage ckj03: fetch_entitydata{Inventory:[{Slot:-106b,tag:{ctc:{id:"pig_hook",from:"ckenja:pig_hook"}}}]} run function ckenja_pig_hook:behavior/jump
+#> ckenja_pig_hook:player/none_hook/general
+#@within ckenja_pig_hook:player/ride/general
+
+execute if entity @s[tag=ckenja_pig_hook_player_have] run function ckenja_pig_hook:player/none_hook/have
+execute if data storage ckj03: fetch_entitydata{RootVehicle:{Entity:{OnGround:1b}}} run tag @s add ckenja_pig_hook_player_jump

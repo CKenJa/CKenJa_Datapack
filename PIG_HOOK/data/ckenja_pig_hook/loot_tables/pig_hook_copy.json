@@ -1,0 +1,34 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "ckenja_pig_hook:pig_hook",
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "nbt": "tmp.tag.display.Lore",
+                    "storage": "ckenja_pig_hook:",
+                    "interpret": true
+                  }
+                ],
+                "replace": false
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "nbt": "tmp.tag.display.Name",
+                  "storage": "ckenja_pig_hook:",
+                  "interpret": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
