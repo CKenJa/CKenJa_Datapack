@@ -19,7 +19,7 @@ execute unless data storage ckj03: fetch_entitydata{SelectedItem:{tag:{ctc:{id:"
 ##アイテム検知&クリック検知:視線先に豚召喚(重力あり)、古い豚はキルclick-->/summon
 ##初回: フック解除、豚キルinit
 ##捨て検知: ジェットモード切り替え 音付き
-execute unless data storage ckj03: fetch_entitydata{RootVehicle: {Entity: {Tags: ["ckenja_pig_hook_pig"]}}} run function ckenja_pig_hook:player/not_ride/general
+#execute unless data storage ckj03: fetch_entitydata{RootVehicle: {Entity: {Tags: ["ckenja_pig_hook_pig"]}}} run function ckenja_pig_hook:player/not_ride/general
 
 #ブタに乗っているride
 ##初めてならブタにrideタグを付けるinit
@@ -42,7 +42,7 @@ execute unless data storage ckj03: fetch_entitydata{RootVehicle: {Entity: {Tags:
 ###ブロックにぶつかったら解除(?)
 ###XZのMotionが0: フック解除(めんどいので必要になったら実装)
 ###地面に付いている: フック解除(めんどいので必要になったら実装)
-execute if data storage ckj03: fetch_entitydata{RootVehicle: {Entity: {Tags: ["ckenja_pig_hook_pig"]}}} run function ckenja_pig_hook:player/ride/general
+#execute if data storage ckj03: fetch_entitydata{RootVehicle: {Entity: {Tags: ["ckenja_pig_hook_pig"]}}} run function ckenja_pig_hook:player/ride/general
 
 
 #アイテムを持っていないがタグはついている: 捨て検知

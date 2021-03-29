@@ -1,1 +1,7 @@
-execute if score #tmp ckenja_test matches 1.. run function ckenja:test
+
+
+
+
+
+
+

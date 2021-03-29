@@ -1,1 +1,1 @@
-execute if entity @s[tag=ckenja_pig_hook_pig_ride] run function ckenja_pig_hook:pig/general
+#execute if entity @s[tag=ckenja_pig_hook_pig_ride] run function ckenja_pig_hook:pig/general
