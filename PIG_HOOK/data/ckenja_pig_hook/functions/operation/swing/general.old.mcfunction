@@ -77,7 +77,3 @@ execute store result storage ckj03: merge_entitydata.Motion[2] double 0.00001 ru
 #VとXからAを求める。
 #(V - 0.98X) / -0.98 = A
 data modify storage test: merge_entitydata set from storage ckj03: merge_entitydata
-
-particle angry_villager ~ ~ ~ ~ ~ ~ 1 0
-say yeah
-function ckj03:datatag/merge
