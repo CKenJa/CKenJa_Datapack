@@ -20,7 +20,7 @@ execute if score #tmp_- ckj03_data matches 1 run execute store result storage ck
 
 execute store result storage ckenja_pig_hook: tmp.Attributes[{Name:"generic.max_health"}].Modifers[{Name:"ckenja_pig_hook_mot"}].Amount double 0.0001 run data get storage ckj03: fetch_entitydata.Motion[0]
 
-data modify storage ckenja_pig_hook: tmp.Attributes set from entity @s Attributes
+data modify entity @s Attributes set from storage ckenja_pig_hook: tmp.Attributes
 execute store result storage ckenja_pig_hook tmp.Pos[0] double 10000 run attribute @s generic.max_health get
 
 ###y
@@ -32,7 +32,8 @@ execute if score #tmp_- ckj03_data matches 1 run execute store result storage ck
 
 execute store result storage ckenja_pig_hook: tmp.Attributes[{Name:"generic.max_health"}].Modifers[{Name:"ckenja_pig_hook_mot"}].Amount double 0.0001 run data get storage ckj03: fetch_entitydata.Motion[1]
 
-data modify storage ckenja_pig_hook: tmp.Attributes set from entity @s Attributes
+
+data modify entity @s Attributes set from storage ckenja_pig_hook: tmp.Attributes
 execute store result storage ckenja_pig_hook tmp.Pos[1] double 10000 run attribute @s generic.max_health get
 
 ###z
@@ -44,7 +45,8 @@ execute if score #tmp_- ckj03_data matches 1 run execute store result storage ck
 
 execute store result storage ckenja_pig_hook: tmp.Attributes[{Name:"generic.max_health"}].Modifers[{Name:"ckenja_pig_hook_mot"}].Amount double 0.0001 run data get storage ckj03: fetch_entitydata.Motion[2]
 
-data modify storage ckenja_pig_hook: tmp.Attributes set from entity @s Attributes
+
+data modify entity @s Attributes set from storage ckenja_pig_hook: tmp.Attributes
 execute store result storage ckenja_pig_hook tmp.Pos[2] double 10000 run attribute @s generic.max_health get
 
 #AEC召喚
