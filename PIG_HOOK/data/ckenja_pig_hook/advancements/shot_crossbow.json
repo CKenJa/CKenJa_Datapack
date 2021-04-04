@@ -1,20 +1,7 @@
 {
     "criteria": {
       "requirement": {
-        "trigger": "minecraft:shot_crossbow",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "vehicle": {
-                  "type": "minecraft:pig"
-                }
-              }
-            }
-          ]
-        }
+        "trigger": "minecraft:shot_crossbow"
       }
     },
     "rewards": {

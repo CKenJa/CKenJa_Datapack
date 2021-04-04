@@ -1,2 +1,2 @@
-teleport ^ ^ ^1
-execute if block ~ ~ ~ air run function ckenja_pig_hook:tmp/tp
+teleport @s ^ ^ ^1
+execute positioned as @s if block ~ ~ ~ air run function ckenja_pig_hook:tmp/tp

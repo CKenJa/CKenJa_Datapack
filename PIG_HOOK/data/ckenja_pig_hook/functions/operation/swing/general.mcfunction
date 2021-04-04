@@ -1,7 +1,7 @@
 #デバッグ要員
 function ckj03:datatag/fetch
 #とりまリードの長さは8m固定
-scoreboard players set @s ckj_pig_hook_len 12
+scoreboard players set @s ckj_pig_hook_len 1600
 #鎖長の場所にAECを召喚するためにMotionを取得し召喚
 ##メモ
 ###座標は最大8桁
@@ -75,11 +75,14 @@ execute store result score $tmp_vec_z ckj03_data run data get storage ckenja_pig
 #l 鎖長
 #r 現在の長さ
 #l - rを最大10に制限、
-scoreboard players operation $ret ckj03_data = #ret ckj03_data
 tellraw @a {"score":{"name":"#ret","objective":"ckj03_data"}}
 
-scoreboard players operation #ret ckj03_data /= #-100 ckj03_data
+scoreboard players operation #ret ckj03_data *= #-1 ckj03_data
 scoreboard players operation #ret ckj03_data += @s ckj_pig_hook_len
+scoreboard players operation $ret ckj03_data = #ret ckj03_data
+scoreboard players operation #ret ckj03_data /= #100 ckj03_data
+scoreboard players operation #ret ckj03_data /= #2 ckj03_data
+
 #x
 scoreboard players operation $tmp_vec_x ckj03_data *= #ret ckj03_data
 scoreboard players operation $tmp_vec_x ckj03_data += $tmp_mot_x ckj03_data
