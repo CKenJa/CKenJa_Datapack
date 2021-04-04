@@ -1,0 +1,2 @@
+execute as @a[tag=nbs_Orpheusint] run scoreboard players operation @s nbs_Orpheusint += speed nbs_Orpheusint
+execute as @a[tag=nbs_Orpheusint] run function race_music:orpheus_in_the_underworld/tree/0_255
