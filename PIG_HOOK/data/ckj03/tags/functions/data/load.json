@@ -1,5 +1,7 @@
 {
   "values":[
-    "ckj03:data/load/-100"
+    "ckj03:data/load/-1",
+    "ckj03:data/load/2",
+    "ckj03:data/load/100"
   ]
 }

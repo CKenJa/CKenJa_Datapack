@@ -1,2 +1,2 @@
-summon armor_stand ~ ~ ~ {NoGravity:1b,Silent:1b,Invisible:1b,PersistenceRequired:1b,Tags:["ckenja_pig_hook_hook"]}
+summon armor_stand ~ ~ ~ {NoGravity:1b,Silent:1b,Tags:["ckenja_pig_hook_hook"]}
 execute as @e[tag=ckenja_pig_hook_hook,distance=..384] run scoreboard players operation @s ckj_pig_hook_id = #tmp_id ckj03_data
