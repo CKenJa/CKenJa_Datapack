@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "SCP-710-JP-J Successor Datapack",
+        "description": "SCP-710-JP-J is a secret martial art of the Foundation based on scientific evidence.",
+        "icon": {
+            "item": "minecraft:mojang_banner_pattern"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:ckenja",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

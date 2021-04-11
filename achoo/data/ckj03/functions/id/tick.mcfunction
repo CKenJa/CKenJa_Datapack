@@ -1,0 +1,1 @@
+execute as @s[tag=!ckj03_id] run function ckj03:id/register
