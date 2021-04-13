@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Sky TNT System Datapack",
+        "description": "Indev",
+        "icon": {
+            "item": "minecraft:tnt"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:ckenja",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
