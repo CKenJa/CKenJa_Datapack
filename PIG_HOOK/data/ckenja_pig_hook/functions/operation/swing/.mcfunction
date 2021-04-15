@@ -1,3 +1,26 @@
+#> ckenja_pig_hook:operation/swing/
+#
+#ブタのスイング移動をする
+#
+#@input as @e[type=!player]
+#@reads
+    #
+#@within ckenja_pig_hook:player/exist_hook/general
+
+#> private
+#@private
+    #declare score_holder $tmp_pos_x ブタ座標
+    #declare score_holder $tmp_pos_y
+    #declare score_holder $tmp_pos_z
+    #declare score_holder $tmp_mot_x ブタ慣性
+    #declare score_holder $tmp_mot_y
+    #declare score_holder $tmp_mot_z
+    #declare score_holder $tmp_hok_x フック座標
+    #declare score_holder $tmp_hok_y
+    #declare score_holder $tmp_hok_z
+    #declare storage ckenja_pig_hook:tmp.Pos 代入する座標を入れとく
+    #declare storage ckenja_pig_hook:tmp.Motion 代入する運動を入れとく
+
 #デバッグ要員
 function ckj03:datatag/fetch
 #とりまリードの長さは固定(100倍)
@@ -11,20 +34,24 @@ execute store result score $tmp_mot_x ckj03_data run data get storage ckj03: fet
 execute store result score $tmp_mot_y ckj03_data run data get storage ckj03: fetch_entitydata.Motion[1] 100000000
 execute store result score $tmp_mot_z ckj03_data run data get storage ckj03: fetch_entitydata.Motion[2] 100000000
 #フックの座標を取得
+execute as @e[tag=ckenja_pig_hook_hook,distance=..384] if score @s ckj_pig_hook_id = $tmp_id ckj03_data run data modify storage ckenja_pig_hook: tmp.Pos set from entity @s Pos
+execute store result score $tmp_hok_x ckj03_data run data get storage ckenja_pig_hook: tmp.Pos[0] 100000000
+execute store result score $tmp_hok_y ckj03_data run data get storage ckenja_pig_hook: tmp.Pos[1] 100000000
+execute store result score $tmp_hok_z ckj03_data run data get storage ckenja_pig_hook: tmp.Pos[2] 100000000
 #座標attribute計算 ブタ-フック
-
+#attribute算めんどい
+scoreboard players operation $tmp_pos_x ckj03_data -= $tmp_hok_x ckj03_data
+scoreboard players operation $tmp_pos_y ckj03_data -= $tmp_hok_y ckj03_data
+scoreboard players operation $tmp_pos_z ckj03_data -= $tmp_hok_z ckj03_data
 #AECいなかったら召喚
-
+summon minecraft:area_effect_cloud ~ ~ ~ {Radius:0f,Duration:0,Tags:["ckenja_pig_hook_aec"]}
 #AECにPos代入(フック位置)
 #実行場所はそのまま慣性をpos代入
-#実行場所から自分の場所向いて下記の関数
-#二分探索で、鎖長の場所にAECを移動
+#自分向いて二分探索で鎖長にtp
+#76m
+
 #Posをブタのmotionに代入
-#tag @s add ckenja_pig_hook_arg
-#scoreboard players operation $tmp_id ckj03_data = @s ckj_pig_hook_id
-#execute as @e[tag=ckenja_pig_hook_hook,distance=..384] if score @s ckj_pig_hook_id = $tmp_id ckj03_data run function ckenja_pig_hook:operation/swing/hook
-#tag @s remove ckenja_pig_hook_arg
-#arg ckj03_dataにリード長はいってる
+execute as @e[tag=ckenja_pig_hook_aec,distance=..384] run function ckenja_pig_hook:operation/swing/aec
 #ベクトル座標取得
 #execute store result score $tmp_vec_x ckj03_data run data get storage ckenja_pig_hook: tmp.vec.Pos[0] -100000000
 #execute store result score $tmp_vec_y ckj03_data run data get storage ckenja_pig_hook: tmp.vec.Pos[1] -100000000
