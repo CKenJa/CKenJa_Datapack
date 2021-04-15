@@ -52,7 +52,7 @@ summon minecraft:area_effect_cloud ~ ~ ~ {Radius:0f,Duration:0,Tags:["ckenja_pig
 #原点から自分向いて二分探索で鎖長にtp
 #座標を保存
 #用済みはキル
-execute as @e[tag=ckenja_pig_hook_aec,distance=..384] run function ckenja_pig_hook:operation/swing/aec抵抗を逆算
+execute as @e[tag=ckenja_pig_hook_aec,distance=..384] run function ckenja_pig_hook:operation/swing/aec
 #ベクトル座標取得
 execute store result score $tmp_vec_x ckj03_data run data get storage ckenja_pig_hook: tmp.Vec[0] -100000000
 execute store result score $tmp_vec_y ckj03_data run data get storage ckenja_pig_hook: tmp.Vec[1] -100000000
