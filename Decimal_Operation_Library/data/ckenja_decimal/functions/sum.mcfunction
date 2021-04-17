@@ -19,5 +19,5 @@
 #正負の反転はexecute store result -1 run attributeで行う
 
 #いなかったら出てこい(今は使わない属性も後のために入れておく)
-    execute positioned 10000.0 0.0 0.0 unless entity @e[type=piglin_brute,distance=0,tag=ckenja_decimal] run summon piglin_brute ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,IsImmuneToZombification:1b,Tags:["ckenja_decimal"],Attributes:[{Name:"generic.max_health",Base:0},{Name:"generic.follow_range",Base:0},{Name:"generic.movement_speed",Base:0},{Name:"generic.attack_damage",Base:0}]}
-execute positioned 10000.0 0.0 0.0 as @e[type=piglin_brute,distance=0,tag=ckenja_decimal] run function ckenja_decimal:sum/main
+    execute in minecraft:overworld positioned 10000.0 0.0 0.0 unless entity @e[type=piglin_brute,distance=0,tag=ckenja_decimal] run summon piglin_brute ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,IsImmuneToZombification:1b,Tags:["ckenja_decimal"],Attributes:[{Name:"generic.max_health",Base:0},{Name:"generic.follow_range",Base:0},{Name:"generic.movement_speed",Base:0},{Name:"generic.attack_damage",Base:0}]}
+execute in minecraft:overworld positioned 10000.0 0.0 0.0 as @e[type=piglin_brute,distance=0,tag=ckenja_decimal] run function ckenja_decimal:sum/main
