@@ -5,13 +5,13 @@
 #
 #@input
 #   storage ckenja_decimal:
-#       arg[0].Amount 引数その　1
-#       arg[1].Amount 引数その2
-#       arg[0].Minus trueの時、引数を正負を逆にする。引き算したいときとかにどうぞ
-#       arg[1].Minus　trueの時、引数を正負を逆にする。引き算したいときとかにどうぞ
+#       arg[0].Amount 引数その1 double
+#       arg[1].Amount 引数その2 double
+#       arg[0].Minus trueの時、引数を正負を逆にする。引き算したいときとかにどうぞ Boolean
+#       arg[1].Minus　trueの時、引数を正負を逆にする。引き算したいときとかにどうぞ Boolean
 #
 #@output
-#   storage ckenja_decimal: ret 見ての通り帰り値
+#   storage ckenja_decimal: ret 見ての通り帰り値 double
 #
 #@api
 
