@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Alchmystery Pot Datapack",
+        "description": "Is this Alchemy?",
+        "icon": {
+            "item": "minecraft:dried_kelp"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:ckenja",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
