@@ -23,8 +23,12 @@
 #1024以下にするためにまずは代入(Attributesに入れないと少数扱えない)
     data modify storage ckenja_decimal: Sum[{Name:"minecraft:generic.max_health"}].Modifiers[{UUID:[I;404980882,-859879608,-1697797426,491531976]}].Amount set from storage ckenja_decimal: arg[0].Amount
     data modify storage ckenja_decimal: Sum[{Name:"minecraft:generic.movement_speed"}].Modifiers[{UUID:[I;404980882,-859879608,-1697797426,491531976]}].Amount set from storage ckenja_decimal: arg[1].Amount
-    data modify storage ckenja_decimal: Sum[{Name:"minecraft:generic.max_health"}].Modifiers[{UUID:[I;404980882,-859879608,-1697797426,491531977]}].Amount set value 0.0000001d
-    data modify storage ckenja_decimal: Sum[{Name:"minecraft:generic.movement_speed"}].Modifiers[{UUID:[I;404980882,-859879608,-1697797426,491531977]}].Amount set value 0.0000001d
+    #data modify storage ckenja_decimal: Sum[{Name:"minecraft:generic.max_health"}].Modifiers[{UUID:[I;404980882,-859879608,-1697797426,491531977]}].Amount set value 0.0000001d
+    #data modify storage ckenja_decimal: Sum[{Name:"minecraft:generic.movement_speed"}].Modifiers[{UUID:[I;404980882,-859879608,-1697797426,491531977]}].Amount set value 0.0000001d
+    attribute @e[limit=1,type=minecraft:wither_skeleton] minecraft:generic.max_health modifier remove 18238492-ccbf-4748-9acd-aace1d4c2ec9
+    attribute @e[limit=1,type=minecraft:wither_skeleton] minecraft:generic.max_health modifier remove 18238492-ccbf-4748-9acd-aace1d4c2ec8
+    attribute @e[limit=1,type=minecraft:wither_skeleton] minecraft:generic.movement_speed modifier remove 18238492-ccbf-4748-9acd-aace1d4c2ec9
+    attribute @e[limit=1,type=minecraft:wither_skeleton] minecraft:generic.movement_speed modifier remove 18238492-ccbf-4748-9acd-aace1d4c2ec8
     data modify entity @s Attributes set from storage ckenja_decimal: Sum
 #小さくすると同時に符号処理
     ##符号正転計算はもしMinus:trueならば反転する。
@@ -37,6 +41,10 @@
         execute unless data storage ckenja_decimal: arg[0].tags{Minus:true} store result storage ckenja_decimal: Sum[{Name:"minecraft:generic.movement_speed"}].Modifiers[{UUID:[I;404980882,-859879608,-1697797426,491531977]}].Amount double -0.0000001 run attribute @s minecraft:generic.movement_speed modifier value get 18238492-ccbf-4748-9acd-aace1d4c2ec9
         execute if data storage ckenja_decimal: arg[0].tags{Minus:true} store result storage ckenja_decimal: Sum[{Name:"minecraft:generic.movement_speed"}].Modifiers[{UUID:[I;404980882,-859879608,-1697797426,491531976]}].Amount double 0.0000001 run attribute @s minecraft:generic.max_health modifier value get 18238492-ccbf-4748-9acd-aace1d4c2ec8
         execute if data storage ckenja_decimal: arg[0].tags{Minus:true} store result storage ckenja_decimal: Sum[{Name:"minecraft:generic.movement_speed"}].Modifiers[{UUID:[I;404980882,-859879608,-1697797426,491531977]}].Amount double 0.0000001 run attribute @s minecraft:generic.movement_speed modifier value get 18238492-ccbf-4748-9acd-aace1d4c2ec9
+    attribute @e[limit=1,type=minecraft:wither_skeleton] minecraft:generic.max_health modifier remove 18238492-ccbf-4748-9acd-aace1d4c2ec9
+    attribute @e[limit=1,type=minecraft:wither_skeleton] minecraft:generic.max_health modifier remove 18238492-ccbf-4748-9acd-aace1d4c2ec8
+    attribute @e[limit=1,type=minecraft:wither_skeleton] minecraft:generic.movement_speed modifier remove 18238492-ccbf-4748-9acd-aace1d4c2ec9
+    attribute @e[limit=1,type=minecraft:wither_skeleton] minecraft:generic.movement_speed modifier remove 18238492-ccbf-4748-9acd-aace1d4c2ec8
     data modify entity @s Attributes set from storage ckenja_decimal: Sum
 #取得
     ##正の計算の解が負なら、負の計算の結果を反転して代わりに出力
