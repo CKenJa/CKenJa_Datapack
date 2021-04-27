@@ -1,0 +1,1 @@
+execute if entity @s[tag=ckj03_merge_entitydata] run function ckj03:datatag/merge/general
