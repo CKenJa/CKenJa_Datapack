@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "_chromatic",
+        "description": "すたいりっしゅ",
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:ckenja",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
