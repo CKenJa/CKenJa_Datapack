@@ -1,0 +1,1 @@
+tellraw @a[gamemode=creative] {"text":"[ Armorstand Animator V1.0] \u27a4","color":"light_purple","clickEvent":{"action":"run_command","value":"/function cw_poser:info"},"hoverEvent":{"action":"show_text","value":"Pose and Animate Armorstands in Tellraw!"}}
