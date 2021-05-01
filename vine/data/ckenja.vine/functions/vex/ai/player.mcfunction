@@ -1,0 +1,1 @@
+data modify storage ckenja.vine: Pos set from entity @s Pos
