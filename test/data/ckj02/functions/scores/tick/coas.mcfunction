@@ -1,1 +1,0 @@
-scoreboard players set @s ckj02_coas 0

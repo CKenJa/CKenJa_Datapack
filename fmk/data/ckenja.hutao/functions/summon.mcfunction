@@ -1,0 +1,1 @@
+summon armor_stand ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,ShowArms:1b,NoBasePlate:1b,Tags:["ckenja.hutao"],HandItems:[{id:'minecraft:trident',Count:1b},{}],ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:16764091}}},{id:'minecraft:netherite_leggings',Count:1b},{id:'minecraft:netherite_chestplate',Count:1b},{}]}

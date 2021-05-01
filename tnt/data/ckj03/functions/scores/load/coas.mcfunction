@@ -1,1 +1,0 @@
-scoreboard objectives add ckj03_coas minecraft.used:minecraft.carrot_on_a_stick
