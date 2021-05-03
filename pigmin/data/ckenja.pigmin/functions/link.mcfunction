@@ -1,0 +1,1 @@
+data modify storage ckenja.pigmin: link set from entity @p UUID

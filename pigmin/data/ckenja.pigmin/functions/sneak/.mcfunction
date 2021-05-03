@@ -1,0 +1,2 @@
+execute unless data entity @s SelectedItem{id:"minecraft:carrot_on_a_stick"} unless entity @e[distance=..2,tag=ckenja_pigmin.pulling] as @e[tag=ckenja.pigmin,tag=!ckenja.pigmin.pulled] at @s run function ckenja.pigmin:sneak/pull
+execute if data entity @s SelectedItem{id:"minecraft:bamboo"} as @e[tag=ckenja.pigmin] run function ckenja.pigmin:sneak/whistle
