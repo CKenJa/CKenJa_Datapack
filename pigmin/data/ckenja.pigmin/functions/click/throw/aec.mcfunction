@@ -1,2 +1,2 @@
-data modify storage ckenja.pigmin: throw set from entity @e[tag=ckenja.pigmin.aec,limit=1] Pos
+data modify storage ckenja.pigmin: throw set from entity @s Pos
 kill @s

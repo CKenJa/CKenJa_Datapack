@@ -3,9 +3,9 @@ scoreboard players add # ckenja.pigmin 1
 #1.エリトラで旅行中に墜落した主人公(エリトラを壊す)
 execute if score # ckenja.pigmin matches 1 run function ckenja.pigmin:player/1
 #2.titleコマンドでロゴ表示
-execute if score # ckenja.pigmin matches 2 run function ckenja.pigmin:player/2
+execute if score # ckenja.pigmin matches 2 run function ckenja.pigmin:player/3
 #3.引っこ抜かれるとついてくる
-execute if score # ckenja.pigmin matches 3 run function ckenja.pigmin:player/3
+execute if score # ckenja.pigmin matches 3 run function ckenja.pigmin:player/2
 #4.笛を吹くと集まってくる(森についてきてない個体を用意)
 execute if score # ckenja.pigmin matches 4 run function ckenja.pigmin:player/4
 #5.投げられると自分で判断して仕事をする(棺桶ダンスを移した後橋を作る)
