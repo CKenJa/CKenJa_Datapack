@@ -1,0 +1,1 @@
+effect give @p resistance 200000 5 true

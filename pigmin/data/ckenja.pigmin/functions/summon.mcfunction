@@ -1,0 +1,2 @@
+summon hoglin ~ ~ ~ {PersistenceRequired:1b,NoAI:1b,IsImmuneToZombification:1b,ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2147483647,ShowParticles:0b}]}
+summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Tags:["ckenja.pigmin.marker"]}
