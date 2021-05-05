@@ -1,5 +1,4 @@
-give @p piglin_spawn_egg{EntityTag:{HandItems:[{},{}]}} 64
-give @p hoglin_spawn_egg{EntityTag:{NoAI:1b,IsImmuneToZombification:1b}} 64
+give @p piglin_spawn_egg{EntityTag:{IsBaby:0,HandItems:[{},{}]}} 64
 give @p carrot_on_a_stick
 give @p warped_fungus_on_a_stick
 give @p bamboo
