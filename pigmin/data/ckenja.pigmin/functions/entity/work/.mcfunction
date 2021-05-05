@@ -1,3 +1,3 @@
 tag @s remove ckenja.pigmin.thrown
-execute if entity @e[type=hoglin,distance=..16] run function ckenja.pigmin:entity/work/attack
-execute unless entity @e[type=hoglin,distance=..16]
+execute at @s if entity @e[type=hoglin,distance=..64] run function ckenja.pigmin:entity/work/attack
+execute at @s unless entity @e[type=hoglin,distance=..64]
