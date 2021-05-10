@@ -4,5 +4,5 @@
 #
 #@within #load:standard
 
-scoreboard objectives add ckj04_data dummy
+scoreboard objectives add ckj04.data dummy
 function #ckj04:data/load

@@ -1,5 +1,6 @@
 {
   "values":[
-    "ckj03:data/load/4"
+    "ckj04:data/load/-1",
+    "ckj04:uninstall/load"
   ]
 }

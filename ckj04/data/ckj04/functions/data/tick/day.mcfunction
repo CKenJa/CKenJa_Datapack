@@ -1,1 +1,1 @@
-execute store result score #day ckj03_data run time query day
+execute store result score #day ckj04.data run time query day

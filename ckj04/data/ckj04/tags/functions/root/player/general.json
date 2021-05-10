@@ -1,9 +1,9 @@
 {
   "values":[
-    "#ckj03:root/player/pre",
-    "#ckj03:root/player/early",
-    "#ckj03:root/player/standard",
-    "#ckj03:root/player/late",
-    "#ckj03:root/player/post"
+    "#ckj04:root/player/pre",
+    "#ckj04:root/player/early",
+    "#ckj04:root/player/standard",
+    "#ckj04:root/player/late",
+    "#ckj04:root/player/post"
     ]
 }
