@@ -1,0 +1,1 @@
+give @s repeating_command_block{BlockEntityTag:{Command:"execute as @e[tag=ckenja.pigrapple] at @s run function ckenja.pigrapple:operation/swing/general",auto:1b}} 1

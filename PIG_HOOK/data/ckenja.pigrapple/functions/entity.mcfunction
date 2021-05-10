@@ -1,0 +1,1 @@
+#execute if entity @s[tag=ckenja.pigrapple_pig_ride] run function ckenja.pigrapple:pig/general
