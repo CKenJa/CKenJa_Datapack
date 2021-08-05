@@ -1,0 +1,3 @@
+execute at @s run summon villager ~ ~1 ~ {VillagerData:{profession:nitwit,level:5},PersistenceRequired:1,CustomName:"\"Professor\"",Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:16},buyB:{id:"minecraft:crossbow",Count:1},sell:{id:"minecraft:crossbow",Count:1,Tags:["cconan_watch"],tag:{display:{Name:"\"Stun-Gun Wristwatch\"",Lore:['{"text":"これは時計型麻酔銃といってな、"}','{"text":"至近距離にいる相手を瞬時に眠らせる事ができるのじゃ。"}']}}},Enchantments:[{id:piercing,lvl:1}]}}{id:"minecraft:crossbow",Count:1,Tags:["cconan_watch"],tag:{display:{Name:"\"Stun-Gun Wristwatch\"",Lore:['{"text":"これは時計型麻酔銃といってな、"}','{"text":"至近距離にいる相手を瞬時に眠らせる事ができるのじゃ。"}']},Enchantments:[{id:piercing,lvl:1}]}}}]}}
+kill @s
+say summon
