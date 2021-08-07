@@ -1,1 +1,0 @@
-scoreboard objectives add ckj03_sneak minecraft.custom:minecraft.sneak_time

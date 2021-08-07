@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Magnesis Datapack",
+        "description": "It add Zelda Botw Magnesis",
+        "icon": {
+            "item": "minecraft:compass"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:ckenja",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

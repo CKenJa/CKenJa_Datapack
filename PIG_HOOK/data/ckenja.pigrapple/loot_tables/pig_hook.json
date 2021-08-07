@@ -1,0 +1,23 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": "pig_hook"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{ctc:{id:\"pig_hook\",from:\"ckenja:pig_hook\"}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
