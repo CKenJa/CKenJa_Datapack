@@ -1,5 +1,6 @@
 {
     "values": [
-        "ckenja.hanabi:load"
+        "ckenja.hanabi:load",
+        "ckenja.hanabi.score_to_move:load"
     ]
 }
