@@ -1,6 +1,5 @@
 #宣言
-scoreboard objectives add ckenja.hanabi dummy
-#scoreboard objectives add ckenja.hanabi.cl minecraft.used:minecraft:carrot_on_a_stick {"text": "left click"}
+	scoreboard objectives add ckenja.hanabi dummy
 	scoreboard players set $size ckenja.hanabi 10000
 
 #マイナス方向の端っこ
