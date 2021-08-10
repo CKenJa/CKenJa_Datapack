@@ -1,2 +1,2 @@
-#宣言
-	scoreboard objectives add ckenja.hanabi dummy
+scoreboard objectives add ckenja.hanabi dummy
+function ckenja.hanabi:set_values

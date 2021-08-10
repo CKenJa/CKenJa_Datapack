@@ -1,18 +1,18 @@
 #execute if score $tmp.color ckenja.hanabi matches 0.. run particle flame 104 76 -168 ~ ~ ~ 0.1 0
-execute if score $tmp.color ckenja.hanabi matches 0 run particle dust 0.914 0.925 0.925 1 104 76 -168 ~ ~ ~ 1 0
-execute if score $tmp.color ckenja.hanabi matches 1 run particle dust 0.941 0.463 0.075 1 104 76 -168 ~ ~ ~ 1 0
-execute if score $tmp.color ckenja.hanabi matches 2 run particle dust 0.741 0.267 0.702 1 104 76 -168 ~ ~ ~ 1 0
-execute if score $tmp.color ckenja.hanabi matches 3 run particle dust 0.227 0.686 0.851 1 104 76 -168 ~ ~ ~ 1 0
-execute if score $tmp.color ckenja.hanabi matches 4 run particle dust 0.973 0.776 0.153 1 104 76 -168 ~ ~ ~ 1 0
-execute if score $tmp.color ckenja.hanabi matches 5 run particle dust 0.439 0.725 0.098 1 104 76 -168 ~ ~ ~ 1 0
-execute if score $tmp.color ckenja.hanabi matches 6 run particle dust 0.929 0.553 0.675 1 104 76 -168 ~ ~ ~ 1 0
-execute if score $tmp.color ckenja.hanabi matches 7 run particle dust 0.243 0.267 0.278 1 104 76 -168 ~ ~ ~ 1 0
-execute if score $tmp.color ckenja.hanabi matches 8 run particle dust 0.557 0.557 0.525 1 104 76 -168 ~ ~ ~ 1 0
-execute if score $tmp.color ckenja.hanabi matches 9 run particle dust 0.082 0.537 0.569 1 104 76 -168 ~ ~ ~ 1 0
-execute if score $tmp.color ckenja.hanabi matches 10 run particle dust 0.475 0.165 0.675 1 104 76 -168 ~ ~ ~ 1 0
-execute if score $tmp.color ckenja.hanabi matches 11 run particle dust 0 0 1 1 104 76 -168 ~ ~ ~ 1 0
-execute if score $tmp.color ckenja.hanabi matches 12 run particle dust 0.447 0.278 0.157 1 104 76 -168 ~ ~ ~ 1 0
-execute if score $tmp.color ckenja.hanabi matches 13 run particle dust 0.329 0.427 0.106 1 104 76 -168 ~ ~ ~ 1 0
-execute if score $tmp.color ckenja.hanabi matches 14 run particle dust 0.631 0.153 0.133 1 104 76 -168 ~ ~ ~ 1 0
-execute if score $tmp.color ckenja.hanabi matches 15 run particle dust 0.078 0.082 0.098 1 104 76 -168 ~ ~ ~ 1 0
+execute if score $tmp.color ckenja.hanabi matches 0 run particle item white_wool 104 76 -168 ~ ~ ~ 1 0
+execute if score $tmp.color ckenja.hanabi matches 1 run particle item orange_wool 104 76 -168 ~ ~ ~ 1 0
+execute if score $tmp.color ckenja.hanabi matches 2 run particle item magenta_wool 104 76 -168 ~ ~ ~ 1 0
+execute if score $tmp.color ckenja.hanabi matches 3 run particle item light_blue_wool 104 76 -168 ~ ~ ~ 1 0
+execute if score $tmp.color ckenja.hanabi matches 4 run particle item yellow_wool 104 76 -168 ~ ~ ~ 1 0
+execute if score $tmp.color ckenja.hanabi matches 5 run particle item lime_wool 104 76 -168 ~ ~ ~ 1 0
+execute if score $tmp.color ckenja.hanabi matches 6 run particle item pink_wool 104 76 -168 ~ ~ ~ 1 0
+execute if score $tmp.color ckenja.hanabi matches 7 run particle item gray_wool 104 76 -168 ~ ~ ~ 1 0
+execute if score $tmp.color ckenja.hanabi matches 8 run particle item light_gray_wool 104 76 -168 ~ ~ ~ 1 0
+execute if score $tmp.color ckenja.hanabi matches 9 run particle item cyan_wool 104 76 -168 ~ ~ ~ 1 0
+execute if score $tmp.color ckenja.hanabi matches 10 run particle item purple_wool 104 76 -168 ~ ~ ~ 1 0
+execute if score $tmp.color ckenja.hanabi matches 11 run particle item blue_wool 104 76 -168 ~ ~ ~ 1 0
+execute if score $tmp.color ckenja.hanabi matches 12 run particle item brown_wool 104 76 -168 ~ ~ ~ 1 0
+execute if score $tmp.color ckenja.hanabi matches 13 run particle item green_wool 104 76 -168 ~ ~ ~ 1 0
+execute if score $tmp.color ckenja.hanabi matches 14 run particle item red_wool 104 76 -168 ~ ~ ~ 1 0
+execute if score $tmp.color ckenja.hanabi matches 15 run particle item black_wool 104 76 -168 ~ ~ ~ 1 0
 #tp @p ~ ~ ~

@@ -1,5 +1,5 @@
 #花火の縮尺。10000で元の模様と同じ位
-	scoreboard players set $size ckenja.hanabi 10000
+	scoreboard players set $size ckenja.hanabi 750
 
 #マイナス方向の端っこ
 	scoreboard players set $x1 ckenja.hanabi 111
