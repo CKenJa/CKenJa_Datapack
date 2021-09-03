@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "player": [],
+          "item": {
+            "nbt": "{ctc:{id:\"jansky_spinning_bow\",from:\"ckenja.starbreak\"}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "ckenja.starbreak:jansky_spinning_bow/advancement"
+    }
+  }
+  
