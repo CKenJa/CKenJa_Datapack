@@ -61,9 +61,9 @@
     ],
 
 
-    "mcdutil.createDatapackTemplate.defaultFolder": false,
-    "mcdutil.createDatapackTemplate.defaultLoadAndTick": false,
-    "mcdutil.createDatapackTemplate.defaultVanillaData": false,
+    "mcdutil.createDatapackTemplate.defaultFolder": true,
+    "mcdutil.createDatapackTemplate.defaultLoadAndTick": true,
+    "mcdutil.createDatapackTemplate.defaultVanillaData": true,
     "mcdutil.createFile.fileTemplate": {
         "function": [
             "#> %fileResourcePath%",
