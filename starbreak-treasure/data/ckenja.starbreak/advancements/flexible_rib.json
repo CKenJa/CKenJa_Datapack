@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:skeleton_skull"
+      },
+      "title": "フレキシブル肋骨",
+      "description": "星の紡績弓を両手に持ち、肋骨で弓を引く",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "minecraft:adventure/sniper_duel",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "loot": [
+        "ckenja.starbreak:jansky_spinning_bow"
+      ]
+    }
+  }
