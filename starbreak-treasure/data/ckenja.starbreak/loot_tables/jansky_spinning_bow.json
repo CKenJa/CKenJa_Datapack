@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{ctc:{id:\"jansky_spinning_bow\",from:\"ckenja.starbreak\"}}"
+                "tag": "{ctc:{id:\"jansky_spinning_bow\",from:\"ckenja.starbreak\",traits:{\"item\":true,\"tool/bow\":true}},ckenja:{starbreak:{\"starbreak_treasure\":true}},CustomModelData: 1260000}"
               }
             ]
           }
@@ -17,4 +17,3 @@
       }
     ]
   }
-  

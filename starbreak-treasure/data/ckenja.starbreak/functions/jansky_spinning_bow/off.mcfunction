@@ -1,4 +1,4 @@
-#> ckenja.starbreak:jansky_spinning_bow/main
+#> ckenja.starbreak:jansky_spinning_bow/off
 #
 #
 #
