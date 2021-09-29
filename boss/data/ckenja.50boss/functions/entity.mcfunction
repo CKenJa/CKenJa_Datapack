@@ -3,4 +3,4 @@
 #
 #
 # @within function ckenja.50boss:tick
-execute facing entity @p eyes run function ckenja.50boss:loop
+execute facing entity @p feet run function ckenja.50boss:loop
