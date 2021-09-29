@@ -1,1 +1,0 @@
-scoreboard objectives add ckenja.50boss dummy
