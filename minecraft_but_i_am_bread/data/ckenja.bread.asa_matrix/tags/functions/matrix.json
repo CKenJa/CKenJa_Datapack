@@ -1,8 +1,0 @@
-{
-	"replace": false,
-	"values": [
-		"ckenja.bread.asa_matrix:get_matrix/rotation_local_pose01",
-		"ckenja.bread.asa_matrix:get_matrix/rotation_local_pose2",
-		"ckenja.bread.asa_matrix:get_matrix/rotation_world"
-	]
-}
