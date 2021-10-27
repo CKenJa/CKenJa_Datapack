@@ -21,7 +21,7 @@ scoreboard players operation #ckenja.bread.asa_matrix_cosφsinΘ AsaMatrix *= #c
 scoreboard players operation #ckenja.bread.asa_matrix_sinφcosΘ AsaMatrix *= #ckenja.bread.asa_matrix_cosΘ AsaMatrix
 scoreboard players operation #ckenja.bread.asa_matrix_cosφcosΘ AsaMatrix *= #ckenja.bread.asa_matrix_cosΘ AsaMatrix
 
-scoreboard players operation #ckenja.bread.asa_matrix_sinφsinΘ AsaMatrix /= #asam_const_1000 AsaMatrix
-scoreboard players operation #ckenja.bread.asa_matrix_cosφsinΘ AsaMatrix /= #asam_const_1000 AsaMatrix
-scoreboard players operation #ckenja.bread.asa_matrix_sinφcosΘ AsaMatrix /= #asam_const_1000 AsaMatrix
-scoreboard players operation #ckenja.bread.asa_matrix_cosφcosΘ AsaMatrix /= #asam_const_1000 AsaMatrix
+scoreboard players operation #ckenja.bread.asa_matrix_sinφsinΘ AsaMatrix /= #ckenja.bread.asam_const_1000 AsaMatrix
+scoreboard players operation #ckenja.bread.asa_matrix_cosφsinΘ AsaMatrix /= #ckenja.bread.asam_const_1000 AsaMatrix
+scoreboard players operation #ckenja.bread.asa_matrix_sinφcosΘ AsaMatrix /= #ckenja.bread.asam_const_1000 AsaMatrix
+scoreboard players operation #ckenja.bread.asa_matrix_cosφcosΘ AsaMatrix /= #ckenja.bread.asam_const_1000 AsaMatrix

@@ -25,7 +25,7 @@ ArmorstandAnimatorで使われるMinecraft用の回転行列計算ライブラ�
 ArmorstandAnimatorで勝手に使用しますが，手動で使う場合は以下の手順で大丈夫だと思います．scoreboardのobjectはすべて AsaMatrix です．
 
 1. execute as 親オブジェクト にて function #ckenja.bread.asa_matrix:get_parent_pos を実行します．
-2. 子オブジェクトのLocalPos（親オブジェクトからの相対的位置）をそれぞれ #asa_child_pos_x, #asa_child_pos_y, #asa_child_pos_z に代入します．
+2. 子オブジェクトのLocalPos（親オブジェクトからの相対的位置）をそれぞれ #ckenja.bread.asa_child_pos_x, #ckenja.bread.asa_child_pos_y, #ckenja.bread.asa_child_pos_z に代入します．
 3. execute as 親オブジェクト にて function #ckenja.bread.asa_matrix:matrix を実行します．
 4. function #ckenja.bread.asa_matrix:rotate を実行します．
 5. execute as 子オブジェクト にて function #ckenja.bread.asa_matrix:set_child_pos を実行します．
