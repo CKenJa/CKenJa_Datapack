@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"ckenja.bread.asa_matrix:rotate/rotation_local_pose01",
+		"ckenja.bread.asa_matrix:rotate/rotation_local_pose2",
+		"ckenja.bread.asa_matrix:rotate/rotation_world",
+		"ckenja.bread.asa_matrix:rotate/calc_child_pos"
+	]
+}
