@@ -1,0 +1,23 @@
+#> ckenja.bread:memo
+#
+#
+#
+# @within %nowOpenFileType% %nowOpenFileResourcePath%
+
+execute as @e[tag=Test] at @s 
+facing entity @e[tag=Oya] feet 
+rotated ~ 0 
+positioned as @e[tag=Oya] 
+positioned ^ ^ ^2000 
+facing entity @s feet 
+positioned ^ ^ ^2000 
+positioned ~ ~-1000 ~ 
+facing entity @s feet 
+positioned ^ ^ ^-1000 
+positioned ~ ~2000 ~ 
+rotated ~-90 0 
+rotated ~30 ~ 
+positioned ^ ^ ^2000 
+facing entity @s feet 
+positioned ^ ^ ^2000 
+rotated as @s run tp @s ~ ~ ~
