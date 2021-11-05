@@ -4,9 +4,9 @@ data modify storage ckenja.grapple: tmp.Pos set value [0.0d,0.0d,0.0d]
 
 #old=pigは特に意味のない処理。デバッグ用
 scoreboard players operation $old.pos.0 ckenja.grapple = $pig.pos.0 ckenja.grapple
-execute if score $old.pos.0 ckenja.grapple matches 0 run execute store result score $old.pos.0 ckenja.grapple run data get storage ckenja.grapple: pig.Pos[0] 1000
 execute store result score $player.motion.0 ckenja.grapple run data get storage ckenja.grapple: player.Motion[0] 10000
 execute store result score $pig.pos.0 ckenja.grapple run data get storage ckenja.grapple: pig.Pos[0] 1000
+execute if score $old.pos.0 ckenja.grapple matches 0 run scoreboard players operation $old.pos0 ckenja.grapple = $pig.pos0 ckenja.grapple
 scoreboard players operation $player.motion.0 ckenja.grapple += $pig.pos.0 ckenja.grapple
 scoreboard players operation $pig.pos.0 ckenja.grapple -= $old.pos.0 ckenja.grapple
 scoreboard players operation $old.pos.0 ckenja.grapple = $pig.pos.0 ckenja.grapple
