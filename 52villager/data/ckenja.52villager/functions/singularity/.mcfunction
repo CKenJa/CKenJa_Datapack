@@ -1,8 +1,11 @@
-# パーティクル描画 台風
+#https://www.youtube.com/watch?v=cYXl6pRJ9uw
+
+## パーティクル描画 台風
+
 #particle smoke ~${x} ~-0.25 ~${y}
 #${y} 0.25 -${x} 0.01
 
-# 黒穴
+## 黒穴
 # [ImportKey]: NobwRALgngDgpmAXGAxgSwE4oDYIDRgCuhaAJkmAOwBGAzCnAGYCcAjALQBMnlADOwBZerau2YCAbBPYBDOMzhwZrAKwTe1ZmAIA7GQFsEyAMKYccAASttYGDIwGAzknAoA9oR0QknAQQZecBguYABuMtiERuAAHki8BFDxAL7JBA6kaITOiLwAdCoEjhD23rkEcNjYaDCORqy8CWAYbiUQRk1ojgCiVTV13QCOhBHYUADKdgzkiIwRdal44NDwFOhYuDbEZBSsrDIy1BIyKuyspKSnAmocABykKJRcKjKUEpQopGy8nDZ6hhRAGGKFl+BDsDn0OVcHi8Pj8qDggWCiHA4Ui0TAcXKYCSuUWzRkmWy8Ty1yKJQwZSalWqtXqjXSrRk7XiBC6vVpA2GowmUzgMzm2AWaWWsCMqDMmwI2xmYEYrEYEkYtwEtGepDVAmYKmYYkYpAE7BQKFopAknGYtAElDgKj+BnFwNoNnBThC7k8ZV8-kR7WRqIiURCWKauN4+IyWRy+XhxVKrLANP69KaLTaHTZPT6dKGIyqvJk0yQguFS0gYrWkvwRBIssOcFotBUrFuskY1CuKDo7FurHE7GojW1KgEe3kdt0DqBFgELvsbpRqBhXqaAT9ITRQcXIcSKTSBKJ0byTfJ8exSbpSAaqaZLOx7OzXLzY0mhf5xfmcEWotWyHW5i2WsKFIDQhBkWgnm4ShdQEY1pFuFBOFbe5OH5M0DhURhGHtAFkGBCdbHnSF3WXHxV19IIN0DDEdxxPd0kJKMSVoU9KQTC86ivBlmlvDMwAfTk4FzHlXyLWZP2-ctfwlDZqxlCgfluC1aE4Uh2BHGhBFueRZGoahWxUagBFtLVmEtFQUBwx0LAkOcIShJdPTIn0kSo9FgwTMMI0Y4lcjyThCjAOM2PPR8U0ZdMEwE5NhPzUT33EoUvxFKTxX-KUax2ZBKFYOAJFuGQhHYdtzUEARGDVGRzWkSRGBNRg+F8ARqCs6dKDshdoScxBOHI1zF03GjPPog8mL8zhWKpCowq4m9IvvLNBNil8+QFCSUpWNKq0ArLExtZheFuWhW1y3KytIURmFIVgUHYQ6R14RgVEoShTQI-5rNuDriMXD1YR6vr1wG6iPOxLz90jXz8lYSb2JmxBrwi5k+OinNuTi1aPySyTNsrWSdtlFReCtTQJDgdg4D0zVVENDtXvYY5DIkZhbmoC5lFavCLC0MEiIcv6VxcoGA3c7dhrxCGfKPXhAuCqbE3hxGePmzpFpi9GVrfNbseSABdIA_3
 # 円 9
 particle squid_ink ^0 ^ ^-0.05 0 0 0 0 1
@@ -145,4 +148,5 @@ particle dragon_breath ^-0.43301 ^ ^-0.25 0 0 0 0 1
 particle dragon_breath ^-0.35355 ^ ^-0.35355 0 0 0 0 1
 particle dragon_breath ^-0.25 ^ ^-0.43301 0 0 0 0 1
 particle dragon_breath ^-0.12941 ^ ^-0.48296 0 0 0 0 1
-# 村人への処理
+## 吸い込まれるパーティクル
+## 村人への処理
