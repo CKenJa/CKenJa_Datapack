@@ -1,0 +1,1 @@
+execute as @e[tag=ckenja.52vilagger.singularity] at @s run function ckenja.52villager:singularity/
