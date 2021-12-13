@@ -1,0 +1,8 @@
+#> ckenja.52villager:marker
+#
+#
+#
+# @within function ckenja.52villager:villager/init
+
+execute positioned 0 0 0 run tp @s ^ ^ ^1
+data modify storage ckenja.52villager: Pos set from entity @s Pos 
