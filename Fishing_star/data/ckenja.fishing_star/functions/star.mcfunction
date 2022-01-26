@@ -42,7 +42,9 @@ execute store result storage ckenja.fishing_star: temp[2] double 0.001 run score
 data modify entity @s Motion set from storage ckenja.fishing_star: temp
 
 #近くのモブに攻撃してぶっ飛ばす
-execute store result storage ckenja.fishing_star: temp[0] double 0.01 run scoreboard players get $star.motion.x ckj.fishing_star
-execute store result storage ckenja.fishing_star: temp[1] double 0.01 run scoreboard players get $star.motion.y ckj.fishing_star
-execute store result storage ckenja.fishing_star: temp[2] double 0.01 run scoreboard players get $star.motion.z ckj.fishing_star
+scoreboard players set #100 ckj.fishing_star 100
+scoreboard players operation $star.motion.y ckj.fishing_star += #100 ckj.fishing_star
+execute store result storage ckenja.fishing_star: temp[0] double 0.09 run scoreboard players get $star.motion.x ckj.fishing_star
+execute store result storage ckenja.fishing_star: temp[1] double 0.09 run scoreboard players get $star.motion.y ckj.fishing_star
+execute store result storage ckenja.fishing_star: temp[2] double 0.09 run scoreboard players get $star.motion.z ckj.fishing_star
 execute positioned as @s as @e[tag=!ckenja.fishing_star.star,tag=!ckenja.fishing_star.bobber,distance=..2] run function ckenja.fishing_star:attack
