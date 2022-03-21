@@ -1,0 +1,1 @@
+execute as @e[type=arrow] run function ckenja.sword_bow:arrow/_

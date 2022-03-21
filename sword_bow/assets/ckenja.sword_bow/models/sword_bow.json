@@ -1,0 +1,6 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "ckenja.sword_bow:item/sword_bow"
+    }
+}
