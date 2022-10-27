@@ -1,6 +1,6 @@
 {
     "replace": false,
     "values": [
-        "ckenja.lootender:on_closed"
+        "ckenja.lootender:on_closed/check_block"
     ]
 }

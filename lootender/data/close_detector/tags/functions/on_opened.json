@@ -1,6 +1,6 @@
 {
     "replace": false,
     "values": [
-        "ckenja.lootender:on_opened"
+        "ckenja.lootender:on_opened/check_marker"
     ]
 }

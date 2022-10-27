@@ -1,8 +1,8 @@
-#> ckenja.lootender:on_closed2
+#> ckenja.lootender:close/main
 #
 #
 #
-# @within function ckenja.lootender:on_closed
+# @within function ckenja.lootender:close/check_block
 
 advancement revoke @s only ckenja.lootender:on_open
 tag @s remove ckenja.lootender.opened

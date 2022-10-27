@@ -6,13 +6,18 @@
 
 #> ckenja.lootender.opened
 # @within
-#   ckenja.lootender:on_closed**
-#   ckenja.lootender:on_opened2
-#   ckenja.lootender:tick
+#   function ckenja.lootender:close/**
+#   function ckenja.lootender:open2
+#   function ckenja.lootender:tick
 #declare tag ckenja.lootender.opened lootenderチェストを開いているプレイヤーに付与
 
 #> ckenja.lootender.marker
 # @within
-#   ckenja.lootender:on_opened
-#   ckenja.lootender:tick
-#declare tag ckenja.lootender.opened lootenderマーカーの証
+#   function ckenja.lootender:open/**
+#   function ckenja.lootender:tick
+#declare tag ckenja.lootender.marker lootenderマーカーの証
+
+#> storage
+#@within
+#   function ckenja.lootender:**
+#declare storage ckenja.lootender:__temp__
